@@ -1,26 +1,62 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="main-wrapper">
+        <div class="menu-cab-wrp">
+            <MenuOffice></MenuOffice>
+            <router-view></router-view>
+        </div>
+        <LoginPop/>
+    </div>
+    <ToTopBtn/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+	import LoginPop from "./components/LoginPop";
+	import MenuOffice from "./components/MenuOffice";
+	import ToTopBtn from "./components/uiComponents/ToTopBtn";
+	
+	export default {
+		name: "App",
+		components: {
+			ToTopBtn,
+			MenuOffice,
+			LoginPop,
+		},
+		data() {
+			return {}
+		},
+		methods: {
+			showId(id, hasListener = true) {
+				if (hasListener) {
+					this.$store.commit('SET_SHOW_POPS', {key: id, value: true});
+				} else {
+					document.getElementById(id).classList.add('show');
+				}
+			},
+			hideShowable(e) {
+				e.target.closest('[data-showable]').classList.remove('show');
+			}
+		}
+	};
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+    @import "public/scss/style";
+    
+    .main-wrapper {
+        padding: 0 24px;
+        
+        @include mobile {
+            padding: 0;
+        }
+    }
+
+    .main-body {
+        background: #ffffff;
+        box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    
+        @include mobile {
+            box-shadow: none;
+        }
+    }
 </style>

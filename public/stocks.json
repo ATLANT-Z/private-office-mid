@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "bgSrc": "img/img_orimo_sale.png",
+      "imgSrc": "img/stockCamera.png",
+      "title": "Тестируем дату",
+      "beginDate": "02.03.2021",
+      "endDate": "02.10.2021"
+    },
+    {
+      "id": 2,
+      "bgSrc": "img/img_orimo_sale.png",
+      "imgSrc": "img/stockCamera.png",
+      "title": "Скидки на IP камеры до 25%. Установка в подарок! ",
+      "beginDate": "09.06.2021",
+      "endDate": "09.14.2021"
+    },
+    {
+      "id": 3,
+      "bgSrc": "img/img_orimo_sale.png",
+      "imgSrc": "img/stockCamera.png",
+      "title": "Скидки на IP камеры до 15%. За красивые глаза ",
+      "beginDate": "09.02.2021",
+      "endDate": "09.14.2021"
+    },
+    {
+      "id": 4,
+      "bgSrc": "img/img_orimo_sale.png",
+      "imgSrc": "img/stockCamera.png",
+      "title": "Скидки на IP камеры до 5%. За друга ",
+      "beginDate": "08.01.2021",
+      "endDate": "08.16.2021"
+    },
+    {
+      "id": 5,
+      "bgSrc": "img/img_orimo_sale.png",
+      "imgSrc": "img/stockCamera.png",
+      "title": "Как сказал ген.дир. - гуляют все. -40% на все жесткие диски.",
+      "beginDate": "02.01.2021",
+      "endDate": "02.05.2021"
+    }
+  ]
+}
