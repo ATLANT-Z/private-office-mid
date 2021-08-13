@@ -15,7 +15,7 @@
                     :key="index"
                     :class="{selected:currPage === index, dots: isNear(index) && !isShow(index)}"
                     v-show="isShow(index) || isNear(index)"
-                    @click="currPage = index">
+                    @click="pageClick(index)">
                     {{pageContent(index)}}
                 </li>
             </ul>
@@ -31,6 +31,7 @@
 <script>
 	export default {
 		props: {
+			goToTop: Boolean,
 			modelValue: {
 				type: Number,
 				default: 1
@@ -121,6 +122,13 @@
 			},
 			prevPage() {
 				this.currPage--;
+			},
+			pageClick(index) {
+				this.currPage = index;
+				if (this.goTo) {
+					document.body.scrollTop = 0; // For Safari
+					document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+				}
 			},
 			
 			isShow(index) {

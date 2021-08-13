@@ -1,6 +1,6 @@
 <template>
-    <a class="product-cart" :class="{sold:product.status?.sold}" href="javascript:void(0);">
-        <div class="product-cart__header">
+    <a class="product-card" :class="{sold:product.status?.sold}" href="javascript:void(0);">
+        <div class="product-card__header">
             <div class="status-list">
                 <div class="status-list__item top" v-if="product.status?.top">
                     топ продаж
@@ -15,15 +15,15 @@
                     ПроданО
                 </div>
             </div>
-            <div class="product-cart__top-tools-w">
+            <div class="product-card__top-tools-w">
                 <WishBtn/>
-                <input class="ui-checkbox product-cart__checkbox" type="checkbox">
+                <input class="ui-checkbox product-card__checkbox" type="checkbox">
             </div>
         </div>
-        <img class="product-cart__img" :src="product.imgSrc"
+        <img class="product-card__img" :src="product.imgSrc"
              alt="">
-        <div class="product-cart__body">
-            <div class="product-cart__first-row">
+        <div class="product-card__body">
+            <div class="product-card__first-row">
                 <div class="product-label" v-if="product.label?.delivery">
                     <img class="product-label__img" src="/icons/label_delivery.svg" alt="">
                     <span class="product-label__text">
@@ -38,11 +38,11 @@
                         частями
                     </span>
                 </div>
-                <div class="product-cart__code">Код: {{product.id}}</div>
+                <div class="product-card__code">Код: {{product.id}}</div>
             </div>
-            <h5 class="product-cart__category">{{product.category}}</h5>
-            <h4 class="product-cart__name">{{product.alias}}</h4>
-            <div class="product-cart__body-footer">
+            <h5 class="product-card__category">{{product.category}}</h5>
+            <h4 class="product-card__name">{{product.alias}}</h4>
+            <div class="product-card__body-footer">
                 <div class="price">
                     <div class="price__new" v-if="product.newPrice">
                         {{product.newPrice}} грн
@@ -85,7 +85,18 @@
 <style lang="scss" scoped>
     @import "../../../public/scss/abstract";
     
-    .product-cart {
+    @keyframes showProdCard {
+        from {
+            opacity: 0;
+            transform: scale(0.6);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    
+    .product-card {
         position: relative;
         
         height: 480px;
@@ -102,6 +113,8 @@
         
         box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
+        
+        animation: 0.3s ease forwards showProdCard;
         
         @include smallScreen {
             width: 32%;

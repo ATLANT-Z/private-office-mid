@@ -1,4 +1,5 @@
 <template>
+    <HeaderVue></HeaderVue>
     <div class="main-wrapper">
         <div class="menu-cab-wrp">
             <MenuOffice></MenuOffice>
@@ -13,10 +14,12 @@
 	import LoginPop from "./components/LoginPop";
 	import MenuOffice from "./components/MenuOffice";
 	import ToTopBtn from "./components/uiComponents/ToTopBtn";
+	import HeaderVue from "./components/Header";
 	
 	export default {
 		name: "App",
 		components: {
+			HeaderVue,
 			ToTopBtn,
 			MenuOffice,
 			LoginPop,
@@ -43,6 +46,7 @@
     @import "public/scss/style";
     
     .main-wrapper {
+        width: 100%;
         padding: 0 24px;
         
         @include mobile {

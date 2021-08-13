@@ -1,5 +1,5 @@
 <template>
-    <article class="product-gallery">
+    <article class="product-gallery" :id="id">
         <ProductCard v-for="product in visibleList"
                      :key="product.id"
                      :product="product">
@@ -9,6 +9,7 @@
                 :per-page="perPage"
                 v-model="currPage"
                 v-model:chunkNum="chunksLoaded"
+                :go-to-top="true"
     />
 </template>
 
@@ -27,6 +28,7 @@
 		},
 		data() {
 			return {
+				id: Math.random().toString(36).substr(2, 9),
 				currPage: 1,
 				chunksLoaded: 1,
 			}
@@ -61,6 +63,7 @@
         align-content: center;
         margin-left: -16px;
         
+ 
         @include mobile {
             margin-left: 0px;
         }
