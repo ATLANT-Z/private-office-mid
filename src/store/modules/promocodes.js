@@ -14,14 +14,14 @@ export default {
   },
   actions: {
     fetchPromoCodes(ctx) {
-      fetch("/promocodes.json")
+      fetch("promocodes.json")
         .then((res) => res.json())
         .then((json) => {
           const innerPromoCodes = json.data;
 
           setTimeout(() => {
             ctx.commit("updatePromoCodes", innerPromoCodes);
-          }, 3000);
+          }, 2000);
         });
     },
   },

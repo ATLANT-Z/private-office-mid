@@ -183,8 +183,8 @@ $color-text-header-sim: #00983d;
 //Андрея
 //Андрея
 
-$anim-time: 0.3s;
-$anim-small-time: 0.15s;
+$anim-time: 0.2s;
+$anim-small-time: 0.1s;
 
 $uiTrans: transparentize(
     $color: #000000,
@@ -262,51 +262,59 @@ $mobileHeight: 600px;
     height: $height;
 }
 
+///30px
 @mixin fontHeaderPage($weight: 500) {
     font-size: 30px;
     line-height: 36px;
     font-weight: $weight;
 }
 
+///28px
+@mixin fontTitle($weight: 700) {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: $weight;
+}
+
+///24px
 @mixin fontMidHeader($weight: 500) {
     font-size: 24px;
     line-height: 24px;
     font-weight: $weight;
 }
 
+///20px
 @mixin fontMidTitle($weight: 500) {
     font-size: 20px;
     line-height: 20px;
     font-weight: $weight;
 }
 
+///18px
 @mixin fontBig($weight: 400) {
     font-size: 18px;
     line-height: 24px;
     font-weight: $weight;
 }
 
+///16px
 @mixin fontMid($weight: 400) {
     font-size: 16px;
     line-height: 20px;
     font-weight: $weight;
 }
 
+///14px
 @mixin fontSmall($weight: 400) {
     font-size: 14px;
     line-height: 18px;
     font-weight: $weight;
 }
 
+///12px
 @mixin fontCaption($weight: 400) {
     font-size: 12px;
     line-height: 16px;
-    font-weight: $weight;
-}
-
-@mixin fontTitle($weight: 700) {
-    font-size: 28px;
-    line-height: 40px;
     font-weight: $weight;
 }
 

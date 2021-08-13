@@ -5,9 +5,9 @@
              :placeholder="placeholder"
              :readonly="readonly"
       >
-      <img class="ui-input__eye-btn show" src="/icons/eyeShow.svg" alt=""
+      <img class="ui-input__eye-btn show" src="icons/eyeShow.svg" alt=""
            @click.self="showPass">
-      <img class="ui-input__eye-btn hide" src="/icons/eyeHide.svg" alt=""
+      <img class="ui-input__eye-btn hide" src="icons/eyeHide.svg" alt=""
            @click.self="hidePass">
    </div>
 </template>

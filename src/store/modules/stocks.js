@@ -14,14 +14,14 @@ export default {
   },
   actions: {
     fetchStocks(ctx) {
-      fetch("/stocks.json")
+      fetch("stocks.json")
         .then((res) => res.json())
         .then((json) => {
           const innerStocks = json.data;
 
           setTimeout(() => {
             ctx.commit("updateStocks", innerStocks);
-          }, 3000);
+          }, 2000);
         });
     },
   },

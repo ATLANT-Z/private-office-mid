@@ -16,7 +16,7 @@ export default {
   },
   actions: {
     fetchWishProducts(ctx) {
-      return fetch("/products.json")
+      return fetch("products.json")
         .then((res) => res.json())
         .then((json) => {
           const productList = json.data.map((el) => {
@@ -25,7 +25,7 @@ export default {
 
           setTimeout(() => {
             ctx.commit("updateWishProducts", productList);
-          }, 3000);
+          }, 2000);
         });
     },
   },

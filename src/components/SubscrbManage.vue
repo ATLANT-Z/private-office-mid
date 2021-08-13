@@ -1,7 +1,7 @@
 <template>
     <article class="main-column">
         <h1 class="section-header">
-            <img class="show-mob section-header__ico" src="/icons/mail_my_orders_icon.svg" alt="">
+            <img class="show-mob section-header__ico" src="icons/mail_my_orders_icon.svg" alt="">
             Управление подписками
         </h1>
         <section class="main-body subscrb-body">

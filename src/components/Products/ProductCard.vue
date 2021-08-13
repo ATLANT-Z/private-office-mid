@@ -25,14 +25,14 @@
         <div class="product-card__body">
             <div class="product-card__first-row">
                 <div class="product-label" v-if="product.label?.delivery">
-                    <img class="product-label__img" src="/icons/label_delivery.svg" alt="">
+                    <img class="product-label__img" src="icons/label_delivery.svg" alt="">
                     <span class="product-label__text">
                         бесплатная
                         доставка
                     </span>
                 </div>
                 <div class="product-label" v-if="product.label?.credit">
-                    <img class="product-label__img" src="/icons/label_credit.svg" alt="">
+                    <img class="product-label__img" src="icons/label_credit.svg" alt="">
                     <span class="product-label__text">
                         оплата
                         частями
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="ui-main-btn grey" v-if="product.status?.sold">
-                    <img class="ui-ico" src="/icons/message.svg" alt="">
+                    <img class="ui-ico" src="icons/message.svg" alt="">
                     <span>Сообщить</span>
                 </div>
                 <div class="ui-main-btn" v-else>Купить</div>

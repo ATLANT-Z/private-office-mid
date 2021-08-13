@@ -5,7 +5,7 @@
             <section class="private-info__section">
                 <div class="private-info__header">
                     <span class="ui-ico">
-                        <img src="/icons/person.svg" alt="">
+                        <img src="icons/person.svg" alt="">
                     </span>
                     <h5 class="private-info__header-text">
                         Личные данные
@@ -55,7 +55,7 @@
                 <form class="edit-info" method="" action="" id="edit-person-info" data-showable>
                     <div class="edit-info__header">
                         <span class="ui-ico">
-                            <img src="/icons/person.svg" alt="">
+                            <img src="icons/person.svg" alt="">
                         </span>
                         <h5 class="edit-info__header-text">
                             Личные данные
@@ -129,7 +129,7 @@
             <section class="private-info__section">
                 <div class="private-info__header">
                     <span class="ui-ico">
-                        <img src="/icons/mail.svg" alt="">
+                        <img src="icons/mail.svg" alt="">
                     </span>
                     <h5 class="private-info__header-text">
                         Контакты
@@ -159,7 +159,7 @@
                 <form class="edit-info" method="" action="" id="edit-contact-info" data-showable>
                     <div class="edit-info__header">
                         <span class="ui-ico">
-                            <img src="/icons/mail.svg" alt="">
+                            <img src="icons/mail.svg" alt="">
                         </span>
                         <h5 class="edit-info__header-text">
                             Контакты
@@ -202,7 +202,7 @@
             <section class="private-info__section">
                 <div class="private-info__header">
                     <span class="ui-ico">
-                        <img src="/icons/car.svg" alt="">
+                        <img src="icons/car.svg" alt="">
                     </span>
                     <h5 class="private-info__header-text">
                         Адрес доставки
@@ -230,7 +230,7 @@
                 <form class="edit-delivery edit-info" method="" action="" id="edit-delivery-info" data-showable>
                     <div class="edit-info__header">
                         <span class="ui-ico">
-                            <img src="/icons/car.svg" alt="">
+                            <img src="icons/car.svg" alt="">
                         </span>
                         <h5 class="edit-info__header-text">
                             Адрес доставки
@@ -254,13 +254,13 @@
                                 <span class="ui-caption">Квартира</span>
                                 <div class="ui-row">
                                     <UiNumberInput placeholder="555"/>
-                                    <img class="btn" src="/icons/cross.svg" alt="">
+                                    <img class="btn" src="icons/cross.svg" alt="">
                                 </div>
                             </label>
                         </section>
                         <section class="edit-info__body-row">
                             <div class="ui-third-btn green">
-                                <img src="/icons/plus.svg" alt="">
+                                <img src="icons/plus.svg" alt="">
                                 <span>Добавить еще адрес</span>
                             </div>
                         </section>
@@ -278,7 +278,7 @@
             <section class="private-info__section">
                 <div class="private-info__header">
                     <span class="ui-ico">
-                        <img src="/icons/lock.svg" alt="">
+                        <img src="icons/lock.svg" alt="">
                     </span>
                     <h5 class="private-info__header-text">
                         Логин
@@ -323,7 +323,7 @@
         <UiPopup id="confirm-number-pop">
             <template v-slot="{parent}">
                 <div class="popup confirm-number-pop">
-                    <img class="popup__close-btn" src="/icons/cross.svg" alt="" @click='parent.closePop()'>
+                    <img class="popup__close-btn" src="icons/cross.svg" alt="" @click='parent.closePop()'>
                     <div class="popup__title">
                         Подтверждение номера телефона
                     </div>
@@ -366,7 +366,7 @@
         <UiPopup id="change-mail-pop">
             <template v-slot="{parent}">
                 <div class="popup change-mail-pop">
-                    <img class="popup__close-btn" src="/icons/cross.svg" alt="" @click="parent.closePop()">
+                    <img class="popup__close-btn" src="icons/cross.svg" alt="" @click="parent.closePop()">
                     <div class="popup__title">
                         Изменение E-mail
                     </div>
@@ -388,7 +388,7 @@
         <UiPopup id="change-password-pop">
             <template v-slot="{parent}">
                 <div class="popup change-password-pop">
-                    <img class="popup__close-btn" src="/icons/cross.svg" alt="" @click="parent.closePop()">
+                    <img class="popup__close-btn" src="icons/cross.svg" alt="" @click="parent.closePop()">
                     <div class="popup__title">
                         Изменение пароля
                     </div>

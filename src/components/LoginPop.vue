@@ -5,7 +5,7 @@
             <div class="pop-section-list" :style="{ minHeight: popHeight, maxHeight: popHeight }">
                <div class="pop-section-list__item reg" ref="reg"
                     :class="{show: isShow.reg}">
-                  <img class="popup__close-btn" src="/icons/cross.svg" alt="" @click='parent.closePop()'>
+                  <img class="popup__close-btn" src="icons/cross.svg" alt="" @click='parent.closePop()'>
                   <div class="popup__title big">
                      Регистрация
                   </div>
@@ -34,7 +34,7 @@
                </div>
                <div class="pop-section-list__item" ref="login"
                     :class="{show: isShow.login}">
-                  <img class="popup__close-btn" src="/icons/cross.svg" alt="" @click='parent.closePop()'>
+                  <img class="popup__close-btn" src="icons/cross.svg" alt="" @click='parent.closePop()'>
                   <div class="popup__title big">
                      Вход
                   </div>
@@ -57,7 +57,7 @@
                </div>
                <div class="pop-section-list__item" ref="passReset"
                     :class="{show: isShow.passReset}">
-                  <img class="popup__close-btn" src="/icons/cross.svg" alt="" @click='parent.closePop()'>
+                  <img class="popup__close-btn" src="icons/cross.svg" alt="" @click='parent.closePop()'>
                   <div class="popup__title big">
                      Смена пароля
                   </div>
@@ -79,7 +79,7 @@
                </div>
                <div class="pop-section-list__item" ref="passSent"
                     :class="{show: isShow.passSent}">
-                  <img class="popup__close-btn" src="/icons/cross.svg" alt="" @click='parent.closePop()'>
+                  <img class="popup__close-btn" src="icons/cross.svg" alt="" @click='parent.closePop()'>
                   <div class="popup__title big">
                      Смена пароля
                   </div>
@@ -89,7 +89,7 @@
                            На Test@test.com отправлена ссылка для смены пароля.
                         </p>
                         <div class="progress-bar-sent" :class="{start:isShow.passSent}"></div>
-                        <img src="/icons/bigAccept.svg" alt="">
+                        <img src="icons/bigAccept.svg" alt="">
                      </div>
                   </div>
                </div>

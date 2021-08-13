@@ -1,7 +1,7 @@
 <template>
     <article class="reviews-wrp-title">
         <div class="reviews-icon-mob-wrp">
-            <img src="/icons/my-orders-icon.svg" alt="товар"/>
+            <img src="icons/my-orders-icon.svg" alt="товар"/>
             <h1>Мои отзывы</h1>
         </div>
         <div class="reviews-list-wrp">
