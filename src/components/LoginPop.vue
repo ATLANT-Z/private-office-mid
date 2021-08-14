@@ -175,8 +175,6 @@
 </script>
 
 <style lang="scss" scoped>
-   @import "public/scss/abstract";
-   
    :root {
       --progressTime: 0s;
    }
