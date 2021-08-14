@@ -1,14 +1,14 @@
 <template>
     <article class="reviews-wrp-title">
         <div class="reviews-icon-mob-wrp">
-            <img src="icons/my-orders-icon.svg" alt="товар"/>
+            <img src="@/assets/icons/my-orders-icon.svg" alt="товар"/>
             <h1>Мои отзывы</h1>
         </div>
         <div class="reviews-list-wrp">
             <div class="wrp-cont-rev">
                 <div class="wrp-reviews">
                     <div class="reviews-product-wrp">
-                        <img src="/img/Komplekt_videonablyudeniya_1.png" alt=""/>
+                        <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt=""/>
                         <p>Комплект видеонаблюдения GV-K-G01/04 720Р</p>
                     </div>
                     <div class="wrp-revires-btn">
@@ -24,7 +24,7 @@
                 <div class="wrp-reviews">
                     <div class="reviews-product-wrp">
                         <div class="number-counter">1</div>
-                        <img src="/img/Komplekt_videonablyudeniya_1.png" alt=""/>
+                        <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt=""/>
                         <p>Комплект видеонаблюдения GV-K-G01/04 720Р</p>
                     </div>
                     <div class="wrp-revires-btn">
@@ -41,12 +41,12 @@
             <div class="wrp-cont-rev">
                 <div class="wrp-reviews">
                     <div class="reviews-product-wrp">
-                        <img src="/img/Komplekt_videonablyudeniya_1.png" alt=""/>
+                        <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt=""/>
                         <p>Комплект видеонаблюдения GV-K-G01/04 720Р</p>
                     </div>
                     <div class="wrp-revires-btn">
                         <div class="wrp-bonus-reviews">
-                            <img src="/img/bonus_gv.png" alt="бунусы"/>
+                            <img src="@/assets/img/bonus_gv.png" alt="бунусы"/>
                             <p>+10 бонусных гривен за отзыв</p>
                         </div>
                         <a href="#">

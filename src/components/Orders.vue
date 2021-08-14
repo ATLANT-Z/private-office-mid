@@ -1,7 +1,7 @@
 <template>
     <article class="my-orders-wrp">
         <div class="my-orders-icon-mob-wrp">
-            <img src="icons/my-orders-icon.svg" alt=""/>
+            <img src="@/assets/icons/my-orders-icon.svg" alt=""/>
             <h1>Мои заказы</h1>
         </div>
         
@@ -23,23 +23,23 @@
                             </div>
                             <div class="order-info-img-wrp">
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                             </div>
                             <img class="arrow-my-orders-icon"
-                                 src="icons/arrow-my-orders-icon.svg"
+                                 src="@/assets/icons/arrow-my-orders-icon.svg"
                                  alt="стрелка"
                                  :class="{show:isShow}"
                                  @click="toggleShow()"
@@ -70,7 +70,7 @@
                                                 <div class="order-wrp-name-ing">
                                                     <div class="order-img-product">
                                                         <img
-                                                            src="img/Komplekt_videonablyudeniya_1.png"
+                                                            src="@/assets/img/Komplekt_videonablyudeniya_1.png"
                                                             alt="Товар"
                                                         />
                                                     </div>
@@ -101,7 +101,7 @@
                                                     <div class="order-wrp-name-ing">
                                                         <div class="order-img-product">
                                                             <img
-                                                                src="img/Komplekt_videonablyudeniya_1.png"
+                                                                src="@/assets/img/Komplekt_videonablyudeniya_1.png"
                                                                 alt="Товар"
                                                             />
                                                         </div>
@@ -132,7 +132,7 @@
                                                     <div class="order-wrp-name-ing">
                                                         <div class="order-img-product">
                                                             <img
-                                                                src="img/Komplekt_videonablyudeniya_1.png"
+                                                                src="@/assets/img/Komplekt_videonablyudeniya_1.png"
                                                                 alt="Товар"
                                                             />
                                                         </div>
@@ -208,24 +208,24 @@
                             </div>
                             <div class="order-info-img-wrp">
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                             </div>
                             <img
                                 class="arrow-my-orders-icon"
-                                src="icons/arrow-my-orders-icon.svg"
+                                src="@/assets/icons/arrow-my-orders-icon.svg"
                                 alt="стрелка"
                                 :class="{show:isShow}"
                                 @click="toggleShow()"
@@ -256,7 +256,7 @@
                                                 <div class="order-wrp-name-ing">
                                                     <div class="order-img-product">
                                                         <img
-                                                            src="img/Komplekt_videonablyudeniya_1.png"
+                                                            src="@/assets/img/Komplekt_videonablyudeniya_1.png"
                                                             alt="Товар"
                                                         />
                                                     </div>
@@ -287,7 +287,7 @@
                                                     <div class="order-wrp-name-ing">
                                                         <div class="order-img-product">
                                                             <img
-                                                                src="img/Komplekt_videonablyudeniya_1.png"
+                                                                src="@/assets/img/Komplekt_videonablyudeniya_1.png"
                                                                 alt="Товар"
                                                             />
                                                         </div>
@@ -318,7 +318,7 @@
                                                     <div class="order-wrp-name-ing">
                                                         <div class="order-img-product">
                                                             <img
-                                                                src="img/Komplekt_videonablyudeniya_1.png"
+                                                                src="@/assets/img/Komplekt_videonablyudeniya_1.png"
                                                                 alt="Товар"
                                                             />
                                                         </div>
@@ -397,24 +397,24 @@
                             </div>
                             <div class="order-info-img-wrp">
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                                 <div class="order-img-product">
-                                    <img src="img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
+                                    <img src="@/assets/img/Komplekt_videonablyudeniya_1.png" alt="товар"/>
                                 </div>
                             </div>
                             <img
                                 class="arrow-my-orders-icon"
-                                src="icons/arrow-my-orders-icon.svg"
+                                src="@/assets/icons/arrow-my-orders-icon.svg"
                                 alt="стрелка"
                                 :class="{show:isShow}"
                                 @click="toggleShow()"
@@ -446,7 +446,7 @@
                                                 <div class="order-wrp-name-ing">
                                                     <div class="order-img-product">
                                                         <img
-                                                            src="img/Komplekt_videonablyudeniya_1.png"
+                                                            src="@/assets/img/Komplekt_videonablyudeniya_1.png"
                                                             alt="Товар"
                                                         />
                                                     </div>
@@ -477,7 +477,7 @@
                                                     <div class="order-wrp-name-ing">
                                                         <div class="order-img-product">
                                                             <img
-                                                                src="img/Komplekt_videonablyudeniya_1.png"
+                                                                src="@/assets/img/Komplekt_videonablyudeniya_1.png"
                                                                 alt="Товар"
                                                             />
                                                         </div>
@@ -508,7 +508,7 @@
                                                     <div class="order-wrp-name-ing">
                                                         <div class="order-img-product">
                                                             <img
-                                                                src="img/Komplekt_videonablyudeniya_1.png"
+                                                                src="@/assets/img/Komplekt_videonablyudeniya_1.png"
                                                                 alt="Товар"
                                                             />
                                                         </div>

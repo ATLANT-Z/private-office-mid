@@ -1,14 +1,14 @@
 <template>
     <header class="site-header">
         <section class="site-header__top-row">
-            <img class="site-header__logo" src="img/logo.svg" alt="">
+            <img class="site-header__logo" src="@/assets/img/logo.svg" alt="">
             <div class="contact-list">
                 <div class="contact-list__item">
-                    <img class="contact-list__item-img" src="icons/phoneDark.svg" alt="">
+                    <img class="contact-list__item-img" src="@/assets/icons/phoneDark.svg" alt="">
                     <span class="contact-list__item-title">0800309988</span>
                 </div>
                 <div class="contact-list__item">
-                    <img class="contact-list__item-img" src="icons/mapPin.svg" alt="">
+                    <img class="contact-list__item-img" src="@/assets/icons/mapPin.svg" alt="">
                     <span class="contact-list__item-title">Одесса</span>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                         <template v-slot="{isShow, toggleShow}">
                             <div class="catalog" :class="{active:isShow}" @click.self="toggleShow">
                                 <div class="catalog__btn" @click="toggleShow">
-                                    <img src="icons/category/catalogLight.svg" alt="">
+                                    <img src="@/assets/icons/category/catalogLight.svg" alt="">
                                     <span class="catalog__btn-text">
                                         Каталог товаров
                                     </span>
@@ -45,12 +45,12 @@
                                 <div class="catalog__list">
                                     <div class="catalog__list-item">
                                         <a class="catalog__list-item-title-w" href="#">
-                                            <img class="catalog__list-item-img" src="icons/category/discount.svg"
+                                            <img class="catalog__list-item-img" src="@/assets/icons/category/discount.svg"
                                                  alt="">
                                             <span class="catalog__list-item-title">
                                                 Акции
                                             </span>
-                                            <img class="catalog__list-item-arrow" src="icons/rightArrow.svg" alt="">
+                                            <img class="catalog__list-item-arrow" src="@/assets/icons/rightArrow.svg" alt="">
                                         </a>
                                         <div class="catalog__sub-list">
                                             <a href="#">
@@ -66,11 +66,11 @@
                                     </div>
                                     <div class="catalog__list-item">
                                         <a class="catalog__list-item-title-w" href="#">
-                                            <img class="catalog__list-item-img" src="icons/category/camera.svg" alt="">
+                                            <img class="catalog__list-item-img" src="@/assets/icons/category/camera.svg" alt="">
                                             <span class="catalog__list-item-title">
                                                 Камеры
                                             </span>
-                                            <img class="catalog__list-item-arrow" src="icons/rightArrow.svg" alt="">
+                                            <img class="catalog__list-item-arrow" src="@/assets/icons/rightArrow.svg" alt="">
                                         </a>
                                         <!--                            <div class="catalog__sub-list">-->
                                         <!--                                <a href="#">-->
@@ -86,12 +86,12 @@
                                     </div>
                                     <div class="catalog__list-item">
                                         <a class="catalog__list-item-title-w" href="#">
-                                            <img class="catalog__list-item-img" src="icons/category/videoRecorder.svg"
+                                            <img class="catalog__list-item-img" src="@/assets/icons/category/videoRecorder.svg"
                                                  alt="">
                                             <span class="catalog__list-item-title">
                                                 Видеорегистраторы
                                             </span>
-                                            <img class="catalog__list-item-arrow" src="icons/rightArrow.svg" alt="">
+                                            <img class="catalog__list-item-arrow" src="@/assets/icons/rightArrow.svg" alt="">
                                         </a>
                                         <!--                            <div class="catalog__sub-list">-->
                                         <!--                                <a href="#">-->
@@ -107,54 +107,54 @@
                                     </div>
                                     <div class="catalog__list-item">
                                         <a class="catalog__list-item-title-w" href="#">
-                                            <img class="catalog__list-item-img" src="icons/category/kit.svg" alt="">
+                                            <img class="catalog__list-item-img" src="@/assets/icons/category/kit.svg" alt="">
                                             <span class="catalog__list-item-title">
                                                 Комплекты
                                             </span>
-                                            <img class="catalog__list-item-arrow" src="icons/rightArrow.svg" alt="">
+                                            <img class="catalog__list-item-arrow" src="@/assets/icons/rightArrow.svg" alt="">
                                         </a>
                                     </div>
                                     <div class="catalog__list-item">
                                         <a class="catalog__list-item-title-w" href="#">
-                                            <img class="catalog__list-item-img" src="icons/category/ACS.svg" alt="">
+                                            <img class="catalog__list-item-img" src="@/assets/icons/category/ACS.svg" alt="">
                                             <span class="catalog__list-item-title">
                                                 СКУД
                                             </span>
-                                            <img class="catalog__list-item-arrow" src="icons/rightArrow.svg" alt="">
+                                            <img class="catalog__list-item-arrow" src="@/assets/icons/rightArrow.svg" alt="">
                                         </a>
                                     </div>
                                     <div class="catalog__list-item">
                                         <a class="catalog__list-item-title-w" href="#">
-                                            <img class="catalog__list-item-img" src="icons/category/accumulator.svg"
+                                            <img class="catalog__list-item-img" src="@/assets/icons/category/accumulator.svg"
                                                  alt="">
                                             <span class="catalog__list-item-title">
                                                 Источники питания
                                             </span>
-                                            <img class="catalog__list-item-arrow" src="icons/rightArrow.svg" alt="">
+                                            <img class="catalog__list-item-arrow" src="@/assets/icons/rightArrow.svg" alt="">
                                         </a>
                                     </div>
                                     <div class="catalog__list-item">
                                         <a class="catalog__list-item-title-w" href="#">
-                                            <img class="catalog__list-item-img" src="icons/category/lan.svg" alt="">
+                                            <img class="catalog__list-item-img" src="@/assets/icons/category/lan.svg" alt="">
                                             <span class="catalog__list-item-title">
                                                 Аксессуары
                                             </span>
-                                            <img class="catalog__list-item-arrow" src="icons/rightArrow.svg" alt="">
+                                            <img class="catalog__list-item-arrow" src="@/assets/icons/rightArrow.svg" alt="">
                                         </a>
                                     </div>
                                     <div class="catalog__list-item">
                                         <a class="catalog__list-item-title-w" href="#">
-                                            <img class="catalog__list-item-img" src="icons/category/camera2.svg"
+                                            <img class="catalog__list-item-img" src="@/assets/icons/category/camera2.svg"
                                                  alt="">
                                             <span class="catalog__list-item-title">
                                                 Снятое с производства
                                             </span>
-                                            <img class="catalog__list-item-arrow" src="icons/rightArrow.svg" alt="">
+                                            <img class="catalog__list-item-arrow" src="@/assets/icons/rightArrow.svg" alt="">
                                         </a>
                                     </div>
                                     <div class="catalog__list-item">
                                         <a class="catalog__list-item-title-w" href="#">
-                                            <img class="catalog__list-item-img" src="icons/category/catalogGreen.svg"
+                                            <img class="catalog__list-item-img" src="@/assets/icons/category/catalogGreen.svg"
                                                  alt="">
                                             <span class="catalog__list-item-title">
                                                 Все категории
@@ -176,7 +176,7 @@
                     </CanBeShown>
                 </div>
                 <label class="search-block">
-                    <img class="search-block__img" src="icons/search.svg" alt="">
+                    <img class="search-block__img" src="@/assets/icons/search.svg" alt="">
                     <input class="search-block__input" type="text">
                     <div class="search-block__btn">
                         Найти
@@ -192,19 +192,19 @@
                 </div>
                 <nav class="user-nav">
                     <a class="user-nav__item" href="javascript:void(0);" @click="$root.showId('login-pop')">
-                        <img class="user-nav__item-img" src="icons/userLight.svg" alt="">
+                        <img class="user-nav__item-img" src="@/assets/icons/userLight.svg" alt="">
                         <span class="user-nav__item-title">
                             Войти в кабинет
                         </span>
                     </a>
                     <a class="user-nav__item" href="javascript:void(0);">
-                        <img class="user-nav__item-img" src="icons/compareLight.svg" alt="">
+                        <img class="user-nav__item-img" src="@/assets/icons/compareLight.svg" alt="">
                         <span class="user-nav__item-title">
                             Сравнение
                         </span>
                     </a>
                     <a class="user-nav__item" href="javascript:void(0);">
-                        <img class="user-nav__item-img" src="icons/shopCartLight.svg" alt="">
+                        <img class="user-nav__item-img" src="@/assets/icons/shopCartLight.svg" alt="">
                         <span class="user-nav__item-title">
                             Корзина
                         </span>

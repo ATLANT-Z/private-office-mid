@@ -1,7 +1,7 @@
 <template>
     <article class="reviews-wrp-title">
         <div class="reviews-icon-mob-wrp">
-            <img src="icons/sale_my_orders_icon.svg" alt="товар"/>
+            <img src="@/assets/icons/sale_my_orders_icon.svg" alt="товар"/>
             <h1>Промокоды</h1>
         </div>
         <div class="promo-list-wrp">
@@ -11,7 +11,7 @@
         </div>
         <div class="promotions-wrp">
             <div class="reviews-icon-mob-wrp">
-                <img src="icons/sale_my_orders_icon.svg" alt="товар"/>
+                <img src="@/assets/icons/sale_my_orders_icon.svg" alt="товар"/>
                 <h1>Акции</h1>
             </div>
             <div class="promocode-gallery">

@@ -1,7 +1,7 @@
 <template>
     <article class="main-column">
         <h1 class="section-header">
-            <img class="show-mob section-header__ico" src="icons/eye_ma_orders_icon.svg" alt="">
+            <img class="show-mob section-header__ico" src="@/assets/icons/eye_ma_orders_icon.svg" alt="">
             Просмотренные товары
         </h1>
         <div class="sort-panel">
@@ -11,7 +11,7 @@
                     <span class="ui-caption">Выбрать всё</span>
                 </label>
                 <label class="ui-input-w-row">
-                    <img class="ui-ico" src="icons/delete.svg" alt="">
+                    <img class="ui-ico" src="@/assets/icons/delete.svg" alt="">
                     <span class="ui-caption">Удалить</span>
                 </label>
             </div>

@@ -52,7 +52,7 @@ $marginCheckbox: 8px;
   }
 
   &::after {
-    background-image: url(/icons/checkboxOk.svg);
+    background-image: url(~@/assets/icons/checkboxOk.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 85%;

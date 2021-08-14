@@ -5,13 +5,13 @@
             <section class="private-info__section">
                 <div class="private-info__header">
                     <span class="ui-ico">
-                        <img src="icons/person.svg" alt="">
+                        <img src="@/assets/icons/person.svg" alt="">
                     </span>
                     <h5 class="private-info__header-text">
                         Личные данные
                     </h5>
                     <button class="private-info__edit-btn to-ico-mob ui-second-btn"
-                            style="background-image: url(/icons/edit.svg);"
+                            :style="{ backgroundImage: $root.getIco('edit.svg')}"
                             v-on:click='$root.showId("edit-person-info",false)'>
                         Редактировать
                     </button>
@@ -55,7 +55,7 @@
                 <form class="edit-info" method="" action="" id="edit-person-info" data-showable>
                     <div class="edit-info__header">
                         <span class="ui-ico">
-                            <img src="icons/person.svg" alt="">
+                            <img src="@/assets/icons/person.svg" alt="">
                         </span>
                         <h5 class="edit-info__header-text">
                             Личные данные
@@ -129,13 +129,13 @@
             <section class="private-info__section">
                 <div class="private-info__header">
                     <span class="ui-ico">
-                        <img src="icons/mail.svg" alt="">
+                        <img src="@/assets/icons/mail.svg" alt="">
                     </span>
                     <h5 class="private-info__header-text">
                         Контакты
                     </h5>
                     <button class="private-info__edit-btn to-ico-mob ui-second-btn"
-                            style="background-image: url(/icons/edit.svg);"
+                            :style="{ backgroundImage: $root.getIco('edit.svg')}"
                             @click="$root.showId('edit-contact-info',false)">
                         Редактировать
                     </button>
@@ -159,7 +159,7 @@
                 <form class="edit-info" method="" action="" id="edit-contact-info" data-showable>
                     <div class="edit-info__header">
                         <span class="ui-ico">
-                            <img src="icons/mail.svg" alt="">
+                            <img src="@/assets/icons/mail.svg" alt="">
                         </span>
                         <h5 class="edit-info__header-text">
                             Контакты
@@ -202,13 +202,13 @@
             <section class="private-info__section">
                 <div class="private-info__header">
                     <span class="ui-ico">
-                        <img src="icons/car.svg" alt="">
+                        <img src="@/assets/icons/car.svg" alt="">
                     </span>
                     <h5 class="private-info__header-text">
                         Адрес доставки
                     </h5>
                     <button class="private-info__edit-btn to-ico-mob ui-second-btn"
-                            style="background-image: url(/icons/edit.svg);"
+                            :style="{ backgroundImage: $root.getIco('edit.svg')}"
                             @click="$root.showId('edit-delivery-info', false)">
                         Редактировать
                     </button>
@@ -230,7 +230,7 @@
                 <form class="edit-delivery edit-info" method="" action="" id="edit-delivery-info" data-showable>
                     <div class="edit-info__header">
                         <span class="ui-ico">
-                            <img src="icons/car.svg" alt="">
+                            <img src="@/assets/icons/car.svg" alt="">
                         </span>
                         <h5 class="edit-info__header-text">
                             Адрес доставки
@@ -254,13 +254,13 @@
                                 <span class="ui-caption">Квартира</span>
                                 <div class="ui-row">
                                     <UiNumberInput placeholder="555"/>
-                                    <img class="btn" src="icons/cross.svg" alt="">
+                                    <img class="btn" src="@/assets/icons/cross.svg" alt="">
                                 </div>
                             </label>
                         </section>
                         <section class="edit-info__body-row">
                             <div class="ui-third-btn green">
-                                <img src="icons/plus.svg" alt="">
+                                <img src="@/assets/icons/plus.svg" alt="">
                                 <span>Добавить еще адрес</span>
                             </div>
                         </section>
@@ -278,13 +278,13 @@
             <section class="private-info__section">
                 <div class="private-info__header">
                     <span class="ui-ico">
-                        <img src="icons/lock.svg" alt="">
+                        <img src="@/assets/icons/lock.svg" alt="">
                     </span>
                     <h5 class="private-info__header-text">
                         Логин
                     </h5>
                     <button class="private-info__edit-btn to-ico-mob ui-second-btn"
-                            style="background-image: url(/icons/edit.svg);"
+                            :style="{ backgroundImage: $root.getIco('edit.svg')}"
                             @click='$root.showId("change-mail-pop")'>
                         Редактировать
                     </button>
@@ -323,7 +323,7 @@
         <UiPopup id="confirm-number-pop">
             <template v-slot="{parent}">
                 <div class="popup confirm-number-pop">
-                    <img class="popup__close-btn" src="icons/cross.svg" alt="" @click='parent.closePop()'>
+                    <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
                     <div class="popup__title">
                         Подтверждение номера телефона
                     </div>
@@ -366,7 +366,7 @@
         <UiPopup id="change-mail-pop">
             <template v-slot="{parent}">
                 <div class="popup change-mail-pop">
-                    <img class="popup__close-btn" src="icons/cross.svg" alt="" @click="parent.closePop()">
+                    <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click="parent.closePop()">
                     <div class="popup__title">
                         Изменение E-mail
                     </div>
@@ -388,7 +388,7 @@
         <UiPopup id="change-password-pop">
             <template v-slot="{parent}">
                 <div class="popup change-password-pop">
-                    <img class="popup__close-btn" src="icons/cross.svg" alt="" @click="parent.closePop()">
+                    <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click="parent.closePop()">
                     <div class="popup__title">
                         Изменение пароля
                     </div>
@@ -463,7 +463,7 @@
 
 <style lang="scss">
     @import "public/scss/abstract";
-
+    
     .private-info {
         color: #363636;
         

@@ -28,6 +28,9 @@
 			return {}
 		},
 		methods: {
+			getIco(name) {
+				return 'url(' + require(`@/assets/icons/${name}`) + ')';
+			},
 			showId(id, hasListener = true) {
 				if (hasListener) {
 					this.$store.commit('SET_SHOW_POPS', {key: id, value: true});
@@ -39,7 +42,8 @@
 				e.target.closest('[data-showable]').classList.remove('show');
 			}
 		}
-	};
+	}
+	;
 </script>
 
 <style lang="scss">
@@ -53,12 +57,12 @@
             padding: 0;
         }
     }
-
+    
     .main-body {
         background: #ffffff;
         box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
         border-radius: 8px;
-    
+        
         @include mobile {
             box-shadow: none;
         }

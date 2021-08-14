@@ -1,7 +1,7 @@
 <template>
    <div class="ui-select" :class="{active:show}" tabindex="0" @focusout="lostFocus" @focusin="getFocus">
       <input class="ui-input" type="text" :value="innerValue" :placeholder="placeholder" readonly>
-      <img class="ui-select__btn" src="icons/downArrow.svg" alt="">
+      <img class="ui-select__btn" src="@/assets/icons/downArrow.svg" alt="">
       <ul class="ui-select__list" @click.prevent>
          <li v-for="val in values" :key="val" class="ui-select__item" @click="optionClick(val)">
             {{val}}

@@ -1,7 +1,7 @@
 <template>
     <div class="wish-btn" @click="checked = !checked">
-        <img class="ui-ico wish-btn__ico" :class="{active:checked}" src="icons/heart_full.svg" alt="">
-        <img class="ui-ico wish-btn__ico" :class="{active:!checked}" src="icons/heart.svg" alt="">
+        <img class="ui-ico wish-btn__ico" :class="{active:checked}" src="@/assets/icons/heart_full.svg" alt="">
+        <img class="ui-ico wish-btn__ico" :class="{active:!checked}" src="@/assets/icons/heart.svg" alt="">
     </div>
 </template>
 

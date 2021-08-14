@@ -1,6 +1,6 @@
 <template>
     <div class="to-top-btn" @click="toTop">
-        <img src="icons/toTop.svg" alt="">
+        <img src="@/assets/icons/toTop.svg" alt="">
     </div>
 </template>
 

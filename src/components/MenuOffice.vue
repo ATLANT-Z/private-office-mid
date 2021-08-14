@@ -3,7 +3,7 @@
         <div class="name-orders">
             <router-link class="name-orders-link" to="/">
                 <div class="name-orders-img-wrp">
-                    <img class="name-orders-img" src="img/son.jpg" alt=""/>
+                    <img class="name-orders-img" src="@/assets/img/son.jpg" alt=""/>
                 </div>
                 <div>
                     <h3>Name Surname</h3>
@@ -14,21 +14,21 @@
         <div class="menu-cab-user">
             <div class="menu-cab-text-wrp">
                 <router-link class="menu-cab-wrp-link" to="/subscrb">
-                    <img class="menu-cab-img" src="icons/mail_my_orders_icon.svg"
+                    <img class="menu-cab-img" src="@/assets/icons/mail_my_orders_icon.svg"
                          alt="Управление подписками"/>
                     <p>Управление подписками</p>
                 </router-link>
             </div>
             <div class="menu-cab-text-wrp">
                 <a class="menu-cab-wrp-link" href="#">
-                    <img class="menu-cab-img" src="icons/service_my_orders_icon.svg"
+                    <img class="menu-cab-img" src="@/assets/icons/service_my_orders_icon.svg"
                          alt="Сервис"/>
                     <p>Сервис</p>
                 </a>
             </div>
             <div class="menu-cab-text-wrp">
                 <router-link class="menu-cab-wrp-link" to="/promocodes">
-                    <img class="menu-cab-img" src="icons/sale_my_orders_icon.svg"
+                    <img class="menu-cab-img" src="@/assets/icons/sale_my_orders_icon.svg"
                          alt="Акции (промокоды)"/>
                     <p>Акции (промокоды)</p>
                 </router-link>
@@ -36,7 +36,7 @@
             <div class="menu-cab-text-wrp">
                 <router-link class="menu-cab-wrp-link menu-cab-like-pos" to="/review">
                     <div class="menu-cab-like-wrp">
-                        <img class="menu-cab-img" src="icons/my-orders-icon.svg"
+                        <img class="menu-cab-img" src="@/assets/icons/my-orders-icon.svg"
                              alt="Мои отзывы"/>
                         <p>Мои отзывы</p>
                     </div>
@@ -45,14 +45,14 @@
             </div>
             <div class="menu-cab-text-wrp">
                 <a class="menu-cab-wrp-link" href="#">
-                    <img class="menu-cab-img" src="icons/present_my_orders_icon.svg"
+                    <img class="menu-cab-img" src="@/assets/icons/present_my_orders_icon.svg"
                          alt="Мои бонусы"/>
                     <p>Мои бонусы</p>
                 </a>
             </div>
             <div class="menu-cab-text-wrp">
                 <router-link class="menu-cab-wrp-link" to="/viewed">
-                    <img class="menu-cab-img" src="icons/eye_ma_orders_icon.svg"
+                    <img class="menu-cab-img" src="@/assets/icons/eye_ma_orders_icon.svg"
                          alt="Просмотренные товары"/>
                     <p>Просмотренные товары</p>
                 </router-link>
@@ -61,7 +61,7 @@
             <div class="menu-cab-text-wrp">
                 <router-link class="menu-cab-wrp-link menu-cab-like-pos" to="/wish">
                     <div class="menu-cab-like-wrp">
-                        <img class="menu-cab-img" src="icons/like_my_orders_icon.svg"
+                        <img class="menu-cab-img" src="@/assets/icons/like_my_orders_icon.svg"
                              alt="Список желаний"/>
                         <p>Список желаний</p>
                     </div>
@@ -70,7 +70,7 @@
             </div>
             <div class="menu-cab-text-wrp">
                 <router-link class="menu-cab-wrp-link" to="/orders">
-                    <img class="menu-cab-img" src="icons/my-orders-icon.svg"
+                    <img class="menu-cab-img" src="@/assets/icons/my-orders-icon.svg"
                          alt="Мои заказы"/>
                     <p>Мои заказы</p>
                 </router-link>
