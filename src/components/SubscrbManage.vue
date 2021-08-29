@@ -117,29 +117,14 @@
 </template>
 
 <script>
-	import Product from "../models/Product";
-	
 	export default {
 		data() {
 			return {
 				testVal: null,
-				productList: null,
 			}
 		},
-		async mounted() {
-			fetch('http://localhost:8081/products.json')
-				.then((res) => {
-					return res.json();
-				})
-				.then((json) => {
-					// console.log(json.data);
-					
-					this.productList = json.data.map(el => {
-						return new Product(el);
-					})
-					
-					// console.log(this.productList);
-				});
+		mounted() {
+		
 		},
 		methods: {}
 	};

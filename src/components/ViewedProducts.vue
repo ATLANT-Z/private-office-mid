@@ -16,9 +16,12 @@
                 </label>
             </div>
         </div>
-        <div class="gallery-w">
-            <ProductGallery :product-list="viewedProducts"></ProductGallery>
-        </div>
+        <ProductGallery :product-list="viewedProducts">
+            <template v-slot:tool-btns="{product}">
+                <WishBtn v-model="product.wished" @click="wishClick(product)"/>
+                <RemoveBtn @click="removeClick(product)"/>
+            </template>
+        </ProductGallery>
     </article>
     <section id="this-popups-list">
     
@@ -27,15 +30,31 @@
 
 <script>
 	import ProductGallery from "./Products/ProductGallery";
-	import {mapGetters, mapActions} from "vuex";
+	import {mapGetters, mapActions, mapMutations} from "vuex";
+	import WishBtn from "./Products/WishBtn";
+	import RemoveBtn from "./Products/RemoveBtn";
 	
 	export default {
-		components: {ProductGallery},
+		components: {WishBtn, RemoveBtn, ProductGallery},
 		computed: {
 			...mapGetters(['viewedProducts']),
 		},
 		methods: {
 			...mapActions(['fetchViewedProducts']),
+			...mapMutations({
+				removeById: 'removeByIdViewed',
+			}),
+			wishClick(product) {
+				// (Array(this.viewedProducts)).findIndex(el=> el.id === id)
+				// this.axios.post(`${product.id}`).then((response) => {
+				// 	console.log(response.data)
+				// })
+				
+				product;
+			},
+			removeClick(product) {
+				this.removeById(product.id);
+			}
 		},
 		async mounted() {
 			this.fetchViewedProducts();

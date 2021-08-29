@@ -14,7 +14,7 @@
 	import LoginPop from "./components/LoginPop";
 	import MenuOffice from "./components/MenuOffice";
 	import ToTopBtn from "./components/uiComponents/ToTopBtn";
-	import HeaderVue from "./components/Header";
+	import HeaderVue from "./components/Header/Header";
 	
 	export default {
 		name: "App",
@@ -42,8 +42,7 @@
 				e.target.closest('[data-showable]').classList.remove('show');
 			}
 		}
-	}
-	;
+	};
 </script>
 
 <style lang="scss">

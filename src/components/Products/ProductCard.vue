@@ -1,5 +1,5 @@
 <template>
-    <a class="product-card" :class="{sold:product.status?.sold}" href="javascript:void(0);">
+    <a class="product-card" :class="{sold:product.status?.sold}" :href="product.link" target="_blank">
         <div class="product-card__header">
             <div class="status-list">
                 <div class="status-list__item top" v-if="product.status?.top">
@@ -15,13 +15,11 @@
                     ПроданО
                 </div>
             </div>
-            <div class="product-card__top-tools-w">
-                <WishBtn/>
-                <input class="ui-checkbox product-card__checkbox" type="checkbox">
+            <div class="product-card__top-tools-w" @click.prevent>
+                <slot name="tool-btns" :product="product"></slot>
             </div>
         </div>
-        <img class="product-card__img" :src="product.imgSrc"
-             alt="">
+        <img class="product-card__img" :src="product.imgSrc" alt="">
         <div class="product-card__body">
             <div class="product-card__first-row">
                 <div class="product-label" v-if="product.label?.delivery">
@@ -38,11 +36,11 @@
                         частями
                     </span>
                 </div>
-                <div class="product-card__code">Код: {{product.id}}</div>
+                <div class="product-card__code">Код: {{product.alias}}</div>
             </div>
-            <h5 class="product-card__category">{{product.category}}</h5>
-            <h4 class="product-card__name">{{product.alias}}</h4>
-            <div class="product-card__body-footer">
+            <h5 class="product-card__category">{{product.categoryName}}</h5>
+            <h4 class="product-card__name">{{product.name}}</h4>
+            <div class="product-card__body-footer" @click.prevent>
                 <div class="price">
                     <div class="price__new" v-if="product.newPrice">
                         {{product.newPrice}} грн
@@ -51,22 +49,21 @@
                         {{product.price}} грн
                     </div>
                 </div>
-                <div class="ui-main-btn grey" v-if="product.status?.sold">
+                <div class="ui-main-btn grey" v-if="product.status?.sold" @click="notifyLater">
                     <img class="ui-ico" src="@/assets/icons/message.svg" alt="">
                     <span>Сообщить</span>
                 </div>
-                <div class="ui-main-btn" v-else>Купить</div>
+                <div class="ui-main-btn" v-else-if="product.isInCart" @click="alreadyAdded">В корзине</div>
+                <div class="ui-main-btn" v-else @click="addToCart">Купить</div>
             </div>
         </div>
     </a>
 </template>
 
 <script>
-	import WishBtn from "./WishBtn";
 	import Product from "../../models/Product";
 	
 	export default {
-		components: {WishBtn},
 		props: {
 			product: {
 				type: Product,
@@ -78,13 +75,43 @@
 				testVal: null,
 			}
 		},
-		methods: {}
+		methods: {
+			alreadyAdded() {
+				window['$alreadyAddedPopup'].fadeIn();
+			},
+			addToCart() {
+				window['$toCardDialog'].fadeIn();
+				
+				this.product.addToCart();
+				
+				// window['addToCart']({
+				// 	id: this.product.id,
+				// 	alias: this.product.alias,
+				// 	imgSrc: this.product.imgSrc,
+				// 	name: this.product.name,
+				// 	categoryName: this.product.categoryName,
+				// 	price: this.product.price,
+				// 	newPrice: this.product.newPrice
+				// })
+				
+				const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+				
+				const formData = this.product;
+				formData.token = token;
+				formData.count = 1;
+				//в form.button
+				window['addToCartByData'](formData);
+			},
+			notifyLater() {
+				//в form.button
+				window['notifyMeLater'](this.product.alias);
+				window['$notifyDialog'].fadeIn();
+			}
+		}
 	};
 </script>
 
 <style lang="scss" scoped>
-    @import "../../../public/scss/abstract";
-    
     @keyframes showProdCard {
         from {
             opacity: 0;
@@ -125,7 +152,7 @@
         }
         
         @include mobile {
-            height: 440px;
+            height: 400px;
             width: 50%;
             
             margin: 0;
@@ -136,10 +163,13 @@
         }
         
         &__header {
+            position: relative;
             width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
+            
+            z-index: 2;
         }
         
         &__top-tools-w {
@@ -156,10 +186,12 @@
         }
         
         &__img {
-            max-width: 200px;
-            max-height: 200px;
+            max-width: 240px;
+            max-height: 240px;
             width: 100%;
             object-fit: contain;
+            
+            margin-top: -8px;
             
             @include mobile {
                 max-width: 180px;

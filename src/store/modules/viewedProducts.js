@@ -1,4 +1,5 @@
 import Product from "../../models/Product";
+import axios from "axios";
 
 export default {
   state: {
@@ -8,18 +9,30 @@ export default {
     viewedProducts: (state) => {
       return state.innerViewedProducts;
     },
+    getViewedById: (state, id) => {
+      return state.innerViewedProducts.find((el) => el.id === id);
+    },
+    wishProducts: (state) => {
+      return state.innerViewedProducts.filter((el) => el.wished);
+    },
   },
   mutations: {
     updateViewedProducts: (state, productList) => {
       state.innerViewedProducts = productList;
     },
+    removeByIdViewed: (state, id) => {
+      const index = state.innerViewedProducts.findIndex((el) => el.id === id);
+      state.innerViewedProducts.splice(index, 1);
+    },
+    addViewed: (state, product) => {
+      state.innerViewedProducts.unshift(product);
+    },
   },
   actions: {
     fetchViewedProducts(ctx) {
-      fetch("products.json")
-        .then((res) => res.json())
-        .then((json) => {
-          const productList = json.data.map((el) => {
+      if (ctx.state.innerViewedProducts.length === 0) {
+        axios.get("products2.json").then((res) => {
+          const productList = res.data.map((el) => {
             return new Product(el);
           });
 
@@ -27,6 +40,7 @@ export default {
             ctx.commit("updateViewedProducts", productList);
           }, 2000);
         });
+      }
     },
   },
 };

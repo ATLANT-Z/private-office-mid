@@ -1,51 +1,51 @@
 //mixin
 @mixin box-green {
-    @extend %pos-cent-marg;
-    max-width: 960px;
-    margin-bottom: 76px;
-    padding: 16px 20px;
-    display: flex;
-    justify-content: space-between;
-    @extend %input-hov-act;
-    border-radius: 8px;
-    font-family: $font-roboto-reg;
-    box-sizing: border-box;
+  @extend %pos-cent-marg;
+  max-width: 960px;
+  margin-bottom: 76px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  @extend %input-hov-act;
+  border-radius: 8px;
+  font-family: $font-roboto-reg;
+  box-sizing: border-box;
 }
 
 @mixin btn-inp-form {
-    @extend %text-main;
-    @extend %pos-cent-marg;
-    max-width: 173px;
-    display: block;
-    padding: 8px 13px;
-    color: #ffffff;
-    background-color: $color-main;
-    border-radius: 6px;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid $color-main;
-    cursor: pointer;
+  @extend %text-main;
+  @extend %pos-cent-marg;
+  max-width: 173px;
+  display: block;
+  padding: 8px 13px;
+  color: #ffffff;
+  background-color: $color-main;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid $color-main;
+  cursor: pointer;
 }
 
 @mixin main-text {
-    font-family: $font-roboto-reg;
-    font-size: 18px;
-    text-align: center;
+  font-family: $font-roboto-reg;
+  font-size: 18px;
+  text-align: center;
 }
 
 @mixin box-advantages {
-    @extend %pos-cent-flex;
-    @extend %text-main;
-    width: 262px;
-    min-height: 216px;
-    padding: 0 22px;
-    text-align: center;
-    border: $border-grey;
-    border-radius: 8px;
-    box-sizing: border-box;
+  @extend %pos-cent-flex;
+  @extend %text-main;
+  width: 262px;
+  min-height: 216px;
+  padding: 0 22px;
+  text-align: center;
+  border: $border-grey;
+  border-radius: 8px;
+  box-sizing: border-box;
 }
 
 $font-sim: "Roboto", Tahoma, Geneva, sans-serif;
@@ -54,129 +54,131 @@ $color-but-sim: #159822;
 $color-text-header-sim: #00983d;
 
 @mixin button-sim {
-    padding: 10px 22px;
-    background-color: $color-but-sim;
-    border-color: $color-but-sim;
-    border-radius: 6px;
-    border-style: none;
-    font-family: $font-sim;
-    color: #ffffff;
-    font-size: 18px;
-    text-align: center;
+  padding: 10px 22px;
+  background-color: $color-but-sim;
+  border-color: $color-but-sim;
+  border-radius: 6px;
+  border-style: none;
+  font-family: $font-sim;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
 }
+
 @mixin box-sim {
-    max-width: 300px;
-    box-shadow: 0px 3px 11px #f3f3f3;
+  max-width: 300px;
+  box-shadow: 0px 3px 11px #f3f3f3;
 }
+
 @mixin box-installation-sim {
-    width: 212px;
-    height: 66px;
-    border: 1px solid #d1d1d1;
-    border-radius: 8px;
+  width: 212px;
+  height: 66px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
 }
 
 @mixin box-kit-sim {
-    width: 262px;
-    min-height: 104px;
-    border: 1px solid #d1d1d1;
-    border-radius: 8px;
+  width: 262px;
+  min-height: 104px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
 }
 
 //mixin
 @mixin box-green {
-    @extend %pos-cent-marg;
-    max-width: 960px;
-    margin-bottom: 76px;
-    padding: 16px 20px;
-    display: flex;
-    justify-content: space-between;
-    @extend %input-hov-act;
-    border-radius: 8px;
-    font-family: $font-roboto-reg;
-    box-sizing: border-box;
+  @extend %pos-cent-marg;
+  max-width: 960px;
+  margin-bottom: 76px;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  @extend %input-hov-act;
+  border-radius: 8px;
+  font-family: $font-roboto-reg;
+  box-sizing: border-box;
 }
 
 @mixin btn-inp-form {
-    @extend %text-main;
-    @extend %pos-cent-marg;
-    max-width: 173px;
-    display: block;
-    padding: 8px 13px;
-    color: #ffffff;
-    background-color: $color-main;
-    border-radius: 6px;
-    font-size: 18px;
-    font-weight: 400;
-    text-align: center;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 1px solid $color-main;
-    cursor: pointer;
+  @extend %text-main;
+  @extend %pos-cent-marg;
+  max-width: 173px;
+  display: block;
+  padding: 8px 13px;
+  color: #ffffff;
+  background-color: $color-main;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid $color-main;
+  cursor: pointer;
 }
 
 @mixin main-text {
-    font-family: $font-roboto-reg;
-    font-size: 18px;
-    text-align: center;
+  font-family: $font-roboto-reg;
+  font-size: 18px;
+  text-align: center;
 }
 
 @mixin box-advantages {
-    @extend %pos-cent-flex;
-    @extend %text-main;
-    width: 262px;
-    min-height: 216px;
-    padding: 0 22px;
-    text-align: center;
-    border: $border-grey;
-    border-radius: 8px;
-    box-sizing: border-box;
+  @extend %pos-cent-flex;
+  @extend %text-main;
+  width: 262px;
+  min-height: 216px;
+  padding: 0 22px;
+  text-align: center;
+  border: $border-grey;
+  border-radius: 8px;
+  box-sizing: border-box;
 }
 
 @mixin btnGreen {
-    min-height: 40px;
-    border: 1px solid $color-main;
-    color: $color-main;
-    @extend %btm-ord-without-back;
-    @extend %text-main;
-    font-size: 18px;
-    box-sizing: border-box;
-    font-weight: 400;
+  min-height: 40px;
+  border: 1px solid $color-main;
+  color: $color-main;
+  @extend %btm-ord-without-back;
+  @extend %text-main;
+  font-size: 18px;
+  box-sizing: border-box;
+  font-weight: 400;
 }
 
 @mixin wrpTitle {
-    padding-top: 10px;
-    font-family: $font-roboto-reg;
-    color: $color-text-orders;
+  padding-top: 10px;
+  font-family: $font-roboto-reg;
+  color: $color-text-orders;
 }
 
 @mixin wrpGeneral {
-    width: 1107px;
-    padding: 24px 14px;
-    position: relative;
+  width: 1107px;
+  padding: 24px 14px;
+  position: relative;
 }
 
 @mixin wrpCont {
-    box-shadow: $block-shadow;
-    border-radius: $border-radius;
-    box-sizing: border-box;
+  box-shadow: $block-shadow;
+  border-radius: $border-radius;
+  box-sizing: border-box;
 }
 
 @mixin lineMyOrder {
-    border-bottom: $border-grey;
-    margin-bottom: 9px;
+  border-bottom: $border-grey;
+  margin-bottom: 9px;
 }
 
 @mixin numberCounter {
-    min-width: 24px;
-    height: 24px;
-    padding: 2px 7px;
-    @extend %text-main;
-    background-color: $color-main;
-    border-radius: 34px;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
+  min-width: 24px;
+  height: 24px;
+  padding: 2px 7px;
+  @extend %text-main;
+  background-color: $color-main;
+  border-radius: 34px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 //Андрея
@@ -187,25 +189,25 @@ $anim-time: 0.2s;
 $anim-small-time: 0.1s;
 
 $uiTrans: transparentize(
-    $color: #000000,
-    $amount: 0.8,
+        $color: #000000,
+        $amount: 0.8,
 );
 
 @mixin anim($duration: $anim-time) {
-    transition: $duration ease-in-out;
+  transition: $duration ease-in-out;
 
-    &::before,
-    &::after {
-        transition: $duration ease-in-out;
-    }
+  &::before,
+  &::after {
+    transition: $duration ease-in-out;
+  }
 }
 
 @mixin animAll($duration: $anim-time) {
-    @include anim($duration);
+  @include anim($duration);
 
-    & * {
-        @include anim($duration);
-    }
+  & * {
+    @include anim($duration);
+  }
 }
 
 $smScreenWidth: 1376px;
@@ -217,155 +219,185 @@ $bigMobileWidth: 960px;
 $mobileWidth: 680px;
 $mobileHeight: 600px;
 
+///width: #{$smScreenWidth}
 @mixin smallScreen {
-    @media (max-width: $smScreenWidth), (max-height: $smScreenHeight) {
-        @content;
-    }
+  @media (max-width: $smScreenWidth), (max-height: $smScreenHeight) {
+    @content;
+  }
 }
 
+///width: #{$smallestScreenWidth}
 @mixin smallestScreen {
-    @media (max-width: $smallestScreenWidth), (max-height: $smScreenHeight) {
-        @content;
-    }
+  @media (max-width: $smallestScreenWidth), (max-height: $smScreenHeight) {
+    @content;
+  }
 }
 
+///width: #{$bigMobileWidth}
 @mixin bigMobile {
-    @media (max-width: $bigMobileWidth), (max-height: $mobileHeight) {
-        @content;
-    }
+  @media (max-width: $bigMobileWidth), (max-height: $mobileHeight) {
+    @content;
+  }
 }
 
+///width: #{$mobileWidth}
 @mixin mobile {
-    @media (max-width: $mobileWidth), (max-height: $mobileHeight) {
-        @content;
-    }
+  @media (max-width: $mobileWidth), (max-height: $mobileHeight) {
+    @content;
+  }
 }
 
 @mixin setAbs($top: 0, $left: 0, $right: 0, $bottom: 0) {
-    top: $top;
-    left: $left;
-    right: $right;
-    bottom: $bottom;
+  top: $top;
+  left: $left;
+  right: $right;
+  bottom: $bottom;
 }
 
 @mixin absoluteGrow($pos: absolute, $pad: 0) {
-    position: $pos;
-    @include setAbs($pad, $pad, $pad, $pad);
+  position: $pos;
+  @include setAbs($pad, $pad, $pad, $pad);
 }
 
 @mixin fixedWH($height, $width) {
-    min-width: $width;
-    min-height: $height;
-    max-width: $width;
-    max-height: $height;
-    width: $width;
-    height: $height;
+  min-width: $width;
+  min-height: $height;
+  max-width: $width;
+  max-height: $height;
+  width: $width;
+  height: $height;
 }
 
 ///30px
 @mixin fontHeaderPage($weight: 500) {
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: $weight;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: $weight;
 }
 
 ///28px
 @mixin fontTitle($weight: 700) {
-    font-size: 28px;
-    line-height: 40px;
-    font-weight: $weight;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: $weight;
 }
 
 ///24px
 @mixin fontMidHeader($weight: 500) {
-    font-size: 24px;
-    line-height: 24px;
-    font-weight: $weight;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: $weight;
 }
 
 ///20px
 @mixin fontMidTitle($weight: 500) {
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: $weight;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: $weight;
 }
 
 ///18px
 @mixin fontBig($weight: 400) {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: $weight;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: $weight;
 }
 
 ///16px
 @mixin fontMid($weight: 400) {
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: $weight;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: $weight;
 }
 
 ///14px
 @mixin fontSmall($weight: 400) {
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: $weight;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: $weight;
 }
 
 ///12px
 @mixin fontCaption($weight: 400) {
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: $weight;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: $weight;
 }
 
 @mixin scrollbarStyle($width: 5px) {
-    scrollbar-color: $mainSiteColor transparent;
-    scrollbar-width: thin;
+  scrollbar-color: $color-main transparent;
+  scrollbar-width: thin;
 
-    &::-webkit-scrollbar {
-        width: $width;
-        height: $width;
-    }
-    &::-webkit-scrollbar-button {
-        height: 6px;
-        width: 6px;
-        background-color: #ffffff;
-        border-radius: 8px;
-        //display: none;
-    }
-    &::-webkit-scrollbar-track {
-        background-color: #999;
-    }
-    &::-webkit-scrollbar-track-piece {
-        background-color: #ffffff;
-    }
-    &::-webkit-scrollbar-thumb {
-        height: 24px;
-        background-color: $mainSiteColor;
-        border-radius: 3px;
-    }
-    &::-webkit-scrollbar-corner {
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background-color: #fff;
-    }
-    &::-webkit-resizer {
-        background-color: $mainSiteColor;
-    }
+  &::-webkit-scrollbar {
+    width: $width;
+    height: $width;
+  }
+  &::-webkit-scrollbar-button {
+    height: 6px;
+    width: 6px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    //display: none;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #999;
+  }
+  &::-webkit-scrollbar-track-piece {
+    background-color: #ffffff;
+  }
+  &::-webkit-scrollbar-thumb {
+    height: 24px;
+    background-color: $color-main;
+    border-radius: 3px;
+  }
+  &::-webkit-scrollbar-corner {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  &::-webkit-resizer {
+    background-color: $color-main;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    max-height: 0;
+  }
+  to {
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+}
+
+@mixin iSlideDown($display:block, $time: .8s) {
+  display: none;
+  max-height: 0;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: content-box;
+
+  &.active {
+    display: $display;
+    max-height: 100vh;
+    animation: slideDown .8s forwards;
+
+    @include scrollbarStyle();
+  }
 }
 
 @mixin hasParent($that) {
-    @at-root {
-        #{$that} {
-            @content;
-        }
+  @at-root {
+    #{$that} {
+      @content;
     }
+  }
 }
 
 @mixin lineClamp($lines: 2) {
-    display: -webkit-box;
-    -webkit-line-clamp: $lines;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

@@ -39,9 +39,9 @@ $prodIcoPath: "/icons/";
 
 $icoPath: $devIcoPath;
 
-main {
-  padding-top: 0 !important;
-}
+//main {
+//  padding-top: 0 !important;
+//}
 
 section {
   padding: 0px;
@@ -55,6 +55,12 @@ ul {
   width: 100%;
   flex-grow: 1;
   color: $color-text-orders;
+
+  @at-root {
+    .text {
+
+    }
+  }
 }
 
 .section-header {
@@ -100,6 +106,8 @@ ul {
   border: none;
   border-radius: 0;
   font-weight: 400;
+
+  user-select: none;
 
   &::after {
     content: none !important;
@@ -178,7 +186,7 @@ body {
 
   .hide-mob {
     @include mobile {
-      display: none;
+      display: none !important;
     }
   }
 

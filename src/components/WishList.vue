@@ -27,9 +27,11 @@
                 </button>
             </div>
         </div>
-        <div class="gallery-w">
-            <ProductGallery :product-list="wishProducts"></ProductGallery>
-        </div>
+        <ProductGallery :product-list="wishProducts">
+            <template v-slot:tool-btns="{product}">
+                <UiCheckbox v-model="product.checked"/>
+            </template>
+        </ProductGallery>
     </article>
     <section id="this-popups-list">
     
@@ -39,17 +41,18 @@
 <script>
 	import ProductGallery from "./Products/ProductGallery";
 	import {mapGetters, mapActions} from "vuex";
+	import UiCheckbox from "./uiComponents/UiCheckbox";
 	
 	export default {
-		components: {ProductGallery},
+		components: {UiCheckbox, ProductGallery},
 		computed: {
 			...mapGetters(['wishProducts']),
-        },
+		},
 		methods: {
-			...mapActions(['fetchWishProducts']),
-        },
+			...mapActions(['fetchViewedProducts']),
+		},
 		async mounted() {
-			this.fetchWishProducts();
+			this.fetchViewedProducts();
 		},
 	};
 </script>

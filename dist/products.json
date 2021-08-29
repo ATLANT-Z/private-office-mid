@@ -1,296 +1,299 @@
-{
-  "data": [
-    {
-      "id": 1,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 123 AS v300x112",
-      "category": "Сборка камер, камеры",
-      "price": 1400,
-      "label": {
-        "credit": false,
-        "delivery": true
-      },
-      "status": {
-        "top": true,
-        "new": true
-      }
+[
+  {
+    "id": 1,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 123 AS v300x112",
+    "category": "Сборка камер, камеры",
+    "price": 1400,
+    "newPrice": 12000,
+    "label": {
+      "credit": true,
+      "delivery": true
     },
-    {
-      "id": 2,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112",
-      "category": "Сборка камер, камеры",
-      "price": 15600,
-      "newPrice": 12000,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "stock": true,
-        "top": true
-      }
-    },
-    {
-      "id": 3,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 2",
-      "category": "Сборка камер, камеры",
-      "price": 12600,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "top": true
-      }
-    },
-    {
-      "id": 4,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 3",
-      "category": "Сборка камер, камеры",
-      "price": 15600,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "new": true
-      }
-    },
-    {
-      "id": 5,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 4",
-      "category": "Сборка камер, камеры",
-      "price": 300,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "sold": true
-      }
-    },
-    {
-      "id": 6,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 123 AS v300x112",
-      "category": "Сборка камер, камеры",
-      "price": 1400,
-      "label": {
-        "credit": false,
-        "delivery": true
-      },
-      "status": {
-        "top": true,
-        "new": true
-      }
-    },
-    {
-      "id": 7,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112",
-      "category": "Сборка камер, камеры",
-      "price": 15600,
-      "newPrice": 12000,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "stock": true,
-        "top": true
-      }
-    },
-    {
-      "id": 8,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 2",
-      "category": "Сборка камер, камеры",
-      "price": 12600,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "top": true
-      }
-    },
-    {
-      "id": 9,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 3",
-      "category": "Сборка камер, камеры",
-      "price": 15600,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "new": true
-      }
-    },
-    {
-      "id": 10,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 4",
-      "category": "Сборка камер, камеры",
-      "price": 300,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "sold": true
-      }
-    },
-    {
-      "id": 11,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 123 AS v300x112",
-      "category": "Сборка камер, камеры",
-      "price": 1400,
-      "label": {
-        "credit": false,
-        "delivery": true
-      },
-      "status": {
-        "top": true,
-        "new": true
-      }
-    },
-    {
-      "id": 12,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112",
-      "category": "Сборка камер, камеры",
-      "price": 15600,
-      "newPrice": 12000,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "stock": true,
-        "top": true
-      }
-    },
-    {
-      "id": 13,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 2",
-      "category": "Сборка камер, камеры",
-      "price": 12600,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "top": true
-      }
-    },
-    {
-      "id": 14,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 3",
-      "category": "Сборка камер, камеры",
-      "price": 15600,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "new": true
-      }
-    },
-    {
-      "id": 15,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 4",
-      "category": "Сборка камер, камеры",
-      "price": 300,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "sold": true
-      }
-    },
-    {
-      "id": 16,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 123 AS v300x112",
-      "category": "Сборка камер, камеры",
-      "price": 1400,
-      "label": {
-        "credit": false,
-        "delivery": true
-      },
-      "status": {
-        "top": true,
-        "new": true
-      }
-    },
-    {
-      "id": 17,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112",
-      "category": "Сборка камер, камеры",
-      "price": 15600,
-      "newPrice": 12000,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "stock": true,
-        "top": true
-      }
-    },
-    {
-      "id": 18,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 2",
-      "category": "Сборка камер, камеры",
-      "price": 12600,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "top": true
-      }
-    },
-    {
-      "id": 19,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 3",
-      "category": "Сборка камер, камеры",
-      "price": 15600,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "new": true
-      }
-    },
-    {
-      "id": 20,
-      "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
-      "alias": "Ipb 333x112 4",
-      "category": "Сборка камер, камеры",
-      "price": 300,
-      "label": {
-        "credit": true,
-        "delivery": true
-      },
-      "status": {
-        "sold": true
-      }
+    "status": {
+      "top": true,
+      "new": true,
+      "stock": true,
+      "sold": true
     }
-  ]
-}
+  },
+  {
+    "id": 2,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112",
+    "category": "Сборка камер, камеры",
+    "price": 15600,
+    "newPrice": 12000,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "top": true,
+      "new": true,
+      "stock": true
+    }
+  },
+  {
+    "id": 3,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 2",
+    "category": "Сборка камер, камеры",
+    "price": 12600,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "top": true
+    }
+  },
+  {
+    "id": 4,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 3",
+    "category": "Сборка камер, камеры",
+    "price": 15600,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "new": true
+    }
+  },
+  {
+    "id": 5,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 4",
+    "category": "Сборка камер, камеры",
+    "price": 300,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "sold": true
+    }
+  },
+  {
+    "id": 6,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 123 AS v300x112",
+    "category": "Сборка камер, камеры",
+    "price": 1400,
+    "label": {
+      "credit": false,
+      "delivery": true
+    },
+    "status": {
+      "top": true,
+      "new": true
+    }
+  },
+  {
+    "id": 7,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112",
+    "category": "Сборка камер, камеры",
+    "price": 15600,
+    "newPrice": 12000,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "stock": true,
+      "top": true
+    }
+  },
+  {
+    "id": 8,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 2",
+    "category": "Сборка камер, камеры",
+    "price": 12600,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "top": true
+    }
+  },
+  {
+    "id": 9,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 3",
+    "category": "Сборка камер, камеры",
+    "price": 15600,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "new": true
+    }
+  },
+  {
+    "id": 10,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 4",
+    "category": "Сборка камер, камеры",
+    "price": 300,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "sold": true
+    }
+  },
+  {
+    "id": 11,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 123 AS v300x112",
+    "category": "Сборка камер, камеры",
+    "price": 1400,
+    "label": {
+      "credit": false,
+      "delivery": true
+    },
+    "status": {
+      "top": true,
+      "new": true
+    }
+  },
+  {
+    "id": 12,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112",
+    "category": "Сборка камер, камеры",
+    "price": 15600,
+    "newPrice": 12000,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "stock": true,
+      "top": true
+    }
+  },
+  {
+    "id": 13,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 2",
+    "category": "Сборка камер, камеры",
+    "price": 12600,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "top": true
+    }
+  },
+  {
+    "id": 14,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 3",
+    "category": "Сборка камер, камеры",
+    "price": 15600,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "new": true
+    }
+  },
+  {
+    "id": 15,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 4",
+    "category": "Сборка камер, камеры",
+    "price": 300,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "sold": true
+    }
+  },
+  {
+    "id": 16,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 123 AS v300x112",
+    "category": "Сборка камер, камеры",
+    "price": 1400,
+    "label": {
+      "credit": false,
+      "delivery": true
+    },
+    "status": {
+      "top": true,
+      "new": true
+    }
+  },
+  {
+    "id": 17,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112",
+    "category": "Сборка камер, камеры",
+    "price": 15600,
+    "newPrice": 12000,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "stock": true,
+      "top": true
+    }
+  },
+  {
+    "id": 18,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 2",
+    "category": "Сборка камер, камеры",
+    "price": 12600,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "top": true
+    }
+  },
+  {
+    "id": 19,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 3",
+    "category": "Сборка камер, камеры",
+    "price": 15600,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "new": true
+    }
+  },
+  {
+    "id": 20,
+    "imgSrc": "https://greenvision.ua/storage/626660/15271_1.png",
+    "alias": "Ipb 333x112 4",
+    "category": "Сборка камер, камеры",
+    "price": 300,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "status": {
+      "sold": true
+    }
+  }
+]
+

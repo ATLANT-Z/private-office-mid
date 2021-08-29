@@ -58,10 +58,16 @@ $marginCheckbox: 8px;
     background-size: 85%;
     opacity: 0;
   }
-  &:checked::after {
+
+  &:checked::after,
+  &.checked::after {
     opacity: 1;
     border: 1px solid $color-main;
   }
+}
+
+.ui-checkbox {
+  @include uiCheckbox();
 }
 
 input[type="checkbox"].ui-checkbox {
@@ -101,8 +107,12 @@ input[type="radio"].ui-radio {
 }
 
 .ui-loader {
+  $loaderRadius: 80px;
+
   position: relative;
   width: 100%;
+
+  padding: Calc(#{$loaderRadius} / 2);
 
   &:before,
   &:after {
@@ -111,8 +121,8 @@ input[type="radio"].ui-radio {
     top: 0;
     left: 50%;
 
-    width: 80px;
-    height: 80px;
+    width: $loaderRadius;
+    height: $loaderRadius;
 
     border: 7px solid $color-text-grey;
     border-radius: 50%;

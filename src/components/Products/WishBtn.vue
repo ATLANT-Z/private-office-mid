@@ -8,17 +8,20 @@
 <script>
 	export default {
 		props: {
-			startValue: Boolean,
+			modelValue: Boolean,
 			readonly: {
 				type: Boolean,
 				default: false
 			},
 		},
-		
+		emits:['update:modelValue'],
 		data() {
 			return {
-				checked: this.startValue
+				checked: this.modelValue
 			};
+		},
+		mounted() {
+			console.log('wish btn mounted');
 		},
 		methods: {
 		
@@ -32,8 +35,6 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "public/scss/abstract";
-    
     .wish-btn {
         position: relative;
         height: 18px;
