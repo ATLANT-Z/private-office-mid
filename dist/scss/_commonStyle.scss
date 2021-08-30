@@ -55,6 +55,12 @@ ul {
   width: 100%;
   flex-grow: 1;
   color: $color-text-orders;
+
+  @at-root {
+    .text {
+
+    }
+  }
 }
 
 .section-header {

@@ -58,10 +58,16 @@ $marginCheckbox: 8px;
     background-size: 85%;
     opacity: 0;
   }
-  &:checked::after {
+
+  &:checked::after,
+  &.checked::after {
     opacity: 1;
     border: 1px solid $color-main;
   }
+}
+
+.ui-checkbox {
+  @include uiCheckbox();
 }
 
 input[type="checkbox"].ui-checkbox {

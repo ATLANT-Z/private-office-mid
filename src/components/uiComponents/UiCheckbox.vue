@@ -30,6 +30,4 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "public/scss/uiComponents";
-
 </style>
