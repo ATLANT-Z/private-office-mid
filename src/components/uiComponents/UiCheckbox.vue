@@ -1,5 +1,5 @@
 <template>
-    <div class="ui-checkbox" :class="{checked:checked}" @click="checked = !checked"></div>
+    <div class="ui-checkbox" :class="{checked: modelValue}" @click="click"></div>
 </template>
 
 <script>
@@ -12,18 +12,9 @@
 				default: false
 			},
 		},
-		data() {
-			return {
-				checked: this.modelValue
-			};
-		},
-		mounted() {
-			console.log('UiCheckbox btn mounted');
-		},
-		methods: {},
-		watch: {
-			checked: function (newVal) {
-				this.$emit("update:modelValue", newVal);
+		methods: {
+			click() {
+				this.$emit("update:modelValue", !this.modelValue);
 			}
 		}
 	}

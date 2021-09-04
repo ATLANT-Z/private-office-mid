@@ -20,7 +20,7 @@
                 </router-link>
             </div>
             <div class="menu-cab-text-wrp">
-                <a class="menu-cab-wrp-link" href="#">
+                <a class="menu-cab-wrp-link" href="/service">
                     <img class="menu-cab-img" src="@/assets/icons/service_my_orders_icon.svg"
                          alt="Сервис"/>
                     <p>Сервис</p>

@@ -1,5 +1,5 @@
 <template>
-    <CanBeShown>
+    <CanBeShown :id="'header-catalog'">
         <template v-slot="{isShow, toggleShow}">
             <div class="catalog hide-mob" :class="{active:isShow}" @click.self="toggleShow">
                 <div class="catalog__btn" @click="toggleShow">

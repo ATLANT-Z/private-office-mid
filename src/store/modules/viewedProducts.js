@@ -24,6 +24,9 @@ export default {
       const index = state.innerViewedProducts.findIndex((el) => el.id === id);
       state.innerViewedProducts.splice(index, 1);
     },
+    removeAllViewed: (state) => {
+      state.innerViewedProducts = [];
+    },
     addViewed: (state, product) => {
       state.innerViewedProducts.unshift(product);
     },

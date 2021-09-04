@@ -6,13 +6,9 @@
         </h1>
         <div class="sort-panel">
             <div class="ui-list row sort-panel__tools">
-                <label class="ui-input-w-row">
-                    <input class="ui-checkbox" type="checkbox">
-                    <span class="ui-caption">Выбрать всё</span>
-                </label>
-                <label class="ui-input-w-row">
+                <label class="ui-input-w-row" @click="removeAll">
                     <img class="ui-ico" src="@/assets/icons/delete.svg" alt="">
-                    <span class="ui-caption">Удалить</span>
+                    <span class="ui-caption">Удалить всё</span>
                 </label>
             </div>
         </div>
@@ -43,6 +39,7 @@
 			...mapActions(['fetchViewedProducts']),
 			...mapMutations({
 				removeById: 'removeByIdViewed',
+				removeAll:'removeAllViewed',
 			}),
 			wishClick(product) {
 				// (Array(this.viewedProducts)).findIndex(el=> el.id === id)

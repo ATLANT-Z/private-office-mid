@@ -129,8 +129,9 @@
 		mounted() {
 			this.isMounted = true;
 			this.currentRef = this.$refs.login;
-			this.sectionToShow = this.sectionNames.login
-		},
+           this.sectionToShow = this.sectionNames.login;
+           
+        },
 		methods: {
 			showReg() {
 				this.sectionToShow = this.sectionNames.reg

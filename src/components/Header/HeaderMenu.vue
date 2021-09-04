@@ -1,5 +1,5 @@
 <template>
-    <CanBeShown>
+    <CanBeShown :id="'header-menu'" :exclude-id="['header-catalog']">
         <template v-slot="{isShow, toggleShow}">
             <div class="header-menu" :class="{active: isShow}" @click.self="toggleShow">
                 <div class="header-menu__mob-top-row" :class="{active: isShow}">
@@ -132,14 +132,14 @@
                             Мои заказы
                         </span>
                     </router-link>
-                    <router-link class="header-menu__list-title-row" to="/checkout" @click="toggleShow">
+                    <a class="header-menu__list-title-row" href="/checkout" @click="toggleShow">
                         <div class="header-menu__list-title-ico">
                             <img src="@/assets/icons/cartDark.svg" alt="">
                         </div>
                         <span class="header-menu__list-title-text">
                             Корзина
                         </span>
-                    </router-link>
+                    </a>
                     <router-link class="header-menu__list-title-row" to="/wish" @click="toggleShow">
                         <div class="header-menu__list-title-ico">
                             <img src="@/assets/icons/heartDark.svg" alt="">

@@ -7,10 +7,10 @@
         <div class="sort-panel">
             <div class="ui-list row sort-panel__tools">
                 <label class="ui-input-w-row">
-                    <input class="ui-checkbox" type="checkbox">
+                    <input class="ui-checkbox" type="checkbox" v-model="isAllSelected">
                     <span class="ui-caption">Выбрать всё</span>
                 </label>
-                <label class="ui-input-w-row">
+                <label class="ui-input-w-row" @click="deleteSelected">
                     <img class="ui-ico" src="@/assets/icons/delete.svg" alt="">
                     <span class="ui-caption">Удалить</span>
                 </label>
@@ -18,9 +18,9 @@
             <div class="ui-list small row end sort-panel__sum-row">
                 <div class="sort-panel__sum-text-block">
                     <span class="ui-caption">
-                        8 товаров на сумму:
+                        {{wishProducts.length}} товаров на сумму:
                     </span>
-                    <b>32 000 грн</b>
+                    <b>{{totalSum}} грн</b>
                 </div>
                 <button class="ui-main-btn">
                     Купить всё
@@ -45,11 +45,33 @@
 	
 	export default {
 		components: {UiCheckbox, ProductGallery},
+		data() {
+			return {
+				isAllSelected: false
+			}
+		},
 		computed: {
 			...mapGetters(['wishProducts']),
+			totalSum() {
+				console.log(this);
+				console.log(this.wishProducts);
+				//Передаю начальное значение для reduce. А вообще почитай, что он делает.
+				return this.wishProducts?.reduce((accumulator, el) => accumulator + el.price, 0);
+			}
 		},
 		methods: {
 			...mapActions(['fetchViewedProducts']),
+			deleteSelected() {
+				this.wishProducts
+					.filter(el => el.checked)
+					.forEach(el => el.wished = false);
+			}
+		},
+		watch: {
+			isAllSelected(val) {
+				console.log(this.wishProducts);
+				this.wishProducts.forEach(el => el.checked = val);
+			}
 		},
 		async mounted() {
 			this.fetchViewedProducts();

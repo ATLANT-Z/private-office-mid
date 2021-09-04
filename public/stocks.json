@@ -39,6 +39,22 @@
       "title": "Как сказал ген.дир. - гуляют все. -40% на все жесткие диски.",
       "beginDate": "02.01.2021",
       "endDate": "02.05.2021"
+    },
+    {
+      "id": 6,
+      "bgSrc": "img/img_orimo_sale.png",
+      "imgSrc": "img/stockCamera.png",
+      "title": "Светлое будущее -50% на все товары",
+      "beginDate": "02.01.2024",
+      "endDate": "02.05.2026"
+    },
+    {
+      "id": 7,
+      "bgSrc": "img/img_orimo_sale.png",
+      "imgSrc": "img/stockCamera.png",
+      "title": "Суровое настоящее +5% на все товары",
+      "beginDate": "02.01.2021",
+      "endDate": "02.05.2024"
     }
   ]
 }
