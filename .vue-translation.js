@@ -6,5 +6,5 @@ module.exports = {
 	adapter: new JSONAdapter({
 		path: path.join(__dirname, "src/locales/"),
 	}),
-	languages: ["ru", "en", "uk"],
+	languages: ["ru"],
 };
