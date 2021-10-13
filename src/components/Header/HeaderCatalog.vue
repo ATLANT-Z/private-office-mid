@@ -4,133 +4,79 @@
             <div class="catalog hide-mob" :class="{active:isShow}" @click.self="toggleShow">
                 <div class="catalog__btn" @click="toggleShow">
                     <img src="@/assets/icons/category/catalogLight.svg" alt="">
-                    <span class="catalog__btn-text">
-                        Каталог товаров
-                    </span>
+                    <span class="catalog__btn-text">Каталог товаров</span>
                 </div>
                 <div class="catalog__list">
                     <div class="catalog__list-item">
                         <a class="catalog__list-item-title-w" href="#">
-                            <img class="catalog__list-item-img"
-                                 src="@/assets/icons/category/discount.svg"
-                                 alt="">
-                            <span class="catalog__list-item-title">
-                                Акции
-                            </span>
-                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg"
-                                 alt="">
+                            <img class="catalog__list-item-img" src="@/assets/icons/category/discount.svg" alt="">
+                            <span class="catalog__list-item-title">Акции</span>
+                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg" alt="">
                         </a>
                         <div class="catalog__sub-list">
-                            <a href="#">
-                                За счёт генДира
-                            </a>
-                            <a href="#">
-                                В честь нашего др
-                            </a>
-                            <a href="#">
-                                Новый год пришёл, пожар привёл, порошковые огнетушители по скидончику.
-                            </a>
+                            <a href="#">За счёт гендира</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
                         </div>
                     </div>
                     <div class="catalog__list-item">
                         <a class="catalog__list-item-title-w" href="#">
-                            <img class="catalog__list-item-img" src="@/assets/icons/category/camera.svg"
-                                 alt="">
-                            <span class="catalog__list-item-title">
-                                Камеры
-                            </span>
-                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg"
-                                 alt="">
+                            <img class="catalog__list-item-img" src="@/assets/icons/category/camera.svg" alt="">
+                            <span class="catalog__list-item-title">Камеры</span>
+                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg" alt="">
                         </a>
                         <div class="catalog__sub-list">
-                            <a href="#">
-                                IP Камеры
-                            </a>
-                            <a href="#">
-                                Wi-Fi Камеры
-                            </a>
-                            <a href="#">
-                                Гибридные камеры
-                            </a>
+                            <a href="#">ip camery</a>
+                            <a href="#">wifi</a>
+                            <a href="#">3</a>
                         </div>
                     </div>
                     <div class="catalog__list-item">
                         <a class="catalog__list-item-title-w" href="#">
-                            <img class="catalog__list-item-img"
-                                 src="@/assets/icons/category/videoRecorder.svg"
-                                 alt="">
-                            <span class="catalog__list-item-title">
-                                Видеорегистраторы
-                            </span>
-                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg"
-                                 alt="">
+                            <img class="catalog__list-item-img" src="@/assets/icons/category/videoRecorder.svg" alt="">
+                            <span class="catalog__list-item-title">Видеорегистраторы</span>
+                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg" alt="">
                         </a>
                     </div>
                     <div class="catalog__list-item">
                         <a class="catalog__list-item-title-w" href="#">
-                            <img class="catalog__list-item-img" src="@/assets/icons/category/kit.svg"
-                                 alt="">
-                            <span class="catalog__list-item-title">
-                                Комплекты
-                            </span>
-                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg"
-                                 alt="">
+                            <img class="catalog__list-item-img" src="@/assets/icons/category/kit.svg" alt="">
+                            <span class="catalog__list-item-title">Комплекты</span>
+                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg" alt="">
                         </a>
                     </div>
                     <div class="catalog__list-item">
                         <a class="catalog__list-item-title-w" href="#">
-                            <img class="catalog__list-item-img" src="@/assets/icons/category/ACS.svg"
-                                 alt="">
-                            <span class="catalog__list-item-title">
-                                СКУД
-                            </span>
-                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg"
-                                 alt="">
+                            <img class="catalog__list-item-img" src="@/assets/icons/category/ACS.svg" alt="">
+                            <span class="catalog__list-item-title">СКУД</span>
+                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg" alt="">
                         </a>
                     </div>
                     <div class="catalog__list-item">
                         <a class="catalog__list-item-title-w" href="#">
-                            <img class="catalog__list-item-img"
-                                 src="@/assets/icons/category/accumulator.svg"
-                                 alt="">
-                            <span class="catalog__list-item-title">
-                                Источники питания
-                            </span>
-                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg"
-                                 alt="">
+                            <img class="catalog__list-item-img" src="@/assets/icons/category/accumulator.svg" alt="">
+                            <span class="catalog__list-item-title">Источники питание</span>
+                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg" alt="">
                         </a>
                     </div>
                     <div class="catalog__list-item">
                         <a class="catalog__list-item-title-w" href="#">
-                            <img class="catalog__list-item-img" src="@/assets/icons/category/lan.svg"
-                                 alt="">
-                            <span class="catalog__list-item-title">
-                                Аксессуары
-                            </span>
-                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg"
-                                 alt="">
+                            <img class="catalog__list-item-img" src="@/assets/icons/category/lan.svg" alt="">
+                            <span class="catalog__list-item-title">Аксессуары</span>
+                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg" alt="">
                         </a>
                     </div>
                     <div class="catalog__list-item">
                         <a class="catalog__list-item-title-w" href="#">
-                            <img class="catalog__list-item-img"
-                                 src="@/assets/icons/category/camera2.svg"
-                                 alt="">
-                            <span class="catalog__list-item-title">
-                                Снятое с производства
-                            </span>
-                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg"
-                                 alt="">
+                            <img class="catalog__list-item-img" src="@/assets/icons/category/camera2.svg" alt="">
+                            <span class="catalog__list-item-title">Снятое с производства</span>
+                            <img class="catalog__list-item-arrow btn" src="@/assets/icons/rightArrow.svg" alt="">
                         </a>
                     </div>
                     <div class="catalog__list-item">
                         <a class="catalog__list-item-title-w" href="#">
-                            <img class="catalog__list-item-img"
-                                 src="@/assets/icons/category/catalogGreen.svg"
-                                 alt="">
-                            <span class="catalog__list-item-title">
-                                Все категории
-                            </span>
+                            <img class="catalog__list-item-img" src="@/assets/icons/category/catalogGreen.svg" alt="">
+                            <span class="catalog__list-item-title">Все категории</span>
                         </a>
                     </div>
                 </div>
@@ -149,7 +95,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "public/scss/uiComponents";
+    @import "../../assets/scss/uiComponents";
 
     .catalog {
         padding: 8px 16px;

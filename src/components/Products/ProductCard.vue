@@ -1,5 +1,5 @@
 <template>
-    <a class="product-card" :class="{sold:product.status?.sold}" :href="product.link" target="_blank">
+    <div class="product-card" :class="{sold:product.status?.sold}">
         <div class="product-card__header">
             <div class="status-list">
                 <div class="status-list__item top" v-if="product.status?.top">
@@ -11,7 +11,7 @@
                 <div class="status-list__item stock" v-if="product.status?.stock">
                     Акция
                 </div>
-                <div class="status-list__item sold" v-if="product.status?.sold">
+                <div class="status-list__item sold" v-if="product.status?.sold || !product.hasProduct">
                     ПроданО
                 </div>
             </div>
@@ -20,7 +20,7 @@
             </div>
         </div>
         <img class="product-card__img" :src="product.imgSrc" alt="">
-        <div class="product-card__body">
+        <a class="product-card__body" :href="product.link" target="_blank">
             <div class="product-card__first-row">
                 <div class="product-label" v-if="product.label?.delivery">
                     <img class="product-label__img" src="@/assets/icons/label_delivery.svg" alt="">
@@ -49,19 +49,19 @@
                         {{product.price}} грн
                     </div>
                 </div>
-                <div class="ui-main-btn grey" v-if="product.status?.sold" @click="notifyLater">
+                <div class="ui-main-btn grey" v-if="!product.hasProduct" @click="notifyLater">
                     <img class="ui-ico" src="@/assets/icons/message.svg" alt="">
                     <span>Сообщить</span>
                 </div>
-                <div class="ui-main-btn" v-else-if="product.isInCart" @click="alreadyAdded">В корзине</div>
+                <div class="ui-main-btn" v-else-if="product.addedToCart" @click="alreadyAdded">В корзине</div>
                 <div class="ui-main-btn" v-else @click="addToCart">Купить</div>
             </div>
-        </div>
-    </a>
+        </a>
+    </div>
 </template>
 
 <script>
-	import Product from "../../models/Product";
+	import Product from "@model/Product";
 	
 	export default {
 		props: {
@@ -105,7 +105,6 @@
 			notifyLater() {
 				//в form.button
 				window['notifyMeLater'](this.product.alias);
-				window['$notifyDialog'].fadeIn();
 			}
 		}
 	};
@@ -123,18 +122,20 @@
         }
     }
     
+    ///$margin в ProductGallery горизонтальный отступ между карточками - gap
+    @mixin setCartCountInRow($count) {
+        width: Calc((100% - #{($count - 1) * $productGalleryMargin}) / #{$count});
+    }
+    
     .product-card {
         position: relative;
         
         height: 480px;
-        width: 24%;
+        @include setCartCountInRow(4);
         
         display: flex;
         flex-direction: column;
         align-items: center;
-        
-        margin-left: 1%;
-        margin-bottom: 16px;
         
         padding: 8px 16px 16px;
         
@@ -144,11 +145,11 @@
         animation: 0.3s ease forwards showProdCard;
         
         @include smallScreen {
-            width: 32%;
+            @include setCartCountInRow(3);
         }
         
         @include smallestScreen {
-            width: 49%;
+            @include setCartCountInRow(2);
         }
         
         @include mobile {

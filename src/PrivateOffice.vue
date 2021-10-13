@@ -1,4 +1,5 @@
 <template>
+    <SvgSprite></SvgSprite>
     <HeaderVue></HeaderVue>
     <div class="main-wrapper">
         <div class="menu-cab-wrp">
@@ -15,10 +16,12 @@
 	import MenuOffice from "./components/MenuOffice";
 	import ToTopBtn from "./components/uiComponents/ToTopBtn";
 	import HeaderVue from "./components/Header/Header";
+	import SvgSprite from "@/tools/svg/SvgSprite";
 	
 	export default {
-		name: "App",
+		name: "PrivateOffice",
 		components: {
+			SvgSprite,
 			HeaderVue,
 			ToTopBtn,
 			MenuOffice,
@@ -28,29 +31,17 @@
 			return {}
 		},
 		methods: {
-			getIco(name) {
-				return 'url(' + require(`@/assets/icons/${name}`) + ')';
-			},
-			showId(id, hasListener = true) {
-				if (hasListener) {
-					this.$store.commit('SET_SHOW_POPS', {key: id, value: true});
-				} else {
-					document.getElementById(id).classList.add('show');
-				}
-			},
-			hideShowable(e) {
-				e.target.closest('[data-showable]').classList.remove('show');
-			}
+		
 		}
 	};
 </script>
 
 <style lang="scss">
-    @import "public/scss/style";
+    @import "assets/scss/style";
     
     .main-wrapper {
         width: 100%;
-        padding: 0 24px;
+        padding: 0 24px 64px;
         
         @include mobile {
             padding: 0;

@@ -20,9 +20,6 @@
 				checked: this.modelValue
 			};
 		},
-		mounted() {
-			console.log('wish btn mounted');
-		},
 		methods: {
 		
 		},
@@ -41,6 +38,8 @@
         width: 20px;
         
         @include animAll($anim-small-time);
+        
+        cursor: pointer;
      
         &__ico {
             position: absolute;

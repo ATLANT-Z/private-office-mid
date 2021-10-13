@@ -1,13 +1,10 @@
 <template>
-    <img class="ui-ico" src="@/assets/icons/delete.svg" alt="">
+    <img class="ui-ico btn" src="@/assets/icons/delete.svg" alt="">
 </template>
 
 <script>
 	export default {
-		name: "RemoveBtn",
-		mounted() {
-			console.log('remove btn mounted');
-		},
+		name: "RemoveBtn"
 	}
 </script>
 

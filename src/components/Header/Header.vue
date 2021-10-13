@@ -2,7 +2,9 @@
     <header class="site-header">
         <section class="site-header__top-row hide-mob">
             <div class="site-header__row-w">
-                <img class="site-header__logo" src="@/assets/img/logo.svg" alt="">
+                <router-link :to="{ name: 'tabs'}">
+                    <img class="site-header__logo" src="@/assets/img/logo.svg" alt="">
+                </router-link>
                 <div class="contact-list">
                     <div class="contact-list__item">
                         <img class="contact-list__item-img" src="@/assets/icons/phoneDark.svg" alt="">
@@ -14,21 +16,11 @@
                     </div>
                 </div>
                 <nav class="site-header__top-nav">
-                    <a href="javascript:void(0);">
-                        О нас
-                    </a>
-                    <a href="javascript:void(0);">
-                        Доставка и оплата
-                    </a>
-                    <a href="javascript:void(0);">
-                        Сотрудничество
-                    </a>
-                    <a href="javascript:void(0);">
-                        Монтаж
-                    </a>
-                    <a href="javascript:void(0);">
-                        Контакты
-                    </a>
+                    <a href="javascript:void(0);">О нас</a>
+                    <a href="javascript:void(0);">Доставка и оплата</a>
+                    <a href="javascript:void(0);">Сотрудничество</a>
+                    <a href="javascript:void(0);">Монтаж</a>
+                    <a href="javascript:void(0);">Контакты</a>
                 </nav>
             </div>
         </section>
@@ -41,36 +33,24 @@
                 <label class="search-block">
                     <img class="search-block__img" src="@/assets/icons/search.svg" alt="">
                     <input class="search-block__input" type="text">
-                    <div class="search-block__btn hide-mob">
-                        Найти
-                    </div>
+                    <div class="search-block__btn hide-mob">Найти</div>
                 </label>
                 <div class="lang-block hide-mob">
-                    <div class="lang-block__item">
-                        Укр
-                    </div>
-                    <div class="lang-block__item">
-                        Рус
-                    </div>
+                    <div class="lang-block__item">Укр</div>
+                    <div class="lang-block__item">Рус</div>
                 </div>
                 <nav class="user-nav">
-                    <a class="user-nav__item hide-mob" href="javascript:void(0);" @click="$root.showId('login-pop')">
-                        <img class="user-nav__item-img" src="@/assets/icons/userLight.svg" alt="">
-                        <span class="user-nav__item-title">
-                            Войти в кабинет
-                        </span>
+                    <a class="user-nav__item hide-mob" href="javascript:void(0);" @click="$showId('login-pop')">
+                        <SvgIcon icon="userLight" stroke></SvgIcon>
+                        <span class="user-nav__item-title">Войти в кабиент</span>
                     </a>
                     <a class="user-nav__item hide-mob" href="javascript:void(0);">
-                        <img class="user-nav__item-img" src="@/assets/icons/compareLight.svg" alt="">
-                        <span class="user-nav__item-title">
-                            Сравнение
-                        </span>
+                        <SvgIcon icon="compareLight" stroke></SvgIcon>
+                        <span class="user-nav__item-title">Сравнение</span>
                     </a>
                     <a class="user-nav__item" href="javascript:void(0);">
-                        <img class="user-nav__item-img" src="@/assets/icons/cartLight.svg" alt="">
-                        <span class="user-nav__item-title">
-                            Корзина
-                        </span>
+                        <SvgIcon icon="cartLight" stroke></SvgIcon>
+                        <span class="user-nav__item-title">Корзина</span>
                     </a>
                 </nav>
             </div>
@@ -81,15 +61,16 @@
 <script>
 	import HeaderCatalog from "./HeaderCatalog";
 	import HeaderMenu from "./HeaderMenu";
+	import SvgIcon from "@/tools/svg/SvgIcon";
 	
 	export default {
 		name: "HeaderVue",
-		components: {HeaderMenu, HeaderCatalog}
+		components: {SvgIcon, HeaderMenu, HeaderCatalog}
 	}
 </script>
 
 <style lang="scss" scoped>
-    @import "public/scss/uiComponents";
+    @import "~@/assets/scss/uiComponents";
     
     .site-header {
         position: sticky;

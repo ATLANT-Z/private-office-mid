@@ -5,20 +5,14 @@
                 <div class="header-menu__mob-top-row" :class="{active: isShow}">
                     <img class="header-menu__logo" src="@/assets/img/logoLight.svg" alt="">
                     <div class="lang-block">
-                        <div class="lang-block__item">
-                            Укр
-                        </div>
-                        <div class="lang-block__item">
-                            Рус
-                        </div>
+                        <div class="lang-block__item">Укр</div>
+                        <div class="lang-block__item">Рус</div>
                     </div>
                 </div>
                 <div class="header-menu__toggle-title" :class="{active: isShow}">
                     <a href="#" class="header-menu__user-info">
                         <img class="header-menu__user-ava" src="@/assets/img/son.jpg" alt="">
-                        <div class="header-menu__user-name">
-                            Аноним Анонимович
-                        </div>
+                        <div class="header-menu__user-name">Аноним Анонимович</div>
                     </a>
                     <div class="header-menu__btn" :class="{active: isShow}" @click="toggleShow">
                         <span></span>
@@ -28,183 +22,132 @@
                     <CanBeShown>
                         <template v-slot="{isShow, toggleShow}">
                             <div class="header-menu__catalog-block">
-                                <div class="header-menu__list-title-row" :class="{active: isShow}"
-                                     @click="toggleShow">
+                                <div class="header-menu__list-title-row" :class="{active: isShow}" @click="toggleShow">
                                     <div class="header-menu__list-title-ico">
                                         <img src="@/assets/icons/category/catalogDark.svg" alt="">
                                     </div>
-                                    <span class="header-menu__list-title-text">
-                                        Каталог
-                                    </span>
-                                    <img class="header-menu__list-arrow btn"
-                                         src="@/assets/icons/rightArrow.svg" alt="">
+                                    <span class="header-menu__list-title-text">Каталог</span>
+                                    <img class="header-menu__list-arrow btn" src="@/assets/icons/rightArrow.svg" alt="">
                                 </div>
                                 <div class="header-menu__catalog-list" :class="{active: isShow}">
                                     <a class="header-menu__list-title-row" href="#">
                                         <div class="header-menu__list-title-ico">
                                             <img src="@/assets/icons/category/discount.svg" alt="">
                                         </div>
-                                        <span class="header-menu__list-title-text">
-                                            Акции
-                                        </span>
+                                        <span class="header-menu__list-title-text">Акции</span>
                                     </a>
                                     <a class="header-menu__list-title-row" href="#">
                                         <div class="header-menu__list-title-ico">
                                             <img src="@/assets/icons/category/camera.svg" alt="">
                                         </div>
-                                        <span class="header-menu__list-title-text">
-                                            Камеры
-                                        </span>
+                                        <span class="header-menu__list-title-text">Камеры</span>
                                     </a>
                                     <a class="header-menu__list-title-row" href="">
                                         <div class="header-menu__list-title-ico">
                                             <img src="@/assets/icons/category/videoRecorder.svg" alt="">
                                         </div>
-                                        <span class="header-menu__list-title-text">
-                                            Видеорегистраторы
-                                        </span>
+                                        <span class="header-menu__list-title-text">Видеорегистраторы</span>
                                     </a>
                                     <a class="header-menu__list-title-row" href="">
                                         <div class="header-menu__list-title-ico">
                                             <img src="@/assets/icons/category/kit.svg" alt="">
                                         </div>
-                                        <span class="header-menu__list-title-text">
-                                            Комплекты
-                                        </span>
+                                        <span class="header-menu__list-title-text">Комплекты</span>
                                     </a>
                                     <a class="header-menu__list-title-row" href="">
                                         <div class="header-menu__list-title-ico">
                                             <img src="@/assets/icons/category/ACS.svg" alt="">
                                         </div>
-                                        <span class="header-menu__list-title-text">
-                                            СКУД
-                                        </span>
+                                        <span class="header-menu__list-title-text">СКУД</span>
                                     </a>
                                     <a class="header-menu__list-title-row" href="">
                                         <div class="header-menu__list-title-ico">
                                             <img src="@/assets/icons/category/accumulator.svg" alt="">
                                         </div>
-                                        <span class="header-menu__list-title-text">
-                                            Источники питания
-                                        </span>
+                                        <span class="header-menu__list-title-text">Источники питания</span>
                                     </a>
                                     <a class="header-menu__list-title-row" href="">
                                         <div class="header-menu__list-title-ico">
                                             <img src="@/assets/icons/category/lan.svg" alt="">
                                         </div>
-                                        <span class="header-menu__list-title-text">
-                                            Аксессуары
-                                        </span>
+                                        <span class="header-menu__list-title-text">Аксессуары</span>
                                     </a>
                                     <a class="header-menu__list-title-row" href="">
                                         <div class="header-menu__list-title-ico">
                                             <img src="@/assets/icons/category/camera2.svg" alt="">
                                         </div>
-                                        <span class="header-menu__list-title-text">
-                                            Снятое с производства
-                                        </span>
+                                        <span class="header-menu__list-title-text">Снятое с производства</span>
                                     </a>
                                     <a class="header-menu__list-title-row" href="">
                                         <div class="header-menu__list-title-ico">
                                             <img src="@/assets/icons/category/catalogGreen.svg" alt="">
                                         </div>
-                                        <span class="header-menu__list-title-text">
-                                            Все категории
-                                        </span>
+                                        <span class="header-menu__list-title-text">Все категории</span>
                                     </a>
                                 </div>
                             </div>
                         </template>
                     </CanBeShown>
-                    <div class="header-menu__list-title-row" @click="$root.showId('login-pop')">
+                    <div class="header-menu__list-title-row" @click="$showId('login-pop')">
                         <div class="header-menu__list-title-ico">
                             <img src="@/assets/icons/userDark.svg" alt="">
                         </div>
-                        <span class="header-menu__list-title-text">
-                            Войти в кабинет
-                        </span>
+                        <span class="header-menu__list-title-text">Войти в кабинет</span>
                     </div>
-                    <router-link class="header-menu__list-title-row" to="/orders" @click="toggleShow">
+                    <router-link class="header-menu__list-title-row" :to="{ name: 'orders'}" @click="toggleShow">
                         <div class="header-menu__list-title-ico">
                             <img src="@/assets/icons/myOrdersDark.svg" alt="">
                         </div>
-                        <span class="header-menu__list-title-text">
-                            Мои заказы
-                        </span>
+                        <span class="header-menu__list-title-text">Мои заказы</span>
                     </router-link>
                     <a class="header-menu__list-title-row" href="/checkout" @click="toggleShow">
                         <div class="header-menu__list-title-ico">
                             <img src="@/assets/icons/cartDark.svg" alt="">
                         </div>
-                        <span class="header-menu__list-title-text">
-                            Корзина
-                        </span>
+                        <span class="header-menu__list-title-text">Корзина</span>
                     </a>
-                    <router-link class="header-menu__list-title-row" to="/wish" @click="toggleShow">
+                    <router-link class="header-menu__list-title-row" :to="{ name: 'wish'}" @click="toggleShow">
                         <div class="header-menu__list-title-ico">
                             <img src="@/assets/icons/heartDark.svg" alt="">
                         </div>
-                        <span class="header-menu__list-title-text">
-                            Список желаний
-                        </span>
+                        <span class="header-menu__list-title-text">Список желаний</span>
                         <span class="header-menu__list-title-counter">
                             14
                         </span>
                     </router-link>
-                    <router-link class="header-menu__list-title-row" to="/viewed" @click="toggleShow">
+                    <router-link class="header-menu__list-title-row" :to="{ name: 'viewed'}" @click="toggleShow">
                         <div class="header-menu__list-title-ico">
                             <img src="@/assets/icons/myOrdersDark.svg" alt="">
                         </div>
-                        <span class="header-menu__list-title-text">
-                            Просмотренные товары
-                        </span>
+                        <span class="header-menu__list-title-text">Просмотренные товары</span>
                     </router-link>
                     <CanBeShown>
                         <template v-slot="{isShow, toggleShow}">
                             <section class="site-nav">
                                 <div class="site-nav__title-row" :class="{active: isShow}"
                                      @click="toggleShow">
-                                    <img class="site-nav__list-arrow btn"
-                                         src="@/assets/icons/rightArrow.svg"
-                                         alt="">
+                                    <img class="site-nav__list-arrow btn" src="@/assets/icons/rightArrow.svg" alt="">
                                     <span class="site-nav__title-text">Раскрыть</span>
                                 </div>
                                 <div class="site-nav__list" :class="{active: isShow}">
                                     <a class="site-nav__list-title-row" href="#">
-                                        <span class="site-nav__list-title-text">
-                                            Калькулятор HDD
-                                        </span>
+                                        <span class="site-nav__list-title-text">Калькулятор HDD</span>
                                     </a>
                                     <CanBeShown>
                                         <template v-slot="{isShow, toggleShow}">
                                             <div class="site-nav__list-block">
-                                                <div class="site-nav__list-title-row"
-                                                     :class="{active: isShow}" @click="toggleShow">
-                                                    <span class="site-nav__list-title-text">
-                                                        Сервис и поддержка
-                                                    </span>
-                                                    <img class="site-nav__list-title-arrow btn"
-                                                         src="@/assets/icons/rightArrow.svg" alt="">
+                                                <div class="site-nav__list-title-row" :class="{active: isShow}" @click="toggleShow">
+                                                    <span class="site-nav__list-title-text">Сервис и поддержка</span>
+                                                    <img class="site-nav__list-title-arrow btn" src="@/assets/icons/rightArrow.svg" alt="">
                                                 </div>
-                                                <div class="site-nav__sub-list"
-                                                     :class="{active: isShow}">
+                                                <div class="site-nav__sub-list" :class="{active: isShow}">
                                                     <a class="site-nav__sub-list-link" href="#">
-                                                        <span class="mat-ico">
-                                                            arrow_forward
-                                                        </span>
-                                                        <span class="site-nav__sub-list-link-text">
-                                                            Перейти в раздел
-                                                        </span>
+                                                        <span class="mat-ico">arrow_forward</span>
+                                                        <span class="site-nav__sub-list-link-text">Перейти в раздел</span>
                                                     </a>
-                                                    <a class="site-nav__sub-list-item" href="#">
-                                                        Инструкции
-                                                    </a>
-                                                    <a class="site-nav__sub-list-item" href="#">
-                                                        Видео-материалы
-                                                    </a>
-                                                    <a class="site-nav__sub-list-item" href="#">
-                                                        FAQ
-                                                    </a>
+                                                    <a class="site-nav__sub-list-item" href="#">Инструкции</a>
+                                                    <a class="site-nav__sub-list-item" href="#">Видео-материалы</a>
+                                                    <a class="site-nav__sub-list-item" href="#">FAQ</a>
                                                 </div>
                                             </div>
                                         </template>
@@ -212,41 +155,24 @@
                                     <CanBeShown>
                                         <template v-slot="{isShow, toggleShow}">
                                             <div class="site-nav__list-block">
-                                                <div class="site-nav__list-title-row"
-                                                     :class="{active: isShow}" @click="toggleShow">
-                                                    <span class="site-nav__list-title-text">
-                                                        Монтаж видеонаблюдения
-                                                    </span>
+                                                <div class="site-nav__list-title-row" :class="{active: isShow}" @click="toggleShow">
+                                                    <span class="site-nav__list-title-text">Монтаж видеонаблюдения</span>
                                                     <img class="site-nav__list-title-arrow btn"
                                                          src="@/assets/icons/rightArrow.svg" alt="">
                                                 </div>
-                                                <div class="site-nav__sub-list"
-                                                     :class="{active: isShow}">
+                                                <div class="site-nav__sub-list" :class="{active: isShow}">
                                                     <a class="site-nav__sub-list-link" href="#">
-                                                        <span class="mat-ico">
-                                                            arrow_forward
-                                                        </span>
-                                                        <span class="site-nav__sub-list-link-text">
-                                                            Перейти в раздел
-                                                        </span>
+                                                        <span class="mat-ico">arrow_forward</span>
+                                                        <span class="site-nav__sub-list-link-text">Перейти в раздел</span>
                                                     </a>
-                                                    <a class="site-nav__sub-list-item" href="#">
-                                                        Монтажникам
-                                                    </a>
-                                                    <a class="site-nav__sub-list-item" href="#">
-                                                        Оптовим клиентам
-                                                    </a>
-                                                    <a class="site-nav__sub-list-item" href="#">
-                                                        Монтажним компаниям
-                                                    </a>
+                                                    <a class="site-nav__sub-list-item" href="#">Монтажникам</a>
+                                                    <a class="site-nav__sub-list-item" href="#">Монтажным компаниям</a>
                                                 </div>
                                             </div>
                                         </template>
                                     </CanBeShown>
                                     <a class="site-nav__list-title-row" href="#">
-                                        <span class="site-nav__list-title-text">
-                                            Форум
-                                        </span>
+                                        <span class="site-nav__list-title-text">Форум</span>
                                     </a>
                                 </div>
                             </section>
@@ -254,9 +180,7 @@
                     </CanBeShown>
                     <section class="menu-footer">
                         <div class="menu-footer__social-block">
-                            <span class="menu-footer__social-title">
-                                Мы в соцсетях:
-                            </span>
+                            <span class="menu-footer__social-title">Мы в соцсетях:</span>
                             <div class="menu-footer__social-list">
                                 <a class="menu-footer__social-list-item" href="#">
                                     <img src="@/assets/icons/socials/instagram.svg" alt="">
@@ -289,7 +213,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "public/scss/uiComponents";
+    @import "../../assets/scss/uiComponents";
     
     .header-menu {
         display: flex;

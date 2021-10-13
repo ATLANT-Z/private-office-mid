@@ -131,7 +131,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "public/scss/abstract";
+    @import "../assets/scss/abstract";
     
     .subscrb-body {
         flex-grow: 1;

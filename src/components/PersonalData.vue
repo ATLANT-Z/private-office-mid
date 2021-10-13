@@ -11,8 +11,8 @@
                         Личные данные
                     </h5>
                     <button class="private-info__edit-btn to-ico-mob ui-second-btn"
-                            :style="{ backgroundImage: $root.getIco('edit.svg')}"
-                            v-on:click='$root.showId("edit-person-info",false)'>
+                            :style="{ backgroundImage: $getIco('edit.svg')}"
+                            v-on:click='$showId("edit-person-info",false)'>
                         Редактировать
                     </button>
                 </div>
@@ -120,7 +120,7 @@
                         <button class="ui-main-btn">
                             Сохранить
                         </button>
-                        <button class="ui-third-btn" @click.prevent="$root.hideShowable($event)">
+                        <button class="ui-third-btn" @click.prevent="$hideShowable($event)">
                             Отмена
                         </button>
                     </div>
@@ -135,8 +135,8 @@
                         Контакты
                     </h5>
                     <button class="private-info__edit-btn to-ico-mob ui-second-btn"
-                            :style="{ backgroundImage: $root.getIco('edit.svg')}"
-                            @click="$root.showId('edit-contact-info',false)">
+                            :style="{ backgroundImage: $getIco('edit.svg')}"
+                            @click="$showId('edit-contact-info',false)">
                         Редактировать
                     </button>
                 </div>
@@ -184,7 +184,7 @@
                         </section>
                         <section class="edit-info__body-row">
                             <div class="ui-main-btn"
-                                 @click="$root.showId('confirm-number-pop')">
+                                 @click="$showId('confirm-number-pop')">
                                 Подтвердить номер
                             </div>
                         </section>
@@ -193,7 +193,7 @@
                         <button class="ui-main-btn" disabled>
                             Сохранить
                         </button>
-                        <button class="ui-third-btn" @click.prevent="$root.hideShowable($event)">
+                        <button class="ui-third-btn" @click.prevent="$hideShowable($event)">
                             Отмена
                         </button>
                     </div>
@@ -208,8 +208,8 @@
                         Адрес доставки
                     </h5>
                     <button class="private-info__edit-btn to-ico-mob ui-second-btn"
-                            :style="{ backgroundImage: $root.getIco('edit.svg')}"
-                            @click="$root.showId('edit-delivery-info', false)">
+                            :style="{ backgroundImage: $getIco('edit.svg')}"
+                            @click="$showId('edit-delivery-info', false)">
                         Редактировать
                     </button>
                 </div>
@@ -269,7 +269,7 @@
                         <button class="ui-main-btn" disabled>
                             Сохранить
                         </button>
-                        <button class="ui-third-btn" @click.prevent="$root.hideShowable($event)">
+                        <button class="ui-third-btn" @click.prevent="$hideShowable($event)">
                             Отмена
                         </button>
                     </div>
@@ -284,8 +284,8 @@
                         Логин
                     </h5>
                     <button class="private-info__edit-btn to-ico-mob ui-second-btn"
-                            :style="{ backgroundImage: $root.getIco('edit.svg')}"
-                            @click='$root.showId("change-mail-pop")'>
+                            :style="{ backgroundImage: $getIco('edit.svg')}"
+                            @click='$showId("change-mail-pop")'>
                         Редактировать
                     </button>
                 </div>
@@ -304,10 +304,10 @@
             </section>
         </div>
         <div class="ui-list center expand-arrow">
-            <div class="ui-simple-btn" @click='$root.showId("change-password-pop")'>
+            <div class="ui-simple-btn" @click='$showId("change-password-pop")'>
                 Изменить пароль
             </div>
-            <div class="ui-simple-btn" @click='$root.showId("login-pop")'>
+            <div class="ui-simple-btn" @click='$showId("login-pop")'>
                 Форма Логина/Регистрации
             </div>
             <div class="ui-simple-btn">
@@ -462,8 +462,6 @@
 </script>
 
 <style lang="scss">
-    @import "public/scss/abstract";
-    
     .private-info {
         color: #363636;
         

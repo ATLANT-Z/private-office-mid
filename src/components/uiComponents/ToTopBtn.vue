@@ -16,7 +16,7 @@
 </script>
 
 <style lang="scss">
-    @import "../../../public/scss/abstract";
+    @import "../../assets/scss/abstract";
     
     .to-top-btn {
         position: fixed;

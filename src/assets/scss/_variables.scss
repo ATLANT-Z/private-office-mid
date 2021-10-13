@@ -1,13 +1,21 @@
 $color-main: #009b44;
 $color-main-light: #80ffb9;
 $color-main-hov: #106e19;
+$color-hov: #287231;
+$color-status-expected: #009b44;
+
+//$color-main: #F36C21;
+//$color-main-light: #ffc280;
+//$color-main-hov: #6e4410;
+//$color-hov: #724628;
+//$color-status-expected: #f5821f;
+
 $mainSiteColor: $color-main;
 
 $color-back-grey: #c4c4c4;
 $color-text-orders: #363636;
 $color-text-grey: #8a8a8a;
 $color-red-btm: #ff0000;
-$color-status-expected: #f5821f;
 $color-border-grey: #d1d1d1;
 $font-roboto-reg: "Roboto", sans-serif;
 
@@ -21,7 +29,6 @@ $color-border-light: #c4c4c4;
 ///363636
 $color-border-dark: #363636;
 
-$color-hov: #287231;
 $block-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
 $border-radius: 8px;
 
@@ -29,6 +36,7 @@ $backColorTrans: #009b4433;
 $color-new-grey: #393D38;
 
 $headerHeight: 90px;
+$productGalleryMargin: 1%;
 
 //вложенности
 %text-centr {

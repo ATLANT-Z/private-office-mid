@@ -206,3 +206,14 @@ body {
     }
   }
 }
+
+@keyframes slideDown {
+	from {
+		max-height: 0;
+	}
+	to {
+		max-height: 100vh;
+		overflow-y: auto;
+	}
+}
+

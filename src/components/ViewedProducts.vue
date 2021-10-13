@@ -60,8 +60,6 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "public/scss/abstract";
-    
     .sort-panel {
         display: flex;
         align-items: center;
@@ -69,7 +67,9 @@
         
         padding: 8px 12px;
         border-bottom: 1px solid $color-back-grey;
-        
+    
+        margin-bottom: 28px;
+    
         &__sum-text-block {
             display: flex;
             align-items: center;
@@ -78,6 +78,7 @@
         }
         
         @include mobile {
+            margin-bottom: 0;
             justify-content: center;
             
             border-top: 1px solid $color-back-grey;

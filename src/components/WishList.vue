@@ -1,9 +1,7 @@
 <template>
     <article class="main-column">
         <h1 class="section-header">
-            <img class="show-mob section-header__ico" src="@/assets/icons/like_my_orders_icon.svg" alt="">
-            Список желаний
-        </h1>
+            <img class="show-mob section-header__ico" src="@/assets/icons/like_my_orders_icon.svg" alt="">Список желаний</h1>
         <div class="sort-panel">
             <div class="ui-list row sort-panel__tools">
                 <label class="ui-input-w-row">
@@ -17,14 +15,10 @@
             </div>
             <div class="ui-list small row end sort-panel__sum-row">
                 <div class="sort-panel__sum-text-block">
-                    <span class="ui-caption">
-                        {{wishProducts.length}} товаров на сумму:
-                    </span>
+                    <span class="ui-caption">{{wishProducts.length}} товаров на сумму:</span>
                     <b>{{totalSum}} грн</b>
                 </div>
-                <button class="ui-main-btn">
-                    Купить всё
-                </button>
+                <button class="ui-main-btn">Купить всё</button>
             </div>
         </div>
         <ProductGallery :product-list="wishProducts">
@@ -80,14 +74,14 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "public/scss/abstract";
-    
     .sort-panel {
         display: flex;
         align-items: center;
         justify-content: space-between;
         
         padding: 8px 12px;
+        margin-bottom: 28px;
+
         border-bottom: 1px solid $color-back-grey;
         
         &__sum-text-block {
@@ -98,6 +92,7 @@
         }
         
         @include mobile {
+            margin-bottom: 0;
             justify-content: center;
             
             border-top: 1px solid $color-back-grey;

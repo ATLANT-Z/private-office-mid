@@ -1,102 +1,102 @@
 <template>
-   <UiPopup id="login-pop">
-      <template v-slot="{parent}">
-         <div class="popup login-pop">
-            <div class="pop-section-list" :style="{ minHeight: popHeight, maxHeight: popHeight }">
-               <div class="pop-section-list__item reg" ref="reg"
-                    :class="{show: isShow.reg}">
-                  <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
-                  <div class="popup__title big">
-                     Регистрация
-                  </div>
-                  <div class="popup__body">
-                     <div class="ui-list small">
-                        <UiTelInput placeholder="Фамилия"/>
-                        <UiTelInput placeholder="Имя"/>
-                        <UiTelInput placeholder="Телефон"/>
-                        <UiEmailInput placeholder="E-mail"/>
-                        <UiPasswordInput placeholder="Пароль"/>
-                     </div>
-                     <div class="captcha">
-                     
-                     </div>
-                     <div class="ui-list small">
-                        <button class="ui-main-btn" disabled>Регистрация</button>
-                        <button class="ui-third-btn green" @click="showLogin">Войти</button>
-                        <p class="pop-text">
-                           Регистрируясь, вы соглашаетесь с
-                           <a class="ui-link" href="javascript:void(0);">
-                              пользовательским соглашением.
-                           </a>
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="pop-section-list__item" ref="login"
-                    :class="{show: isShow.login}">
-                  <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
-                  <div class="popup__title big">
-                     Вход
-                  </div>
-                  <div class="popup__body">
-                     <div class="ui-list small">
-                        <UiEmailInput placeholder="E-mail"/>
-                        <UiPasswordInput placeholder="Пароль"/>
-                     </div>
-                     <div class="captcha">
-                     
-                     </div>
-                     <div class="ui-list small">
-                        <button class="ui-main-btn" disabled>Войти</button>
-                        <button class="ui-third-btn green" @click="showReg">Регистрация</button>
-                        <span class="ui-link" @click="showReset">
-                           Забыли пароль?
-                        </span>
-                     </div>
-                  </div>
-               </div>
-               <div class="pop-section-list__item" ref="passReset"
-                    :class="{show: isShow.passReset}">
-                  <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
-                  <div class="popup__title big">
-                     Смена пароля
-                  </div>
-                  <div class="popup__body">
-                     <div class="ui-list small">
-                        <UiEmailInput placeholder="E-mail"/>
-                     </div>
-                     <div class="captcha">
-                     
-                     </div>
-                     <div class="ui-list small">
-                        <button class="ui-main-btn" @click="showSent">Восстановить</button>
-                        <button class="ui-third-btn green" @click="showReg">Регистрация</button>
-                        <a class="ui-link" href="javascript:void(0);" @click="showLogin">
-                           Назад
-                        </a>
-                     </div>
-                  </div>
-               </div>
-               <div class="pop-section-list__item" ref="passSent"
-                    :class="{show: isShow.passSent}">
-                  <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
-                  <div class="popup__title big">
-                     Смена пароля
-                  </div>
-                  <div class="popup__body">
-                     <div class="ui-list center">
-                        <p class="pop-text">
-                           На Test@test.com отправлена ссылка для смены пароля.
-                        </p>
-                        <div class="progress-bar-sent" :class="{start:isShow.passSent}"></div>
-                        <img src="@/assets/icons/bigAccept.svg" alt="">
-                     </div>
-                  </div>
-               </div>
+    <UiPopup id="login-pop">
+        <template v-slot="{parent}">
+            <div class="popup login-pop">
+                <div class="pop-section-list" :style="{ minHeight: popHeight, maxHeight: popHeight }">
+                    <div class="pop-section-list__item reg" ref="reg"
+                         :class="{show: isShow.reg}">
+                        <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
+                        <div class="popup__title big">
+                            Регистрация
+                        </div>
+                        <div class="popup__body">
+                            <div class="ui-list small">
+                                <UiTelInput placeholder="Фамилия"/>
+                                <UiTelInput placeholder="Имя"/>
+                                <UiTelInput placeholder="Телефон"/>
+                                <UiEmailInput placeholder="E-mail"/>
+                                <UiPasswordInput placeholder="Пароль"/>
+                            </div>
+                            <div class="captcha">
+                            
+                            </div>
+                            <div class="ui-list small">
+                                <button class="ui-main-btn" disabled>Регистрация</button>
+                                <button class="ui-third-btn green" @click="showLogin">Войти</button>
+                                <p class="pop-text">
+                                    Регистрируясь, вы соглашаетесь с
+                                    <a class="ui-link" href="javascript:void(0);">
+                                        пользовательским соглашением.
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop-section-list__item" ref="login"
+                         :class="{show: isShow.login}">
+                        <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
+                        <div class="popup__title big">
+                            Вход
+                        </div>
+                        <div class="popup__body">
+                            <div class="ui-list small">
+                                <UiEmailInput placeholder="E-mail"/>
+                                <UiPasswordInput placeholder="Пароль"/>
+                            </div>
+                            <div class="captcha">
+                            
+                            </div>
+                            <div class="ui-list small">
+                                <button class="ui-main-btn" disabled>Войти</button>
+                                <button class="ui-third-btn green" @click="showReg">Регистрация</button>
+                                <span class="ui-link" @click="showReset">
+                                    Забыли пароль?
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop-section-list__item" ref="passReset"
+                         :class="{show: isShow.passReset}">
+                        <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
+                        <div class="popup__title big">
+                            Смена пароля
+                        </div>
+                        <div class="popup__body">
+                            <div class="ui-list small">
+                                <UiEmailInput placeholder="E-mail"/>
+                            </div>
+                            <div class="captcha">
+                            
+                            </div>
+                            <div class="ui-list small">
+                                <button class="ui-main-btn" @click="showSent">Восстановить</button>
+                                <button class="ui-third-btn green" @click="showReg">Регистрация</button>
+                                <a class="ui-link" href="javascript:void(0);" @click="showLogin">
+                                    Назад
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop-section-list__item" ref="passSent"
+                         :class="{show: isShow.passSent}">
+                        <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
+                        <div class="popup__title big">
+                            Смена пароля
+                        </div>
+                        <div class="popup__body">
+                            <div class="ui-list center">
+                                <p class="pop-text">
+                                    На Test@test.com отправлена ссылка для смены пароля.
+                                </p>
+                                <div class="progress-bar-sent" :class="{start:isShow.passSent}"></div>
+                                <img src="@/assets/icons/bigAccept.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </template>
-   </UiPopup>
+        </template>
+    </UiPopup>
 </template>
 
 <script>
@@ -176,10 +176,6 @@
 </script>
 
 <style lang="scss" scoped>
-   :root {
-      --progressTime: 0s;
-   }
-   
    @keyframes showPopSection {
       from {
          position: relative;

@@ -75,8 +75,6 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "public/scss/abstract";
-
     .btn-reviews-green {
         @include btnGreen;
     }

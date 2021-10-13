@@ -1,40 +1,40 @@
 <template>
     <aside class="menu-orders-wrp">
         <div class="name-orders">
-            <router-link class="name-orders-link" to="/">
+            <router-link class="name-orders-link" :to="{ name: 'person'}">
                 <div class="name-orders-img-wrp">
                     <img class="name-orders-img" src="@/assets/img/son.jpg" alt=""/>
                 </div>
                 <div>
                     <h3>Name Surname</h3>
-                    <p>test@gmail.com</p>
+                    <p>Test@gmail.com</p>
                 </div>
             </router-link>
         </div>
         <div class="menu-cab-user">
             <div class="menu-cab-text-wrp">
-                <router-link class="menu-cab-wrp-link" to="/subscrb">
+                <router-link class="menu-cab-wrp-link" :to="{ name: 'subscrb'}">
                     <img class="menu-cab-img" src="@/assets/icons/mail_my_orders_icon.svg"
                          alt="Управление подписками"/>
                     <p>Управление подписками</p>
                 </router-link>
             </div>
             <div class="menu-cab-text-wrp">
-                <a class="menu-cab-wrp-link" href="/service">
+                <a class="menu-cab-wrp-link" href="#">
                     <img class="menu-cab-img" src="@/assets/icons/service_my_orders_icon.svg"
                          alt="Сервис"/>
                     <p>Сервис</p>
                 </a>
             </div>
             <div class="menu-cab-text-wrp">
-                <router-link class="menu-cab-wrp-link" to="/promocodes">
+                <router-link class="menu-cab-wrp-link" :to="{ name: 'promocodes'}">
                     <img class="menu-cab-img" src="@/assets/icons/sale_my_orders_icon.svg"
                          alt="Акции (промокоды)"/>
                     <p>Акции (промокоды)</p>
                 </router-link>
             </div>
             <div class="menu-cab-text-wrp">
-                <router-link class="menu-cab-wrp-link menu-cab-like-pos" to="/review">
+                <router-link class="menu-cab-wrp-link menu-cab-like-pos" :to="{ name: 'review'}">
                     <div class="menu-cab-like-wrp">
                         <img class="menu-cab-img" src="@/assets/icons/my-orders-icon.svg"
                              alt="Мои отзывы"/>
@@ -51,7 +51,7 @@
                 </a>
             </div>
             <div class="menu-cab-text-wrp">
-                <router-link class="menu-cab-wrp-link" to="/viewed">
+                <router-link class="menu-cab-wrp-link" :to="{ name: 'viewed'}">
                     <img class="menu-cab-img" src="@/assets/icons/eye_ma_orders_icon.svg"
                          alt="Просмотренные товары"/>
                     <p>Просмотренные товары</p>
@@ -59,7 +59,7 @@
             </div>
             <div class="menu-cab-line"></div>
             <div class="menu-cab-text-wrp">
-                <router-link class="menu-cab-wrp-link menu-cab-like-pos" to="/wish">
+                <router-link class="menu-cab-wrp-link menu-cab-like-pos" :to="{ name: 'wish'}">
                     <div class="menu-cab-like-wrp">
                         <img class="menu-cab-img" src="@/assets/icons/like_my_orders_icon.svg"
                              alt="Список желаний"/>
@@ -69,7 +69,7 @@
                 </router-link>
             </div>
             <div class="menu-cab-text-wrp">
-                <router-link class="menu-cab-wrp-link" to="/orders">
+                <router-link class="menu-cab-wrp-link" :to="{ name: 'orders'}">
                     <img class="menu-cab-img" src="@/assets/icons/my-orders-icon.svg"
                          alt="Мои заказы"/>
                     <p>Мои заказы</p>
@@ -88,7 +88,7 @@
 </script>
 
 <style lang="scss">
-    @import "public/scss/abstract";
+    @import "../assets/scss/abstract";
     
     
     .menu-orders-wrp {

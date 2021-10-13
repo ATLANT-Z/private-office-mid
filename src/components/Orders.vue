@@ -420,7 +420,7 @@
                                 @click="toggleShow()"
                             />
                         </div>
-        
+                        
                         <div class="menu-cab-line-orders"></div>
                         <div class="orders-drop-down-list" :class="{show:isShow}">
                             <div class="orders-drop-down-list-wrp">
@@ -590,8 +590,6 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "public/scss/abstract";
-    
     .my-orders-wrp {
         padding-top: 10px;
         font-family: $font-roboto-reg;

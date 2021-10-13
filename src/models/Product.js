@@ -5,10 +5,10 @@ export default class Product {
   }
 
   addToCart() {
-    this.isInCart = true;
+    this.addedToCart = true;
   }
 
   removeFromCart() {
-    this.isInCart = false;
+    this.addedToCart = false;
   }
 }

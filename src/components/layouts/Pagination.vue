@@ -1,25 +1,26 @@
 <template>
     <article class="pagination" v-show="pageLength > 0" v-if="arrLength">
         <div class="pagination__load-more-btn" @click="showMore">
-            <span class="mat-ico">
-                refresh
-            </span>
+            <span class="mat-ico">refresh</span>
             Показать ещё
         </div>
         <div class="pagination__nav-row">
-            <div class="pagination__arrow mat-ico" v-show="currPage !== 1" @click="prevPage">
+            <div class="pagination__arrow mat-ico" :class="{hide:currPage === 1}" @click="prevPage">
                 chevron_left
             </div>
             <ul class="pagination__pages">
                 <li class="pagination__page" v-for="index in pageLength"
                     :key="index"
-                    :class="{selected:currPage === index, dots: isNear(index) && !isShow(index)}"
-                    v-show="isShow(index) || isNear(index)"
+                    :class="{
+                    	selected:currShowedPage === index,
+                    	dots: isDots(index) && !isShow(index)
+                    }"
+                    v-show="isShow(index) || isDots(index)"
                     @click="pageClick(index)">
-                    {{pageContent(index)}}
+                    {{isDots(index) && !isShow(index) ? '...' : index}}
                 </li>
             </ul>
-            <div class="pagination__arrow mat-ico" v-show="currPage !== pageLength" @click="nextPage">
+            <div class="pagination__arrow mat-ico" :class="{hide:currPage === pageLength}" @click="nextPage">
                 chevron_right
             </div>
         </div>
@@ -31,14 +32,9 @@
 <script>
 	export default {
 		props: {
-			goToTop: Boolean,
-			modelValue: {
-				type: Number,
-				default: 1
-			},
-			chunkNum: {
-				type: Number,
-				default: 1
+			goTo: {
+				type: [Boolean, String],
+				default: false
 			},
 			perPage: {
 				type: Number,
@@ -48,31 +44,34 @@
 		},
 		data() {
 			return {
-				innerCurrChunkNum: 1,
-				innerCurrPage: this.modelValue,
+				innerCurrPage: 0,
+				innerCurrChunkNum: 0,
 				isMobile: this.computeIsMobile(),
 			}
 		},
-		emits: ['update:modelValue', 'pagination', 'showMore', 'update:chunkNum'],
+		emits: ['update:modelValue', 'update:chunkNum'],
 		computed: {
 			pageLength() {
 				return Math.ceil(this.arrLength / this.perPage);
 			},
 			
 			pageShowNear() {
-				let baseNearPageNumber = 0;
+				//Сколько цифр показывать рядом с выбранной
+				let baseNearPageNumber = 2;
 				if (this.isMobile) {
 					baseNearPageNumber = 1;
-				} else
-					baseNearPageNumber = 2;
-				
-				let accum = 0;
-				if (this.currPage < baseNearPageNumber + 1) {
-					accum = baseNearPageNumber + 1 - this.currPage
-				} else if ((this.pageLength - this.currPage) <= baseNearPageNumber) {
-					accum = baseNearPageNumber - (this.pageLength - this.currPage)
 				}
 				
+				//Считаем динамически сколько сейчас цифр показать
+				let accum = 0;
+				if (this.currShowedPage <= baseNearPageNumber) {
+					//+1 потому что счёт страниц currPage идёт с 1
+					accum = baseNearPageNumber + 1 - this.currShowedPage
+				} else if ((this.pageLength - this.currShowedPage) <= baseNearPageNumber) {
+					accum = baseNearPageNumber - (this.pageLength - this.currShowedPage)
+				}
+				
+				// в сумме минимум 2, максимум 4
 				return baseNearPageNumber + accum;
 			},
 			
@@ -88,10 +87,9 @@
 					} else {
 						this.innerCurrPage = newVal;
 					}
-					this.currChunkNum = 1;
 					
+					this.currChunkNum = 0;
 					this.$emit('update:modelValue', this.innerCurrPage);
-					this.$emit('pagination');
 				}
 			},
 			currChunkNum: {
@@ -99,53 +97,51 @@
 					return this.innerCurrChunkNum;
 				},
 				set(newVal) {
-					this.innerCurrChunkNum = newVal;
-					this.$emit('update:chunkNum', this.innerCurrChunkNum);
+					if (this.currPage + newVal <= this.pageLength && newVal >= 0) {
+						this.innerCurrChunkNum = newVal;
+						this.$emit('update:chunkNum', this.innerCurrChunkNum);
+					}
 				}
+			},
+			
+			currShowedPage() {
+				return this.currPage + this.currChunkNum;
 			}
 		},
 		methods: {
-			pageContent(index) {
-				if (this.isNear(index) && !this.isShow(index))
-					return '...';
-				else
-					return index;
-			},
 			showMore() {
 				this.currChunkNum++;
-				
-				this.$emit('update:chunkNum', this.currChunkNum);
-				this.$emit('showMore');
 			},
 			nextPage() {
-				this.currPage++;
+				this.pageClick(this.currPage + 1);
 			},
 			prevPage() {
-				this.currPage--;
+				this.pageClick(this.currPage - 1);
 			},
 			pageClick(index) {
 				this.currPage = index;
 				if (this.goTo) {
-					document.body.scrollTop = 0; // For Safari
-					document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+					const coords = this.$getCoords(document.getElementById(this.goTo));
+					window.scrollTo(0, coords.top - 200);
 				}
 			},
 			
 			isShow(index) {
-				const cond1 = index <= 1;
-				const cond2 = Math.abs(this.pageLength - index) <= 0;
+				//Первая и последняя страничка всегда видны. Индекс начинается с 1
+				const cond1 = index === 1;
+				const cond2 = index === this.pageLength;
 				
-				const cond3 = Math.abs(this.currPage - index) <= this.pageShowNear;
+				//Кол-во страничек, +1 для точек
+				const cond3 = Math.abs(this.currShowedPage - index) <= this.pageShowNear;
 				
 				return cond1 || cond2 || cond3;
 			},
 			
-			isNear(index) {
-				const pageShowDots = this.pageShowNear + 1;
-				
-				return Math.abs(this.currPage - index) === pageShowDots;
+			isDots(index) {
+				return Math.abs(this.currShowedPage - index) === this.pageShowNear + 1;
 			},
 			
+   
 			computeIsMobile() {
 				return window.matchMedia("(max-width: 800px)").matches ||
 					window.matchMedia("(max-height: 600px)").matches;
@@ -153,23 +149,31 @@
 			resizeHandler() {
 				this.isMobile = this.computeIsMobile();
 			},
+			
+			
+			resetState() {
+				this.currPage = 1;
+			},
+		},
+		watch: {
+			arrLength() {
+				this.resetState();
+			}
 		},
 		mounted() {
-			this.currChunkNum = this.chunkNum;
-			this.$emit('update:chunkNum', this.innerCurrChunkNum);
-			this.$emit('update:modelValue', this.innerCurrPage);
+			this.currPage = 1;
+			this.currChunkNum = 0;
 			
 			window.addEventListener("resize", this.resizeHandler);
 		},
 		unmounted() {
+			console.log('Pagination unmounted');
 			window.removeEventListener("resize", this.resizeHandler);
 		},
 	};
 </script>
 
 <style lang="scss">
-    @import "public/scss/abstract";
-    
     .pagination {
         width: 100%;
         
@@ -223,6 +227,11 @@
             &:hover {
                 color: $color-main;
             }
+            
+            &.hide {
+                pointer-events: none;
+                opacity: 0;
+            }
         }
         
         &__pages {
@@ -254,12 +263,15 @@
             }
             
             &.dots {
-                width: max-content;
-                margin: 0;
-                padding: 0;
+                width: min-content;
+                @include mobile {
+                    margin: 0;
+                    padding: 0;
+                }
             }
             
             &.selected {
+                transform: scale(1.2);
                 box-shadow: 1px 1px 6px #00000033;
             }
         }
