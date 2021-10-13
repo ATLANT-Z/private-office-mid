@@ -4,15 +4,15 @@ function resolve(dir) {
 	return path.resolve(__dirname, dir);
 }
 
-const basePath = "/vue-install-odessa/";
+// const basePath = "/vue-install-odessa/";
 // const basePath = "/vue-tab-gallery/";
-// const basePath = "/private-office-mid/dist/";
+const basePath = "/private-office-mid/dist/";
 
 module.exports = {
-    filenameHashing: process.env.NODE_ENV === "development",
-    publicPath: process.env.NODE_ENV === "production" ? basePath : "/",
+	filenameHashing: process.env.NODE_ENV === "development",
+	publicPath: process.env.NODE_ENV === "production" ? basePath : "/",
 
-    chainWebpack: (config) => {
+	chainWebpack: (config) => {
 		config.resolve.alias
 			.set("@", resolve("./src"))
 			.set("@model", resolve("./src/models"))
@@ -20,7 +20,7 @@ module.exports = {
 			.set("@style", resolve("./src/assets/scss"));
 	},
 
-    css: {
+	css: {
 		loaderOptions: {
 			sass: {
 				prependData: `
@@ -31,15 +31,15 @@ module.exports = {
 		},
 	},
 
-    pluginOptions: {
-      i18n: {
-        locale: 'ru',
-        fallbackLocale: 'en',
-        localeDir: 'locales',
-        enableLegacy: false,
-        runtimeOnly: false,
-        compositionOnly: false,
-        fullInstall: true
-      }
-    }
+	pluginOptions: {
+		i18n: {
+			locale: "ru",
+			fallbackLocale: "en",
+			localeDir: "locales",
+			enableLegacy: false,
+			runtimeOnly: false,
+			compositionOnly: false,
+			fullInstall: true,
+		},
+	},
 };

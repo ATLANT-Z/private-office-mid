@@ -11,7 +11,7 @@ import PrivateOffice from "./PrivateOffice.vue";
 
 // eslint-disable-next-line no-unused-vars
 const app = createApp(PrivateOffice)
-	.use(i18n)
+	// .use(i18n)
 	.use(router)
 	.use(store)
 	.use(VueAxios, axios)

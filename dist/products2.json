@@ -1,13 +1,13 @@
 [
   {
-    "id": 533,
-    "alias": "11020",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573611\/IP_kamera_1.jpg",
-    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2423,
+    "id": 77,
+    "alias": "5870",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1066809\/5870_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 \u0438 \u0442\u0435\u043f\u043b\u043e\u0433\u043e \u043f\u043e\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 16181,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/533",
+    "link": "https:\/\/logicpower.ua\/product\/5870",
     "status": {
       "stock": false,
       "new": false,
@@ -16,17 +16,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": "",
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   },
   {
-    "id": 529,
-    "alias": "11021",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573620\/Ulichnaya_kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2690,
+    "id": 78,
+    "alias": "5868",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1066816\/5868_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 6866,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/529",
+    "link": "https:\/\/logicpower.ua\/product\/5868",
     "status": {
       "stock": false,
       "new": false,
@@ -35,17 +42,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 1,
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 528,
-    "alias": "11022",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617233\/Antivandalnaya_kamera_1.jpg",
-    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 3557,
+    "id": 79,
+    "alias": "5869",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1066831\/5869_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 \u0438 \u0442\u0435\u043f\u043b\u043e\u0433\u043e \u043f\u043e\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 16395,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/528",
+    "link": "https:\/\/logicpower.ua\/product\/5869",
     "status": {
       "stock": false,
       "new": false,
@@ -54,17 +68,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 1,
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   },
   {
-    "id": 530,
-    "alias": "11023",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617232\/Naruzhnaya_IP_kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2985,
+    "id": 80,
+    "alias": "5867",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1066823\/5867_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 6938,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/530",
+    "link": "https:\/\/logicpower.ua\/product\/5867",
     "status": {
       "stock": false,
       "new": false,
@@ -73,17 +94,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 1,
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 526,
-    "alias": "11103",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573528\/Antivandalnaya_kamera_1.jpg",
-    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 1955,
+    "id": 519,
+    "alias": "9829",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068043\/9829_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 \u0438 \u0442\u0435\u043f\u043b\u043e\u0433\u043e \u043f\u043e\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 9576,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/526",
+    "link": "https:\/\/logicpower.ua\/product\/9829",
     "status": {
       "stock": false,
       "new": false,
@@ -92,17 +120,804 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 1,
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   },
   {
-    "id": 606,
-    "alias": "12683",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617230\/ip-kamera_1.jpg",
-    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 3411,
+    "id": 520,
+    "alias": "9830",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068041\/9830_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 \u0438 \u0442\u0435\u043f\u043b\u043e\u0433\u043e \u043f\u043e\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 9647,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/606",
+    "link": "https:\/\/logicpower.ua\/product\/9830",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 1,
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 521,
+    "alias": "9831",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068050\/9831_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 6617,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/9831",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 1,
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 522,
+    "alias": "9832",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068128\/9832_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 \u0438 \u0442\u0435\u043f\u043b\u043e\u0433\u043e \u043f\u043e\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 9469,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/9832",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 1,
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 1158,
+    "alias": "10830",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068827\/10830_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 10949,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10830",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1192,
+    "alias": "12822",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1069028\/12822_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 100338,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/12822",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1159,
+    "alias": "10833",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068836\/10833_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 14307,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10833",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1160,
+    "alias": "10829",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068735\/10829_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 9760,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10829",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 1161,
+    "alias": "10827",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068781\/10827_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 9439,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10827",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 1187,
+    "alias": "12814",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068466\/12814_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 26460,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/12814",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1162,
+    "alias": "10831",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1069162\/10831_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 11198,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10831",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 1163,
+    "alias": "10828",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1069163\/10828_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 9689,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10828",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 1194,
+    "alias": "12811",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068975\/12811_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 27246,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/12811",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1164,
+    "alias": "10832",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068409\/10832_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 11269,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10832",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1165,
+    "alias": "10837",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068465\/10837_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 16626,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10837",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1184,
+    "alias": "12815",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068576\/12815_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LogicPower \u0418\u0411\u041f W2000VA + \u043b\u0438\u0442\u0438\u0435\u0432\u0430\u044f (LifePo4) \u0431\u0430\u0442\u0430\u0440\u0435\u044f 2600W",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 28313,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/12815",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 1166,
+    "alias": "10840",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068882\/10840_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 29038,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10840",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1190,
+    "alias": "12813",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068862\/12813_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 25855,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/12813",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1167,
+    "alias": "10836",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068381\/10836_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 16519,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10836",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1168,
+    "alias": "10839",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068382\/10839_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 28824,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10839",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1169,
+    "alias": "10838",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068672\/10838_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 16697,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10838",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1186,
+    "alias": "12812",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068743\/12812_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 27851,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/12812",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1170,
+    "alias": "10834",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068816\/10834_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 14414,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10834",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 1171,
+    "alias": "10835",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1069211\/10835_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 14485,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/10835",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1189,
+    "alias": "12818",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068901\/12818_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 47823,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/12818",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1185,
+    "alias": "12817",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068594\/12817_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 30165,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/12817",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 1188,
+    "alias": "12819",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068591\/12819_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 53345,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/12819",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1191,
+    "alias": "12821",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1068959\/12821_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 98948,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/12821",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1193,
+    "alias": "12820",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1069079\/12820_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 95279,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/12820",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 2,
+      "title": "LiFePO4"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1267,
+    "alias": "13338",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1069549\/13338_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 4262,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/13338",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 4,
+      "title": "\u0441\u0432\u0438\u043d\u0446\u043e\u0432\u043e-\u043a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1294,
+    "alias": "13587",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067581\/13587_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 4601,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/13587",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 4,
+      "title": "\u0441\u0432\u0438\u043d\u0446\u043e\u0432\u043e-\u043a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1295,
+    "alias": "13594",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067586\/13594_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 7748,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/13594",
     "status": {
       "stock": false,
       "new": true,
@@ -111,17 +926,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 4,
+      "title": "\u0441\u0432\u0438\u043d\u0446\u043e\u0432\u043e-\u043a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 604,
-    "alias": "12684",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626995\/12684_1.png",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2722,
+    "id": 1296,
+    "alias": "13595",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067598\/13595_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 7998,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/604",
+    "link": "https:\/\/logicpower.ua\/product\/13595",
     "status": {
       "stock": false,
       "new": true,
@@ -130,17 +952,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 4,
+      "title": "\u0441\u0432\u0438\u043d\u0446\u043e\u0432\u043e-\u043a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 605,
-    "alias": "12685",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617231\/ip-kamera_1.jpg",
-    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2868,
+    "id": 1297,
+    "alias": "13588",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067575\/13588_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 6358,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/605",
+    "link": "https:\/\/logicpower.ua\/product\/13588",
     "status": {
       "stock": false,
       "new": true,
@@ -149,17 +978,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 4,
+      "title": "\u0441\u0432\u0438\u043d\u0446\u043e\u0432\u043e-\u043a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 603,
-    "alias": "12686",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573538\/ip-kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2456,
+    "id": 1298,
+    "alias": "13592",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067580\/13592_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 6426,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/603",
+    "link": "https:\/\/logicpower.ua\/product\/13592",
     "status": {
       "stock": false,
       "new": true,
@@ -168,131 +1004,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
-  },
-  {
-    "id": 675,
-    "alias": "12687",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573544\/12687_1.png",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 9206,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/675",
-    "status": {
-      "stock": false,
-      "new": false,
-      "top": false
     },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
-  },
-  {
-    "id": 692,
-    "alias": "14189",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621189\/14189_1.png",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP, WiFi \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 3250,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/692",
-    "status": {
-      "stock": true,
-      "new": false,
-      "top": false
+    "tag": {
+      "id": 4,
+      "title": "\u0441\u0432\u0438\u043d\u0446\u043e\u0432\u043e-\u043a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 AGM"
     },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 693,
-    "alias": "14190",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621534\/14190_1.png",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP, WiFi \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 4042,
+    "id": 1299,
+    "alias": "13599",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067592\/13599_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 4734,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/693",
-    "status": {
-      "stock": true,
-      "new": false,
-      "top": false
-    },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
-  },
-  {
-    "id": 694,
-    "alias": "14191",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621878\/14191_1.png",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP, WiFi \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 4221,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/694",
-    "status": {
-      "stock": true,
-      "new": false,
-      "top": false
-    },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
-  },
-  {
-    "id": 750,
-    "alias": "14613",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626670\/14613_1.png",
-    "name": "\u0423\u043b\u0438\u0447\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
-    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
-    "price": 8642,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/750",
-    "status": {
-      "stock": false,
-      "new": false,
-      "top": false
-    },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
-  },
-  {
-    "id": 753,
-    "alias": "14617",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626671\/14617_1.png",
-    "name": "\u0423\u043b\u0438\u0447\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
-    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
-    "price": 9052,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/753",
-    "status": {
-      "stock": false,
-      "new": false,
-      "top": false
-    },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
-  },
-  {
-    "id": 752,
-    "alias": "14917",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626916\/14917_1.png",
-    "name": "\u0423\u043b\u0438\u0447\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
-    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
-    "price": 5796,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/752",
+    "link": "https:\/\/logicpower.ua\/product\/13599",
     "status": {
       "stock": false,
       "new": true,
@@ -301,17 +1030,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 754,
-    "alias": "14918",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626917\/14918_1.png",
-    "name": "\u0423\u043b\u0438\u0447\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
-    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
-    "price": 5520,
+    "id": 1300,
+    "alias": "13596",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067605\/13596_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 8069,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/754",
+    "link": "https:\/\/logicpower.ua\/product\/13596",
     "status": {
       "stock": false,
       "new": true,
@@ -320,17 +1056,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 4,
+      "title": "\u0441\u0432\u0438\u043d\u0446\u043e\u0432\u043e-\u043a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 97,
-    "alias": "4016",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617129\/Naruzhnaya_IP_kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2471,
+    "id": 1301,
+    "alias": "13600",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067611\/13600_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 5318,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/97",
+    "link": "https:\/\/logicpower.ua\/product\/13600",
     "status": {
       "stock": false,
       "new": false,
@@ -339,17 +1082,102 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 98,
-    "alias": "4017",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617127\/Naruzhnaya_IP_kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2866,
+    "id": 1302,
+    "alias": "13593",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067639\/13593_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 6002,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/98",
+    "link": "https:\/\/logicpower.ua\/product\/13593",
+    "status": {
+      "stock": false,
+      "new": true,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 4,
+      "title": "\u0441\u0432\u0438\u043d\u0446\u043e\u0432\u043e-\u043a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1303,
+    "alias": "13597",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1069313\/13597_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 4345,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/13597",
+    "status": {
+      "stock": false,
+      "new": true,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1304,
+    "alias": "13598",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067623\/13598_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 4477,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/13598",
+    "status": {
+      "stock": false,
+      "new": true,
+      "top": false
+    },
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "tag": {
+      "id": 1,
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 1356,
+    "alias": "14022",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1073801\/14022_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 5427,
+    "newPrice": null,
+    "link": "https:\/\/logicpower.ua\/product\/14022",
     "status": {
       "stock": false,
       "new": false,
@@ -358,17 +1186,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 1,
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   },
   {
-    "id": 640,
-    "alias": "4018",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573061\/4018_1.png",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 1207,
+    "id": 1357,
+    "alias": "14018",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067651\/14018_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 5676,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/640",
+    "link": "https:\/\/logicpower.ua\/product\/14018",
     "status": {
       "stock": false,
       "new": false,
@@ -377,17 +1212,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 1,
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   },
   {
-    "id": 643,
-    "alias": "4020",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621059\/4020_1.png",
-    "name": "\u041a\u0443\u043f\u043e\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 1140,
+    "id": 1358,
+    "alias": "14017",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067654\/14017_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 6229,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/643",
+    "link": "https:\/\/logicpower.ua\/product\/14017",
     "status": {
       "stock": false,
       "new": false,
@@ -396,17 +1238,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 96,
-    "alias": "4021",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621052\/4021_1.jpg",
-    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2859,
+    "id": 1359,
+    "alias": "14019",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1073807\/14019_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 5185,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/96",
+    "link": "https:\/\/logicpower.ua\/product\/14019",
     "status": {
       "stock": false,
       "new": false,
@@ -415,17 +1264,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   },
   {
-    "id": 174,
-    "alias": "4937",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573039\/Naruzhnaya_IP_kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2442,
+    "id": 1360,
+    "alias": "14020",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1073808\/14020_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 5669,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/174",
+    "link": "https:\/\/logicpower.ua\/product\/14020",
     "status": {
       "stock": false,
       "new": false,
@@ -434,17 +1290,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 103,
-    "alias": "4938",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573065\/Naruzhnaya_IP_kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 3907,
+    "id": 1361,
+    "alias": "14016",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067663\/14016_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 5918,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/103",
+    "link": "https:\/\/logicpower.ua\/product\/14016",
     "status": {
       "stock": false,
       "new": false,
@@ -453,17 +1316,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 173,
-    "alias": "4939",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617128\/Naruzhnaya_IP_kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 1872,
+    "id": 1362,
+    "alias": "14021",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1073809\/14021_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 5980,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/173",
+    "link": "https:\/\/logicpower.ua\/product\/14021",
     "status": {
       "stock": false,
       "new": false,
@@ -472,17 +1342,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 176,
-    "alias": "4941",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/620610\/4941_1.jpg",
-    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 1872,
+    "id": 1363,
+    "alias": "14012",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1073797\/14012_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 5989,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/176",
+    "link": "https:\/\/logicpower.ua\/product\/14012",
     "status": {
       "stock": false,
       "new": false,
@@ -491,17 +1368,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 101,
-    "alias": "4943",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/620616\/4943_1.jpg",
-    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2076,
+    "id": 1364,
+    "alias": "14009",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1073798\/14009_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 4072,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/101",
+    "link": "https:\/\/logicpower.ua\/product\/14009",
     "status": {
       "stock": false,
       "new": false,
@@ -510,17 +1394,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 4,
+      "title": "\u0441\u0432\u0438\u043d\u0446\u043e\u0432\u043e-\u043a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 175,
-    "alias": "4947",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621152\/4947_1.png",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2132,
+    "id": 1365,
+    "alias": "14011",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1073804\/14011_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 5505,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/175",
+    "link": "https:\/\/logicpower.ua\/product\/14011",
     "status": {
       "stock": false,
       "new": false,
@@ -529,17 +1420,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   },
   {
-    "id": 147,
-    "alias": "4958",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/620979\/4958_1.png",
-    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
-    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
-    "price": 5993,
+    "id": 1366,
+    "alias": "14014",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1073805\/14014_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 5747,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/147",
+    "link": "https:\/\/logicpower.ua\/product\/14014",
     "status": {
       "stock": false,
       "new": false,
@@ -548,17 +1446,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 1,
+      "title": "\u0433\u0435\u043b\u0435\u0432\u044b\u0439"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   },
   {
-    "id": 22,
-    "alias": "5476",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/620657\/Antivandalnaya_kamera_1.jpg",
-    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 2203,
+    "id": 1367,
+    "alias": "14015",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1067653\/14015_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 5434,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/22",
+    "link": "https:\/\/logicpower.ua\/product\/14015",
     "status": {
       "stock": false,
       "new": false,
@@ -567,17 +1472,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   },
   {
-    "id": 142,
-    "alias": "5526",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626778\/5526_1.png",
-    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
-    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
-    "price": 8646,
+    "id": 1368,
+    "alias": "14010",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1073802\/14010_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 4131,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/142",
+    "link": "https:\/\/logicpower.ua\/product\/14010",
     "status": {
       "stock": false,
       "new": false,
@@ -586,17 +1498,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 4,
+      "title": "\u0441\u0432\u0438\u043d\u0446\u043e\u0432\u043e-\u043a\u0438\u0441\u043b\u043e\u0442\u043d\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 39,
-    "alias": "6537",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573112\/Antivandalnaya_kamera_1.jpg",
-    "name": "\u041a\u0443\u043f\u043e\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 775,
+    "id": 1369,
+    "alias": "14013",
+    "imgSrc": "https:\/\/logicpower.ua\/storage\/1073803\/14013_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 6301,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/39",
+    "link": "https:\/\/logicpower.ua\/product\/14013",
     "status": {
       "stock": false,
       "new": false,
@@ -605,17 +1524,24 @@
     "label": {
       "credit": true,
       "delivery": true
-    }
+    },
+    "tag": {
+      "id": 3,
+      "title": "\u043c\u0443\u043b\u044c\u0442\u0438\u0433\u0435\u043b\u0435\u0432\u044b\u0439 AGM"
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": false
   },
   {
-    "id": 66,
-    "alias": "6538",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573120\/Naruzhnaya_IP_kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 859,
+    "id": 1555,
+    "alias": "15873",
+    "imgSrc": null,
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 0,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/66",
+    "link": "https:\/\/logicpower.ua\/product\/15873",
     "status": {
       "stock": false,
       "new": false,
@@ -623,18 +1549,25 @@
     },
     "label": {
       "credit": true,
-      "delivery": true
-    }
+      "delivery": false
+    },
+    "tag": {
+      "id": "",
+      "title": ""
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   },
   {
-    "id": 246,
-    "alias": "6597",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617136\/6597_1.jpg",
-    "name": "\u041a\u0443\u043f\u043e\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 1513,
+    "id": 1553,
+    "alias": "15872",
+    "imgSrc": null,
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 0,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/246",
+    "link": "https:\/\/logicpower.ua\/product\/15872",
     "status": {
       "stock": false,
       "new": false,
@@ -642,18 +1575,25 @@
     },
     "label": {
       "credit": true,
-      "delivery": true
-    }
+      "delivery": false
+    },
+    "tag": {
+      "id": "",
+      "title": ""
+    },
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   },
   {
-    "id": 91,
-    "alias": "6625",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617130\/Antivandalnaya_kamera_1.jpg",
-    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 1581,
+    "id": 1554,
+    "alias": "15866",
+    "imgSrc": null,
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0434\u043b\u044f \u043a\u043e\u0442\u043b\u0430 LogicPower",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b \u0434\u043b\u044f \u0440\u0435\u0437\u0435\u0440\u0432\u043d\u043e\u0433\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044f LP",
+    "price": 0,
     "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/91",
+    "link": "https:\/\/logicpower.ua\/product\/15866",
     "status": {
       "stock": false,
       "new": false,
@@ -661,121 +1601,14 @@
     },
     "label": {
       "credit": true,
-      "delivery": true
-    }
-  },
-  {
-    "id": 92,
-    "alias": "6626",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573126\/Naruzhnaya_kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 1862,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/92",
-    "status": {
-      "stock": false,
-      "new": false,
-      "top": false
+      "delivery": false
     },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
-  },
-  {
-    "id": 93,
-    "alias": "6627",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617137\/Naruzhnaya_IP_kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 3212,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/93",
-    "status": {
-      "stock": false,
-      "new": false,
-      "top": false
+    "tag": {
+      "id": "",
+      "title": ""
     },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
-  },
-  {
-    "id": 212,
-    "alias": "6661",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573140\/6661_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 13446,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/212",
-    "status": {
-      "stock": false,
-      "new": false,
-      "top": false
-    },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
-  },
-  {
-    "id": 213,
-    "alias": "9196",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573323\/Naruzhnaya_IP_kamera_1.jpg",
-    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
-    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
-    "price": 3426,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/213",
-    "status": {
-      "stock": false,
-      "new": false,
-      "top": false
-    },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
-  },
-  {
-    "id": 272,
-    "alias": "9419",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621123\/Komplekt_videonablyudeniya_1.jpg",
-    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
-    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
-    "price": 6227,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/272",
-    "status": {
-      "stock": false,
-      "new": false,
-      "top": false
-    },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
-  },
-  {
-    "id": 273,
-    "alias": "9420",
-    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621122\/Komplekt_videonablyudeniya_1.jpg",
-    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
-    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
-    "price": 6281,
-    "newPrice": null,
-    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/273",
-    "status": {
-      "stock": false,
-      "new": false,
-      "top": false
-    },
-    "label": {
-      "credit": true,
-      "delivery": true
-    }
+    "compared": null,
+    "addedToCart": false,
+    "hasProduct": true
   }
 ]
