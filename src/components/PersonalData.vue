@@ -434,13 +434,13 @@
 </template>
 
 <script>
-	import UiSelect from "./uiComponents/UiSelect";
-	import UiPasswordInput from "./uiComponents/UiPasswordInput";
-	import UiTelInput from "./uiComponents/UiTelInput";
-	import UiPopup from "./uiComponents/UiPopup";
-	import UiTextInput from "./uiComponents/UiTextInput";
-	import UiNumberInput from "./uiComponents/UiNumberInput";
-	import UiEmailInput from "./uiComponents/UiEmailInput";
+	import UiSelect from "./ui/UiSelect";
+	import UiPasswordInput from "./ui/UiPasswordInput";
+	import UiTelInput from "./ui/UiTelInput";
+	import UiPopup from "./ui/UiPopup";
+	import UiTextInput from "./ui/UiTextInput";
+	import UiNumberInput from "./ui/UiNumberInput";
+	import UiEmailInput from "./ui/UiEmailInput";
 	
 	export default {
 		components: {

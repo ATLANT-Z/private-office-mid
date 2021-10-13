@@ -100,10 +100,10 @@
 </template>
 
 <script>
-	import UiTelInput from "./uiComponents/UiTelInput";
-	import UiPopup from "./uiComponents/UiPopup";
-	import UiEmailInput from "./uiComponents/UiEmailInput";
-	import UiPasswordInput from "./uiComponents/UiPasswordInput";
+	import UiTelInput from "./ui/UiTelInput";
+	import UiPopup from "./ui/UiPopup";
+	import UiEmailInput from "./ui/UiEmailInput";
+	import UiPasswordInput from "./ui/UiPasswordInput";
 	
 	export default {
 		components: {

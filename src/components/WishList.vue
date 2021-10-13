@@ -35,7 +35,7 @@
 <script>
 	import ProductGallery from "./Products/ProductGallery";
 	import {mapGetters, mapActions} from "vuex";
-	import UiCheckbox from "./uiComponents/UiCheckbox";
+	import UiCheckbox from "./ui/UiCheckbox";
 	
 	export default {
 		components: {UiCheckbox, ProductGallery},

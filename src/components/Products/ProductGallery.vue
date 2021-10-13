@@ -26,8 +26,8 @@
 	import ProductCard from "@component/Products/ProductCard";
 	import CompareBtn from "@component/Products/CompareBtn";
 	import Pagination from "@component/layouts/Pagination";
-	import axios from "axios";
-	import Product from "@model/Product";
+	// import axios from "axios";
+	// import Product from "@model/Product";
 	import SvgSprite from "@/tools/svg/SvgSprite";
 	
 	export default {

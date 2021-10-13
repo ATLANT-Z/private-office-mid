@@ -14,7 +14,7 @@
 <script>
 	import LoginPop from "./components/LoginPop";
 	import MenuOffice from "./components/MenuOffice";
-	import ToTopBtn from "./components/uiComponents/ToTopBtn";
+	import ToTopBtn from "./components/ui/ToTopBtn";
 	import HeaderVue from "./components/Header/Header";
 	import SvgSprite from "@/tools/svg/SvgSprite";
 	
