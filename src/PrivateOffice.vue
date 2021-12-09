@@ -2,10 +2,8 @@
     <SvgSprite></SvgSprite>
     <HeaderVue></HeaderVue>
     <div class="main-wrapper">
-        <div class="menu-cab-wrp">
-            <MenuOffice></MenuOffice>
-            <router-view></router-view>
-        </div>
+        <MenuOffice></MenuOffice>
+        <router-view></router-view>
         <LoginPop/>
     </div>
     <ToTopBtn/>
@@ -26,12 +24,6 @@
 			ToTopBtn,
 			MenuOffice,
 			LoginPop,
-		},
-		data() {
-			return {}
-		},
-		methods: {
-		
 		}
 	};
 </script>
@@ -39,9 +31,27 @@
 <style lang="scss">
     @import "assets/scss/style";
     
+    .myBtn {
+        padding: 12px;
+        background-color: #cdcdcd;
+        user-select: none;
+        cursor: pointer;
+        
+        &:hover {
+            background-color: #8a8a8a;
+            color: white;
+        }
+    }
+    
     .main-wrapper {
         width: 100%;
-        padding: 0 24px 64px;
+        max-width: 1550px;
+    
+        display: flex;
+        justify-content: center;
+        
+        margin: auto;
+        padding: 16px 16px 64px;
         
         @include mobile {
             padding: 0;

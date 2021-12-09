@@ -380,6 +380,7 @@
                     </div>
                 </template>
             </CanBeShown>
+            
             <CanBeShown>
                 <template v-slot="{isShow, toggleShow}">
                     <div class="order-row">

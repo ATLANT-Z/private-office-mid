@@ -104,7 +104,7 @@
     
     .menu-cab-wrp {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1550px;
         padding-top: 16px;
         @extend %pos-cent-marg;
         @extend %pos-cent-flex;

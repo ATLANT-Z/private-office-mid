@@ -213,7 +213,7 @@
 </script>
 
 <style lang="scss" scoped>
-    @import "../../assets/scss/uiComponents";
+    @import "~_style/uiComponents";
     
     .header-menu {
         display: flex;

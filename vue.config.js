@@ -17,7 +17,8 @@ module.exports = {
 			.set("@", resolve("./src"))
 			.set("@model", resolve("./src/models"))
 			.set("@component", resolve("./src/components"))
-			.set("@style", resolve("./src/assets/scss"));
+			.set("@style", resolve("./src/assets/scss"))
+			.set("_style", resolve("./src/assets/scss"));
 	},
 
 	css: {

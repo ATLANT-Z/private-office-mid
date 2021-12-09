@@ -8,15 +8,16 @@ import VueAxios from "vue-axios";
 import GlobalFunctions from "@/tools/globalFunc";
 
 import PrivateOffice from "./PrivateOffice.vue";
+// import PersonalData from "./components/PersonalData";
 
 // eslint-disable-next-line no-unused-vars
-const app = createApp(PrivateOffice)
-	.use(i18n)
-	.use(router)
-	.use(store)
-	.use(VueAxios, axios)
-	.use(GlobalFunctions)
-	.mount("#app");
+//.use(i18in)
+createApp(PrivateOffice).use(router).use(store).use(VueAxios, axios).use(GlobalFunctions).mount("#app");
+
+// const vueBtns = document.querySelectorAll(".app");
+// for (const vueBtn of vueBtns) {
+// 	createApp(PersonalData).use(store).use(GlobalFunctions).mount(vueBtn);
+// }
 
 // import { createApp } from "vue";
 //
