@@ -1,0 +1,187 @@
+{
+  "breadСrumbs": [
+    {
+      "title": "Главная",
+      "url": "https://dev.greenvision.ua"
+    },
+    {
+      "title": "Продукция",
+      "url": "https://greenvision.ua/production"
+    },
+    {
+      "title": "Камеры",
+      "url": "https://greenvision.ua/production/Kamery"
+    },
+    {
+      "title": "IP камеры",
+      "url": "https://greenvision.ua/production/Kamery/IP-kamery"
+    },
+    {
+      "title": "IP камеры",
+      "url": "https://greenvision.ua/production/Kamery/IP-kamery"
+    },
+    {
+      "title": "Наружная IP камера",
+      "url": "На последнюю крошку можно не давать ссылку"
+    }
+  ],
+  "catalog": {
+    "img": "/icons/category/catalogLight.svg",
+    "title": "Каталог товаров",
+    "items": [
+      {
+        "id": 1,
+        "url": "/production/Akciya",
+        "img": "/icons/category/discount.svg",
+        "title": "Акции",
+        "items": [
+          {
+            "id": 1,
+            "url": "/production/Akciya",
+            "title": "Прадзнуем, скидки -50% на новый год!"
+          },
+          {
+            "id": 2,
+            "url": "/production/Akciya",
+            "title": "Чёрная пятница, залетай на огонёк! - 20% на все аккумуляторы"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "url": "/production/Kamery",
+        "img": "/icons/category/camera.svg",
+        "title": "Камеры",
+        "items": [
+          {
+            "id": 1,
+            "url": "/production/Kamery/IP-kamery",
+            "title": "IP Камеры"
+          },
+          {
+            "id": 2,
+            "url": "//production/Kamery/Wi-Fi-kamery",
+            "title": "WI-FI Камеры"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "url": "/production/Videoregistratory",
+        "img": "/icons/category/videoRecorder.svg",
+        "title": "Видеорегистраторы"
+      },
+      {
+        "id": 4,
+        "url": "/production/Komplekty",
+        "img": "/icons/category/kit.svg",
+        "title": "Комплекты"
+      },
+      {
+        "id": 5,
+        "url": "/production/SKUD",
+        "img": "/icons/category/ACS.svg",
+        "title": "СКУД"
+      },
+      {
+        "id": 6,
+        "url": "/production/Istochniki-pitaniya",
+        "img": "/icons/category/accumulator.svg",
+        "title": "Источники питания"
+      },
+      {
+        "id": 7,
+        "url": "/production/Aksessuary",
+        "img": "/icons/category/lan.svg",
+        "title": "Аксессуары"
+      },
+      {
+        "id": 8,
+        "url": "/production/Tovary-snyatye-s-proizvodstva",
+        "img": "/icons/category/camera2.svg",
+        "title": "Снятое с производства"
+      },
+      {
+        "id": 9,
+        "url": "/production",
+        "img": "/icons/category/catalogGreen.svg",
+        "title": "Все категории"
+      }
+    ]
+  },
+  "lang": [
+    {
+      "title": "Укр",
+      "url": "/ua/..."
+    },
+    {
+      "title": "Рус",
+      "url": "/..."
+    }
+  ],
+  "cart": {
+    "count": "2",
+    "url": "/cart",
+    "title": "Корзина"
+  },
+  "compare": {
+    "count": "3",
+    "url": "/comparison",
+    "title": "Сравнение"
+  },
+  "searchUrl": "/searchController",
+  "menu": [
+    {
+      "title": "Калькулятор HDD",
+      "url": "/service-support/calc"
+    },
+    {
+      "title": "Сервис и поддержка",
+      "url": "/service-support",
+      "items": [
+        {
+          "title": "Инструкции",
+          "url": "/service-support/instruction"
+        },
+        {
+          "title": "Видео-материалы",
+          "url": "/service-support/video"
+        },
+        {
+          "title": "Гарантия и сервисное обслуживание",
+          "url": "/service-support/guarantees"
+        },
+        {
+          "title": "FAQ",
+          "url": "/service-support/faq"
+        }
+      ]
+    },
+    {
+      "title": "Монтаж видеонаблюдения",
+      "url": "/services",
+      "items": [
+        {
+          "title": "Для дома",
+          "url": "/services/house"
+        },
+        {
+          "title": "Для квартиры",
+          "url": "/services/apartment"
+        },
+        {
+          "title": "Для офиса",
+          "url": "/services/office"
+        },
+        {
+          "title": "Для складов",
+          "url": "/services/warehouse"
+        }
+      ]
+    },
+    {
+      "title": "Форум",
+      "url": "https://forum.greenvision.ua/"
+    }
+  ]
+}

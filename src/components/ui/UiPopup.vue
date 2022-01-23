@@ -1,6 +1,9 @@
 <template>
-    <div class="popup-block" :class="{show: show}" :id="id" data-pop-block
-         @click.self='closePop'>
+    <div class="popup-block"
+         :class="{show: show}"
+         :id="id"
+         @click.self='closePop'
+    >
         <slot :parent="this">Здесь должен был быть контент</slot>
     </div>
 </template>

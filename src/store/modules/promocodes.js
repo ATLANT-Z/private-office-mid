@@ -1,3 +1,5 @@
+import apiRoutes from "@/apiRoutes";
+
 export default {
 	state: {
 		innerPromoCodes: [],
@@ -14,7 +16,7 @@ export default {
 	},
 	actions: {
 		fetchPromoCodes(ctx) {
-			fetch("/promocodes.json")
+			fetch(apiRoutes.promocodes)
 				.then((res) => res.json())
 				.then((json) => {
 					const innerPromoCodes = json.data;

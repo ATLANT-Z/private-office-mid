@@ -47,8 +47,6 @@
 		computed: {
 			...mapGetters(['wishProducts']),
 			totalSum() {
-				console.log(this);
-				console.log(this.wishProducts);
 				//Передаю начальное значение для reduce. А вообще почитай, что он делает.
 				return this.wishProducts?.reduce((accumulator, el) => accumulator + el.price, 0);
 			}
@@ -63,7 +61,6 @@
 		},
 		watch: {
 			isAllSelected(val) {
-				console.log(this.wishProducts);
 				this.wishProducts.forEach(el => el.checked = val);
 			}
 		},

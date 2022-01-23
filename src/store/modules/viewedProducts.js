@@ -1,5 +1,6 @@
 import Product from "../../models/Product";
 import axios from "axios";
+import apiRoutes from "@/apiRoutes";
 
 export default {
 	state: {
@@ -35,7 +36,7 @@ export default {
 		fetchViewedProducts(ctx) {
 			if (ctx.state.innerViewedProducts.length === 0) {
 				return sleep(1).then(function (done) {
-					return axios.get("/products3.json").then((res) => {
+					return axios.get(apiRoutes.products).then((res) => {
 						const productList = res.data.map((el) => {
 							return new Product(el);
 						});

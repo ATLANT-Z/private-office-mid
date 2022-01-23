@@ -1,0 +1,945 @@
+[
+  {
+    "id": 533,
+    "alias": "11020",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/627403\/IP_kamera_1.jpg",
+    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2423,
+    "newPrice": 1500,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/533",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 5,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 529,
+    "alias": "11021",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573620\/Ulichnaya_kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2690,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/529",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 3,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 528,
+    "alias": "11022",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617233\/Antivandalnaya_kamera_1.jpg",
+    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 3557,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/528",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 5,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 530,
+    "alias": "11023",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617232\/Naruzhnaya_IP_kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2985,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/530",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 5,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 526,
+    "alias": "11103",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573528\/Antivandalnaya_kamera_1.jpg",
+    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 1955,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/526",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 1,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 606,
+    "alias": "12683",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617230\/ip-kamera_1.jpg",
+    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 3411,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/606",
+    "status": {
+      "stock": false,
+      "new": true,
+      "top": false
+    },
+    "rating": 2,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 604,
+    "alias": "12684",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626995\/12684_1.png",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2722,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/604",
+    "status": {
+      "stock": false,
+      "new": true,
+      "top": false
+    },
+    "rating": 5,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 605,
+    "alias": "12685",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617231\/ip-kamera_1.jpg",
+    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2868,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/605",
+    "status": {
+      "stock": false,
+      "new": true,
+      "top": false
+    },
+    "rating": 3,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 603,
+    "alias": "12686",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573538\/ip-kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2456,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/603",
+    "status": {
+      "stock": false,
+      "new": true,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 675,
+    "alias": "12687",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573544\/12687_1.png",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 9206,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/675",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 692,
+    "alias": "14189",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621189\/14189_1.png",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP, WiFi \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 3250,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/692",
+    "status": {
+      "stock": true,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 693,
+    "alias": "14190",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621534\/14190_1.png",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP, WiFi \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 4042,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/693",
+    "status": {
+      "stock": true,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 694,
+    "alias": "14191",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621878\/14191_1.png",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP, WiFi \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 4221,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/694",
+    "status": {
+      "stock": true,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 750,
+    "alias": "14613",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626670\/14613_1.png",
+    "name": "\u0423\u043b\u0438\u0447\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
+    "price": 8642,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/750",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 753,
+    "alias": "14617",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626671\/14617_1.png",
+    "name": "\u0423\u043b\u0438\u0447\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
+    "price": 9052,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/753",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 752,
+    "alias": "14917",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626916\/14917_1.png",
+    "name": "\u0423\u043b\u0438\u0447\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
+    "price": 5796,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/752",
+    "status": {
+      "stock": false,
+      "new": true,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 754,
+    "alias": "14918",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626917\/14918_1.png",
+    "name": "\u0423\u043b\u0438\u0447\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
+    "price": 5520,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/754",
+    "status": {
+      "stock": false,
+      "new": true,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 97,
+    "alias": "4016",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617129\/Naruzhnaya_IP_kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2471,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/97",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 98,
+    "alias": "4017",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617127\/Naruzhnaya_IP_kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2866,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/98",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 640,
+    "alias": "4018",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573061\/4018_1.png",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 1207,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/640",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 643,
+    "alias": "4020",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621059\/4020_1.png",
+    "name": "\u041a\u0443\u043f\u043e\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 1140,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/643",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 96,
+    "alias": "4021",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621052\/4021_1.jpg",
+    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2859,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/96",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 174,
+    "alias": "4937",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573039\/Naruzhnaya_IP_kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2442,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/174",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 103,
+    "alias": "4938",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573065\/Naruzhnaya_IP_kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 3907,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/103",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 173,
+    "alias": "4939",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617128\/Naruzhnaya_IP_kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 1872,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/173",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 176,
+    "alias": "4941",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/620610\/4941_1.jpg",
+    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 1872,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/176",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 101,
+    "alias": "4943",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/620616\/4943_1.jpg",
+    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2076,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/101",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 175,
+    "alias": "4947",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621152\/4947_1.png",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2132,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/175",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 147,
+    "alias": "4958",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/620979\/4958_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
+    "price": 5993,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/147",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 22,
+    "alias": "5476",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/620657\/Antivandalnaya_kamera_1.jpg",
+    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 2203,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/22",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 142,
+    "alias": "5526",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/626778\/5526_1.png",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
+    "price": 8646,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/142",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": true
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 39,
+    "alias": "6537",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573112\/Antivandalnaya_kamera_1.jpg",
+    "name": "\u041a\u0443\u043f\u043e\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 886,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/39",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 66,
+    "alias": "6538",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573120\/Naruzhnaya_IP_kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 859,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/66",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 246,
+    "alias": "6597",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617136\/6597_1.jpg",
+    "name": "\u041a\u0443\u043f\u043e\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 1513,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/246",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 91,
+    "alias": "6625",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617130\/Antivandalnaya_kamera_1.jpg",
+    "name": "\u0410\u043d\u0442\u0438\u0432\u0430\u043d\u0434\u0430\u043b\u044c\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 1581,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/91",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  },
+  {
+    "id": 92,
+    "alias": "6626",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573126\/Naruzhnaya_kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 1862,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/92",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 93,
+    "alias": "6627",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/617137\/Naruzhnaya_IP_kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 3212,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/93",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 212,
+    "alias": "6661",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573140\/6661_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 13446,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/212",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 213,
+    "alias": "9196",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/573323\/Naruzhnaya_IP_kamera_1.jpg",
+    "name": "\u041d\u0430\u0440\u0443\u0436\u043d\u0430\u044f IP \u043a\u0430\u043c\u0435\u0440\u0430",
+    "categoryName": "\u041a\u0430\u043c\u0435\u0440\u044b",
+    "price": 3426,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Kamery\/IP-kamery\/213",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 272,
+    "alias": "9419",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621123\/Komplekt_videonablyudeniya_1.jpg",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
+    "price": 6227,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/272",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": true
+  },
+  {
+    "id": 273,
+    "alias": "9420",
+    "imgSrc": "https:\/\/greenvision.ua\/\/storage\/621122\/Komplekt_videonablyudeniya_1.jpg",
+    "name": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442 \u0432\u0438\u0434\u0435\u043e\u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u044f",
+    "categoryName": "\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u044b",
+    "price": 6281,
+    "newPrice": null,
+    "link": "https:\/\/greenvision.ua\/production\/Komplekty\/Komplekty-videonablyudeniya\/273",
+    "status": {
+      "stock": false,
+      "new": false,
+      "top": false
+    },
+    "rating": 4,
+    "label": {
+      "credit": true,
+      "delivery": true
+    },
+    "compared": false,
+    "addedToCart": false,
+    "hasProduct": false
+  }
+]

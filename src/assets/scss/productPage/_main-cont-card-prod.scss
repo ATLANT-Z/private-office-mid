@@ -1,0 +1,371 @@
+.card-prod-specific {
+	margin-bottom: 16px;
+
+	&__wrp-cont {
+		@include boxCardProd;
+	}
+
+	&__wrp {
+		display: grid;
+		grid-template-columns: 0.9fr 1.7fr;
+		grid-template-rows: 0.2fr 0.2fr 0.2fr;
+		font-size: 16px;
+	}
+
+	&__title {
+		margin-bottom: 16px;
+		font-size: 18px;
+	}
+
+	&__article {
+		font-weight: 400;
+		text-transform: uppercase;
+		color: $colorCardGrey;
+	}
+
+	&__value-wrp {
+		margin-bottom: 10px;
+	}
+}
+
+.vue-buttomSemiTransparent {
+	@include mobileHeight {
+		& {
+			max-width: 510px;
+			width: 100%;
+		}
+	}
+}
+
+.card-prod-descriptiom {
+	margin-bottom: 16px;
+	font-size: 16px;
+
+	&__wrp {
+		@include boxCardProd;
+	}
+
+	&__title {
+		margin-bottom: 16px;
+		font-size: 18px;
+	}
+}
+
+.card-prod-downloads {
+	margin-bottom: 16px;
+	font-size: 16px;
+
+	&__wrp {
+		@include boxCardProd;
+		padding: 0;
+	}
+
+	&__title {
+		padding-top: 16px;
+		padding-left: 16px;
+		margin-right: 16px;
+	}
+
+	&__heading {
+		padding-top: 16px;
+		padding-left: 16px;
+		margin-bottom: 16px;
+		@include gridDowloads;
+		color: $colorCardGrey;
+		@include bigMobileWidth {
+			& {
+				grid-template-columns: 1.5fr 1.1fr 1.1fr;
+				grid-template-rows: 0.2fr;
+			}
+		}
+	}
+
+	&__heading-type {
+		text-align: left;
+	}
+
+	&__technical-doc {
+		border-top: 1px solid $colorCard;
+		background-color: $colorBackSlider;
+	}
+
+	&__technical-doc-title {
+		padding-top: 10px;
+		padding-left: 16px;
+		padding-bottom: 10px;
+	}
+
+	&__technical-doc-text {
+		font-size: 16px;
+		color: $colorCard;
+	}
+
+	&__technical-datachit {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 16px;
+		@include gridDowloads;
+		@include bigMobileWidth {
+			& {
+				grid-template-columns: 1.5fr 1.1fr 1.1fr;
+				grid-template-rows: 0.2fr;
+			}
+		}
+	}
+
+	&__technical-data-down {
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		color: $colorCard;
+		text-decoration: underline;
+	}
+
+	&__technical-data-down-img {
+		@include bigMobileWidth {
+			& {
+				display: none;
+			}
+		}
+	}
+
+	&__date {
+		@include bigMobileWidth {
+			& {
+				display: none;
+			}
+		}
+	}
+
+	&__technical-data-text {
+		margin-right: 10px;
+		@include bigMobileWidth {
+			& {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+.card-prod-cont-wrp {
+	@include widthCardCont;
+	margin-right: 16px;
+	box-sizing: border-box;
+	@include floatingCard {
+		& {
+			margin-right: 0;
+		}
+	}
+}
+
+.card-prod-promotional-goods {
+	&__title {
+		padding-top: 16px;
+		padding-left: 16px;
+		font-size: 24px;
+	}
+
+	&__wrp {
+		padding: 0 16px 24px;
+ 		background-color: $colorBackSlider;
+	}
+}
+
+.card-prod-reviews {
+	margin-bottom: 16px;
+	@include widthCardCont;
+	@include startAdaptiveSmol {
+		& {
+			margin-right: 16px;
+		}
+	}
+
+	&__wrp {
+		padding-top: 20px;
+		padding-left: 16px;
+		margin-bottom: 16px;
+	}
+
+	&__title {
+		margin-bottom: 16px;
+		font-size: 18px;
+	}
+
+	&__btn {
+		@include btnCardBuy;
+		max-width: 250px;
+
+		&:hover {
+			background-color: $colorHov;
+		}
+
+		@include mobileWidth {
+			& {
+				max-width: 100%;
+			}
+		}
+	}
+
+	&__btn-wrp {
+		margin-bottom: 16px;
+		padding: 16px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: $colorBackSlider;
+		border: 1px solid $colorCard;
+		border-radius: 8px;
+		@include mobileWidth {
+			& {
+				flex-direction: column;
+			}
+		}
+	}
+
+	&__btn-text {
+		font-size: 18px;
+		color: $colorCard;
+		@include mobileWidth {
+			& {
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	&__box {
+		@include boxCardProd;
+		margin-bottom: 16px;
+	}
+
+	&__img-name {
+		margin-right: 10px;
+		@include circleGray;
+	}
+
+	&__wrp-name {
+		margin-bottom: 16px;
+		display: flex;
+	}
+
+	&__name {
+		padding-left: 5px;
+		margin-bottom: 6px;
+		font-size: 18px;
+	}
+
+	&__name-pos {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+
+	&__text {
+		margin-bottom: 16px;
+		font-size: 16px;
+	}
+
+	&__text-like {
+		max-width: 330px;
+		width: 100%;
+		padding-left: 8px;
+		font-size: 14px;
+	}
+
+	&__text-like-green {
+		color: $color-green;
+	}
+
+	&__like-wrp {
+		display: flex;
+		@include mobileWidth {
+			& {
+				margin-bottom: 16px;
+			}
+		}
+	}
+
+	&__text-dislike-red {
+		color: #e25750;
+	}
+
+	&__likes {
+		max-width: 800px;
+		width: 100%;
+		margin-bottom: 16px;
+		display: flex;
+		justify-content: space-between;
+		@include mobileWidth {
+			& {
+				margin-bottom: 0;
+				flex-direction: column;
+			}
+		}
+	}
+
+	&__answer {
+		margin-bottom: 16px;
+		display: flex;
+		color: $colorCard;
+		text-decoration: underline;
+	}
+
+	&__answer-pos {
+		max-width: 110px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+	}
+
+	&__answer-pos-icon {
+		width: 24px;
+		color: $color-main;
+		margin-right: 10px;
+	}
+
+	&__line {
+		width: 100%;
+		height: 1px;
+		margin-bottom: 16px;
+		background-color: $colorCardGrey;
+	}
+
+	&__line-ver {
+		width: 10px;
+		margin-right: 21px;
+		background-color: $colorCard;
+		border-radius: 34px;
+		@include mobileWidth {
+			& {
+				display: none;
+			}
+		}
+	}
+
+	&__wrp-gv {
+		display: flex;
+	}
+}
+
+.slider-prod-block {
+	&__title {
+		padding-left: 16px;
+		@include textTitleSlid;
+	}
+}
+
+.card-prod-body-cont {
+	display: grid;
+	gap: 16px;
+	grid-template-columns: calc(100% - (286px + 16px)) 286px;
+
+	@include floatingCard {
+		grid-template-columns: 100%;
+	}
+
+	@include startAdaptiveSmol {
+		& {
+			@include padMob;
+		}
+	}
+}

@@ -1,0 +1,606 @@
+.card-prod-nav-reviews {
+	display: none;
+
+	@include startAdaptiveSmol {
+		& {
+			@include padMob;
+		}
+	}
+
+	&__wrp {
+		@include widthCardCont;
+	}
+
+	&__wrp-pos {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__main-text {
+		padding-left: 16px;
+		margin-bottom: 16px;
+	}
+
+	&__pos {
+		max-width: 1198px;
+		width: 100%;
+		margin-right: 16px;
+
+		@include floatingCard {
+			& {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+.overall-rating-card-prod {
+	@include boxCardProd;
+	max-width: 405px;
+	width: 100%;
+	margin-right: 16px;
+	padding: 16px;
+
+	@include snakeSolor {
+		& {
+			max-width: none;
+		}
+	}
+
+	@include startAdaptiveSmol {
+		& {
+			margin-bottom: 16px;
+		}
+	}
+
+	&__wrp {
+		display: flex;
+
+		@include snakeSolor {
+			& {
+				justify-content: space-between;
+			}
+		}
+	}
+
+	&__num {
+		margin-bottom: 16px;
+		font-size: 36px;
+		text-align: center;
+		font-weight: 600;
+		color: $colorCard;
+	}
+
+	&__title {
+		margin-bottom: 16px;
+		font-size: 18px;
+	}
+
+	&__star {
+		margin-bottom: 10px;
+	}
+
+	&__text {
+		font-size: 18px;
+		text-align: center;
+	}
+}
+
+.reviews-slider-card-prod {
+	max-width: 777px;
+	width: 100%;
+	@include boxCardProd;
+
+	@include sliderRevStarAd {
+		& {
+			max-width: 550px;
+		}
+	}
+
+	@include mobileHeight {
+		& {
+			max-width: 343px;
+		}
+	}
+
+	&__title {
+		margin-bottom: 24px;
+		font-size: 18px;
+		font-weight: 400;
+	}
+
+	&__wrp-slid {
+		max-width: 756px;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		@include sliderRevStarAd {
+			& {
+				max-width: 523px;
+			}
+		}
+	}
+
+	&__btn {
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: -9px;
+			left: -9px;
+			width: 30px;
+			height: 30px;
+		}
+	}
+}
+
+.reviews-page-top-card {
+	display: flex;
+
+	@include startAdaptiveSmol {
+		& {
+			flex-direction: column;
+		}
+	}
+}
+
+.rating-scale {
+	position: relative;
+	z-index: 5;
+
+	&__wrp + &__wrp {
+		margin-top: 10px;
+	}
+
+	&__wrp {
+		width: 124px;
+		position: relative;
+		display: flex;
+		align-items: center;
+		font-size: 14px;
+	}
+
+	&__des {
+		width: 124px;
+		height: 10px;
+		background-color: #c4c4c4;
+		position: relative;
+		border-radius: 34px;
+	}
+
+	&__act {
+		width: 90px;
+		height: 10px;
+		position: absolute;
+		top: 7px;
+		left: 39px;
+		background-color: #fbbd09;
+		border-radius: 34px;
+		z-index: 50;
+	}
+
+	&__num {
+		margin-right: 3px;
+	}
+
+	&__star-icon {
+		margin-right: 4px;
+	}
+
+	&__pos-wrp {
+		margin-right: 6px;
+
+		@include snakeSolor {
+			& {
+				display: none;
+			}
+		}
+	}
+
+	&__num-style {
+		color: $colorCard;
+		text-decoration: underline;
+
+		@include snakeSolor {
+			& {
+				padding-left: 10px;
+			}
+		}
+	}
+}
+
+.slider-rev {
+	&__img {
+		max-width: 170px;
+		border: $line-grey-col;
+		border-radius: 8px;
+
+		@include sliderRevStarAd {
+			& {
+				max-width: 113px;
+			}
+		}
+
+		@include mobileHeight {
+			& {
+				max-width: 66px;
+			}
+		}
+	}
+
+	&__img + &__img {
+		margin-left: 15px;
+
+		@include mobileHeight {
+			& {
+				margin-left: 4px;
+			}
+		}
+	}
+
+	&__wrp {
+		max-width: 726px;
+		overflow: hidden;
+
+		@include sliderRevStarAd {
+			& {
+				max-width: 498px;
+			}
+		}
+
+		@include mobileHeight {
+			& {
+				max-width: 279px;
+			}
+		}
+	}
+
+	&__img-wrp {
+		padding-left: 1px;
+		display: flex;
+		transition: all 0.6s;
+	}
+}
+
+.pop-up-reviews-card {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0c082266;
+	backdrop-filter: blur(25px);
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.4s;
+	z-index: -1;
+
+	@include maxHeight {
+		& {
+			align-items: flex-start;
+		}
+	}
+
+	&__wrp-cont-pop {
+		@include boxCardProd;
+		max-width: 499px;
+		width: 100%;
+		background-color: #ffffff;
+		border-radius: 6px;
+
+		@include maxHeight {
+			& {
+				margin-top: 16px;
+				margin-bottom: 16px;
+			}
+		}
+		@include mobileHeight {
+			& {
+				max-width: none;
+				margin-top: 0;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	&__title {
+		margin-bottom: 16px;
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	&__wrp-title {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__star-wrp {
+		margin-bottom: 32px;
+	}
+
+	&__inp-style {
+		margin-bottom: 10px;
+		@include borderFormCard;
+		@include mobileHeight {
+			& {
+				max-width: none;
+
+			}
+		}
+	}
+
+	&__inp-comments {
+		@include borderFormCard;
+		min-height: 91px;
+		@include mobileHeight {
+			& {
+				max-width: none;
+
+			}
+		}
+	}
+
+	&__lab {
+		margin-bottom: 5px;
+		display: flex;
+		font-size: 12px;
+	}
+
+	&__video-wrp {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+
+		@include mobileHeight {
+			& {
+				flex-direction: column;
+			}
+		}
+	}
+
+	&__wrp-bene {
+		margin-bottom: 16px;
+	}
+
+	&__video-btn {
+		@include btnCardBuy;
+		height: 40px;
+		max-width: 171px;
+		margin-bottom: 10px;
+		font-size: 18px;
+
+		&:hover {
+			background-color: $colorHov;
+		}
+
+		@include mobileHeight {
+			& {
+				max-width: none;
+			}
+		}
+	}
+
+	&__video {
+		max-width: 280px;
+		width: 100%;
+
+		@include mobileHeight {
+			& {
+				max-width: none;
+			}
+		}
+	}
+
+	&__photo {
+		margin-bottom: 10px;
+		padding: 16px 16px 10px 10px;
+		border: $borderForm;
+		border-radius: 8px;
+	}
+
+	&__photo-text-wrp {
+		margin-bottom: 10px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 12px;
+	}
+
+	&__photo-btn {
+		@include btnCardBuy;
+		max-width: 168px;
+		height: 40px;
+		font-size: 18px;
+
+		&:hover {
+			background-color: $colorHov;
+		}
+
+		@include mobileHeight {
+			& {
+				max-width: none;
+				width: 100%;
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	&__photo-btn-des {
+		display: flex;
+
+		@include mobileHeight {
+			& {
+				display: none;
+			}
+		}
+	}
+
+	&__photo-btn-mob {
+		display: none;
+
+		@include mobileHeight {
+			& {
+				display: flex;
+			}
+		}
+	}
+
+
+	&__img-wrp {
+		width: 65px;
+		height: 65px;
+		position: relative;
+		border: $borderForm;
+		border-radius: 8px;
+		cursor: pointer;
+
+		&:hover .pop-up-reviews-card__img-del {
+			opacity: 1;
+			transition: 0.3s;
+		}
+
+		&:hover {
+			border: 1px solid $colorCard;
+		}
+	}
+
+	&__img-del {
+		position: absolute;
+		top: 19px;
+		left: 21px;
+		opacity: 0;
+		transition: 0.3s;
+	}
+
+	&__photo-text {
+		max-width: 254px;
+
+		@include mobileHeight {
+			& {
+				max-width: none;
+			}
+		}
+	}
+
+	&__cust-chec {
+		position: absolute;
+		z-index: -1;
+		opacity: 0;
+	}
+
+	&__cust-chec + label {
+		display: inline-flex;
+		align-items: center;
+		user-select: none;
+
+		&::before {
+			content: "";
+			display: inline-block;
+			width: 1em;
+			height: 1em;
+			flex-shrink: 0;
+			flex-grow: 0;
+			border: 1px solid $colorCardGrey;
+			border-radius: 0.25em;
+			margin-right: 0.5em;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: 50% 50%;
+			border-radius: 50%;
+		}
+	}
+
+	&__cust-chec:not(:disabled):not(:checked) + label:hover::before {
+		border-color: $colorCard;
+	}
+
+	&__cust-chec:not(:disabled):active + label::before {
+		background-color: $colorCard;
+		border-color: $colorCard;
+	}
+
+	&__cust-chec:checked + label::before {
+		border-color: $colorCard;
+		background-color: #ffffff;
+		background-image: url("/icon/circle-green-icon-card.svg");
+	}
+
+	&__cust-chec:disabled + label::before {
+		background-color: #ffffff;
+	}
+
+	&__btn-wrp {
+		margin-bottom: 25px;
+		padding-top: 6px;
+		display: flex;
+		justify-content: center;
+
+		@include mobileHeight {
+			& {
+				flex-direction: column-reverse;
+			}
+		}
+	}
+
+	&__btn-cancel {
+		@include btnCancel;
+		margin-right: 16px;
+
+		@include mobileHeight {
+			& {
+				margin-right: 0;
+			}
+		}
+	}
+
+	&__btn {
+		@include btnCardBuy;
+		max-width: none;
+		width: auto;
+		padding: 0 16px;
+
+		&:hover {
+			background-color: $colorHov;
+		}
+
+		@include mobileHeight {
+			& {
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	&__text-wrp {
+		max-width: 467px;
+		color: $colorCardGrey;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	&__text-link {
+		color: $colorCard;
+	}
+}
+
+.activPopUpRev {
+	display: none;
+}
+
+.activePupUpRev {
+	transition: all 0.4s;
+	visibility: visible;
+	z-index: 1000;
+	opacity: 1;
+
+	@include maxHeight {
+		& {
+			overflow: auto;
+		}
+	}
+}

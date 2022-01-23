@@ -13,6 +13,11 @@
         </div>
         <div class="menu-cab-user">
             <div class="menu-cab-text-wrp">
+                <router-link class="menu-cab-wrp-link" :to="{ name: 'slider'}">
+                    <p>Слайдер</p>
+                </router-link>
+            </div>
+            <div class="menu-cab-text-wrp">
                 <router-link class="menu-cab-wrp-link" :to="{ name: 'subscrb'}">
                     <img class="menu-cab-img" src="@/assets/icons/mail_my_orders_icon.svg"
                          alt="Управление подписками"/>
@@ -90,12 +95,11 @@
 <style lang="scss">
     @import "../assets/scss/abstract";
     
-    
+
     .menu-orders-wrp {
         width: 280px;
         min-width: 280px;
-        margin-right: 24px;
-        
+
         @include bigMobile() {
             position: absolute;
             right: 100%;

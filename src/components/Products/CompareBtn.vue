@@ -33,7 +33,7 @@
 				this.checked = !this.checked;
 			},
 			addCompare() {
-				this.axios.post("/comparison/add", {id: this.id},
+        window.axios.post("/comparison/add", {id: this.id},
 					{
 						headers: {
 							'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]')
@@ -51,7 +51,7 @@
 					});
 			},
 			removeCompare() {
-				this.axios.post("/comparison/clear", {id: this.id},
+				window.axios.post("/comparison/clear", {id: this.id},
 					{
 						headers: {
 							'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]')

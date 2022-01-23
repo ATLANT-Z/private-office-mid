@@ -1,575 +1,605 @@
 $marginCheckbox: 8px;
 
 @mixin checkboxMarginLeft($margin) {
-  margin-left: $marginCheckbox + $margin !important;
+	margin-left: $marginCheckbox + $margin !important;
 }
 
 @mixin checkboxMarginRight($margin) {
-  margin-right: $marginCheckbox + $margin !important;
+	margin-right: $marginCheckbox + $margin !important;
 }
 
 @mixin checkboxMarginTop($margin) {
-  margin-top: $marginCheckbox + $margin !important;
+	margin-top: $marginCheckbox + $margin !important;
 }
 
 @mixin checkboxMarginBottom($margin) {
-  margin-bottom: $marginCheckbox + $margin !important;
+	margin-bottom: $marginCheckbox + $margin !important;
 }
 
 @mixin addClickArea($val, $position: relative) {
-  position: $position;
-  &::before {
-    content: "";
-    position: absolute;
-    top: -$val;
-    left: -$val;
-    right: -$val;
-    bottom: -$val;
-  }
+	position: $position;
+	&::before {
+		content: "";
+		position: absolute;
+		top: -$val;
+		left: -$val;
+		right: -$val;
+		bottom: -$val;
+
+		min-height: 100%;
+		min-width: 100%;
+	}
 }
 
 @mixin uiCheckbox {
-  position: relative;
-  display: block;
-  @include fixedWH(0px, 0px);
-  margin: $marginCheckbox;
-  background-color: transparent;
+	position: relative;
+	display: block;
+	@include fixedWH(0px, 0px);
+	margin: $marginCheckbox;
+	background-color: transparent;
+	cursor: pointer;
 
-  @include animAll($anim-small-time);
+	@include animAll($anim-small-time);
 
-  &::before,
-  &::after {
-    content: "";
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    display: flex;
-    background-color: #ffffff;
-    @include fixedWH(16px, 16px);
-    border: 1px solid $color-text-orders;
-    border-radius: 4px;
-  }
+	&::before,
+	&::after {
+		content: "";
+		transform: translate(-50%, -50%);
+		position: absolute;
+		top: 50%;
+		left: 50%;
 
-  &::after {
-    background-image: url(~@/assets/icons/checkboxOk.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 85%;
-    opacity: 0;
-  }
+		@include fixedWH(16px, 16px);
+		display: flex;
+	}
 
-  &:checked::after,
-  &.checked::after {
-    opacity: 1;
-    border: 1px solid $color-main;
-  }
+	&:before {
+		background-color: #ffffff;
+		border: 1px solid $color-text-orders;
+		border-radius: 4px;
+	}
+
+	&:after {
+		transform: translate(-50%, -50%) scale(0);
+		clip-path: polygon(92% 27%, 46% 87%, 16% 68%, 24% 57%, 45% 70%, 80% 21%);
+		background-color: $mainSiteColor;
+		opacity: 0;
+	}
+
+	&:checked:before,
+	&.checked:before{
+		border-color: $color-main;
+	}
+
+	&:checked:after,
+	&.checked:after{
+		transform: translate(-50%, -50%) scale(0.9);
+		opacity: 1;
+	}
 }
 
 .ui-checkbox {
-  @include uiCheckbox();
+	@include uiCheckbox();
 }
 
 input[type="checkbox"].ui-checkbox {
-  @include uiCheckbox();
+	@include uiCheckbox();
 }
 
 input[type="radio"].ui-checkbox {
-  @include uiCheckbox();
+	@include uiCheckbox();
 }
 
 input[type="radio"].ui-radio {
-  position: relative;
-  margin: 0;
+	position: relative;
+	margin: 0;
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    padding: 7px;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 1px solid $color-text-orders;
-    transform: translate(-50%, -50%);
-  }
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		padding: 7px;
+		background-color: #fff;
+		border-radius: 50%;
+		border: 1px solid $color-text-orders;
+		transform: translate(-50%, -50%);
+	}
 
-  &:checked::after {
-    content: "";
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    padding: 5px;
-    background-color: $mainSiteColor;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-  }
+	&:checked::after {
+		content: "";
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		padding: 5px;
+		background-color: $mainSiteColor;
+		border-radius: 50%;
+		transform: translate(-50%, -50%);
+	}
 }
 
 .ui-loader {
-  $loaderRadius: 80px;
+	$loaderRadius: 80px;
 
-  position: relative;
-  width: 100%;
+	position: relative;
+	width: 100%;
 
-  padding: Calc(#{$loaderRadius} / 2);
+	padding: Calc(#{$loaderRadius} / 2);
 
-  &:before,
-  &:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
+	&:before,
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
 
-    width: $loaderRadius;
-    height: $loaderRadius;
+		width: $loaderRadius;
+		height: $loaderRadius;
 
-    border: 7px solid $color-text-grey;
-    border-radius: 50%;
+		border: 7px solid $color-text-grey;
+		border-radius: 50%;
 
-    opacity: 1;
-    transform: translateX(-50%);
-    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-  }
+		opacity: 1;
+		transform: translateX(-50%);
+		animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+	}
 
-  &:after {
-    animation-delay: -0.5s;
-  }
+	&:after {
+		animation-delay: -0.5s;
+	}
 
-  @keyframes lds-ripple {
-    0% {
-      transform: translateX(-50%) scale(0);
-      opacity: 1;
-    }
-    100% {
-      transform: translateX(-50%) scale(1);
-      opacity: 0;
-    }
-  }
+	@keyframes lds-ripple {
+		0% {
+			transform: translateX(-50%) scale(0);
+			opacity: 1;
+		}
+		100% {
+			transform: translateX(-50%) scale(1);
+			opacity: 0;
+		}
+	}
 
 }
 
 .ui-list {
-  width: 100%;
-  display: flex;
-  flex-shrink: 1;
-  flex-direction: column;
+	width: 100%;
+	display: flex;
+	flex-shrink: 1;
+	flex-direction: column;
 
-  margin: 24px 0;
-  gap: 24px;
+	margin: 24px 0;
+	gap: 24px;
 
-  &.end {
-    justify-content: flex-end;
-  }
+	&.end {
+		justify-content: flex-end;
+	}
 
-  &.center {
-    justify-content: center;
-    align-items: center;
-  }
+	&.center {
+		justify-content: center;
+		align-items: center;
+	}
 
-  &.small {
-    margin: 16px 0;
-    gap: 16px;
-  }
+	&.small {
+		margin: 16px 0;
+		gap: 16px;
+	}
 
-  &.row {
-    width: auto;
-    margin: 0;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+	&.row {
+		width: auto;
+		margin: 0;
+		flex-direction: row;
+		align-items: center;
+		flex-wrap: wrap;
+	}
 
-  @include mobile {
-    justify-content: center;
-    align-items: center;
-  }
+	@include mobile {
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 .ui-input-w {
-  flex-shrink: 1;
-  display: flex;
-  flex-direction: column;
+	flex-shrink: 1;
+	display: flex;
+	flex-direction: column;
 
-  & > * + * {
-    margin-top: 2px;
-  }
+	& > * + * {
+		margin-top: 2px;
+	}
 
-  @include mobile() {
-    min-width: 100% !important;
-  }
+	@include mobile() {
+		min-width: 100% !important;
+	}
 }
 
 .ui-input-w-row {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 
-  gap: 4px 12px;
+	gap: 4px 12px;
 }
 
 .ui-row {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 
-  gap: 12px 16px;
+	gap: 12px 16px;
 
-  @include mobile {
-    flex-wrap: wrap;
-  }
+	@include mobile {
+		flex-wrap: wrap;
+	}
 }
 
 .ui-caption {
-  display: inline-flex;
-  flex-shrink: 20;
-  @include fontCaption();
+	display: inline-flex;
+	flex-shrink: 20;
+	@include fontCaption();
 }
 
 %ui-input {
-  position: relative;
+	position: relative;
 
-  min-width: 268px;
-  padding: 12px 16px;
-  @include fontMid();
+	min-width: 268px;
+	padding: 12px 16px;
+	@include fontMid();
 
-  background-color: #ffffff;
-  border: 1px solid #8a8a8a;
-  border-radius: 8px;
+	background-color: #ffffff;
+	border: 1px solid #8a8a8a;
+	border-radius: 8px;
 
-  &:focus,
-  &:hover {
-    border: 1px solid $mainSiteColor;
-  }
+	&:focus,
+	&:hover {
+		border: 1px solid $mainSiteColor;
+	}
 
-  @include mobile() {
-    min-width: 100%;
-  }
+	@include mobile() {
+		min-width: 100%;
+	}
 }
 
 input {
-  &::placeholder {
-    color: #8a8a8a;
-  }
+	&::placeholder {
+		color: #8a8a8a;
+	}
 }
 
 .ui-input-date {
-  @extend %ui-input;
+	@extend %ui-input;
 }
 
 .ui-input {
-  @extend %ui-input;
+	@extend %ui-input;
 
-  input {
-    width: 100%;
-    padding-right: 32px;
-  }
+	input {
+		width: 100%;
+		padding-right: 32px;
+	}
 
-  &__eye-btn {
-    position: absolute;
-    width: 16px;
-    right: 16px;
+	&__eye-btn {
+		@include addClickArea(5px, absolute);
+		width: 16px;
+		right: 16px;
 
-    top: 50%;
-    $transform: translateY(-50%);
+		top: 50%;
+		$transform: translateY(-50%);
 
-    user-select: none;
-    z-index: 2;
+		color: $mainSiteColor;
+		user-select: none;
+		z-index: 2;
 
-    cursor: pointer;
+		cursor: pointer;
 
-    $that: &;
-    @at-root {
-      input[type="text"] ~ #{$that} {
-        &.hide {
-          visibility: visible;
-          z-index: 2;
-          transform: $transform scale(1);
-        }
+		$that: &;
+		@at-root {
+			input[type="text"] ~ #{$that} {
+				&.hide {
+					visibility: visible;
+					z-index: 2;
+					transform: $transform scale(1);
+				}
 
-        &.show {
-          visibility: hidden;
-          z-index: -1;
-          transform: $transform scale(0);
-        }
-      }
+				&.show {
+					visibility: hidden;
+					z-index: -1;
+					transform: $transform scale(0);
+				}
+			}
 
-      input[type="password"] ~ #{$that} {
-        &.hide {
-          visibility: hidden;
-          z-index: -1;
-          transform: $transform scale(0);
-        }
+			input[type="password"] ~ #{$that} {
+				&.hide {
+					visibility: hidden;
+					z-index: -1;
+					transform: $transform scale(0);
+				}
 
-        &.show {
-          visibility: visible;
-          z-index: 2;
-          transform: $transform scale(1);
-        }
-      }
-    }
-  }
+				&.show {
+					visibility: visible;
+					z-index: 2;
+					transform: $transform scale(1);
+				}
+			}
+		}
+	}
 
-  &__clear-btn {
-    position: absolute;
-    width: 16px;
-    right: 16px;
-    top: 50%;
-    transform: translateY(-50%);
+	&__clear-btn {
+		position: absolute;
+		width: 16px;
+		right: 16px;
+		top: 50%;
+		transform: translateY(-50%);
 
-    user-select: none;
-    cursor: pointer;
+		user-select: none;
+		cursor: pointer;
 
-    z-index: 2;
-  }
+		z-index: 2;
+	}
 
-  &.number {
-    max-width: 126px;
-    min-width: 126px;
-  }
+	&.number {
+		max-width: 126px;
+		min-width: 126px;
+	}
 }
 
 .ui-link {
-  @include fontMid();
-  color: $mainSiteColor;
-  text-decoration: underline;
-  text-align: center;
+	@include fontMid();
+	color: $mainSiteColor;
+	text-decoration: underline;
+	text-align: center;
 
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .ui-btn-back {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
-  @include fontBig();
-  padding: 6px 20px;
-  background-color: #ffffff;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.149);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	@include fontBig();
+	padding: 6px 20px;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.149);
 
-  .text {
-    margin-left: 8px;
-  }
+	.text {
+		margin-left: 8px;
+	}
 
-  &:hover {
-    padding-left: 16px;
+	&:hover {
+		padding-left: 16px;
 
-    .text {
-      margin-left: 12px;
-    }
-  }
+		.text {
+			margin-left: 12px;
+		}
+	}
+}
+
+.ui-colored {
+	color: $mainSiteColor;
 }
 
 .ui-ico {
-  width: 20px;
-  height: 20px;
-  display: flex;
+	width: 20px;
+	height: 20px;
+	display: flex;
 
-  overflow: hidden;
+	overflow: hidden;
 
-  > img {
-    width: auto;
-    height: 100%;
-    object-fit: fill;
+	> img {
+		width: auto;
+		height: 100%;
+		object-fit: fill;
 
-    margin: auto;
-  }
+		margin: auto;
+	}
 }
 
 %ui-btn {
-  cursor: pointer;
-  user-select: none;
+	cursor: pointer;
+	user-select: none;
 }
 
 %ui-big-btn {
-  @extend %ui-btn;
+	@extend %ui-btn;
 
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-  .ui-ico {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    bottom: 8px;
+	@include fontBig();
+	padding: 8px 16px;
 
-    object-fit: contain;
-  }
+	border-radius: 6px;
 
-  & > * + * {
-    margin-left: 4px;
-  }
+	@include bigMobile {
+		padding: 4px 8px;
+	}
 
-  @include fontBig();
-  padding: 8px 16px;
+	.ui-ico {
+		position: absolute;
+		top: 50%;
+		left: 16px;
 
-  border-radius: 6px;
+		transform: translateY(-50%) scale(1.1);
+		object-fit: contain;
+
+		@include bigMobile {
+			left: 8px;
+			transform: translateY(-50%) scale(0.9);
+		}
+	}
+
+	& > * + * {
+		margin-left: 4px;
+	}
+
+
 }
 
 .ui-main-btn {
-  @extend %ui-big-btn;
+	@extend %ui-big-btn;
 
-  color: #fff;
-  background-color: $color-main;
+	color: #fff;
+	background-color: $color-main;
 
-  &:disabled {
-    background-color: $color-text-grey;
+	&:disabled {
+		background-color: $color-text-grey;
 
-    cursor: not-allowed;
+		cursor: not-allowed;
 
-    &:hover {
-      background-color: $color-text-orders;
-    }
-  }
+		&:hover {
+			background-color: $color-text-orders;
+		}
+	}
 
-  &.grey {
-    background-color: $color-text-grey;
+	&.grey {
+		background-color: $color-text-grey;
 
-    &:hover {
-      background-color: $color-text-orders;
-    }
-  }
+		&:hover {
+			background-color: $color-text-orders;
+		}
+	}
 
-  &:hover {
-    background-color: $color-hov;
-  }
+	&:hover {
+		background-color: $color-hov;
+	}
 }
 
 .ui-second-btn {
-  @extend %ui-big-btn;
+	@extend %ui-big-btn;
 
-  color: $color-main;
-  background-color: #ffffff;
-  border: 1px solid $color-main;
+	color: $color-main;
+	background-color: #ffffff;
+	border: 1px solid $color-main;
 
-  &:hover {
-    box-shadow: 0 0 12px transparentize($color: $color-main, $amount: 0.8);
-  }
+	&:hover {
+		box-shadow: 0 0 12px transparentize($color: $color-main, $amount: 0.8);
+	}
 }
 
 .ui-third-btn {
-  @extend %ui-big-btn;
+	@extend %ui-big-btn;
 
-  color: $color-text-orders;
-  background: #ffffff;
-  border: 1px solid transparent;
+	color: $color-text-orders;
+	background: #ffffff;
+	border: 1px solid transparent;
 
-  &:hover {
-    color: $color-main;
-    border: 1px solid $color-main;
-  }
+	&:hover {
+		color: $color-main;
+		border: 1px solid $color-main;
+	}
 
-  &.green {
-    color: $color-main;
-  }
+	&.colored {
+		color: $color-main;
+	}
 }
 
 .ui-simple-btn {
-  @extend %ui-btn;
+	@extend %ui-btn;
 
-  @include fontMid;
-  color: $color-text-orders;
-  cursor: pointer;
+	@include fontMid;
+	color: $color-text-orders;
+	cursor: pointer;
 
-  &:hover {
-    color: $color-main;
-  }
+	&:hover {
+		color: $color-main;
+	}
 
-  &.green {
-    color: $color-main;
-  }
+	&.colored {
+		color: $color-main;
+	}
 }
 
 .ui-caption-btn {
-  @extend %ui-btn;
+	@extend %ui-btn;
 
-  @include fontCaption;
+	@include fontCaption;
 
-  color: $mainSiteColor;
-  cursor: pointer;
+	color: $mainSiteColor;
+	cursor: pointer;
 
-  &:hover {
-    color: $color-main-hov;
-  }
+	&:hover {
+		color: $color-main-hov;
+	}
 }
 
 .ui-radio-group {
-  max-width: 600px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 24px;
+	max-width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px 24px;
 }
 
 .ui-radio-w {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 
-  > * + * {
-    margin-left: 10px;
-  }
+	> * + * {
+		margin-left: 10px;
+	}
 }
 
 .ui-radio-cap {
-  @include fontMid;
-  color: #363636;
+	@include fontMid;
+	color: #363636;
 }
 
 .ui-select {
-  position: relative;
+	position: relative;
 
-  .ui-input {
-    padding-right: 48px;
-  }
+	.ui-input {
+		padding-right: 48px;
+	}
 
-  &.active & {
-    &__list {
-      overflow: auto;
-      max-height: 80vh;
-    }
+	&.active & {
+		&__list {
+			overflow: auto;
+			max-height: 70vh;
+		}
 
-    &__btn {
-      transform: translateY(-50%) rotate(90deg);
-    }
-  }
+		&__btn {
+			transform: translateY(-50%) rotate(90deg);
+		}
+	}
 
-  &__btn {
-    position: absolute;
-    right: 16px;
-    top: 50%;
-    transform: translateY(-50%);
-    user-select: none;
-    pointer-events: none;
-  }
+	&__btn {
+		position: absolute;
+		right: 16px;
+		top: 50%;
+		transform: translateY(-50%);
 
-  &__list {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 2;
+		color: $mainSiteColor;
+		user-select: none;
+		pointer-events: none;
+	}
 
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+	&__list {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		z-index: 2;
 
-    padding: 0 6px;
-    background-color: #ffffff;
-    box-shadow: $block-shadow;
+		border-bottom-left-radius: 6px;
+		border-bottom-right-radius: 6px;
 
-    overflow: hidden;
-    max-height: 0px;
-  }
+		padding: 0 6px;
+		background-color: #ffffff;
+		box-shadow: $block-shadow;
 
-  &__item {
-    padding: 12px;
-    cursor: pointer;
+		overflow: hidden;
+		max-height: 0px;
+	}
 
-    &:hover {
-      color: $mainSiteColor;
-    }
+	&__item {
+		padding: 12px;
+		cursor: pointer;
 
-    & + & {
-      border-top: 1px solid $color-text-grey;
-    }
-  }
+		&:hover {
+			color: $mainSiteColor;
+		}
+
+		& + & {
+			border-top: 1px solid $color-text-grey;
+		}
+	}
 }

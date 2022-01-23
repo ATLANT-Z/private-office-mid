@@ -13,7 +13,49 @@
     <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
         Please enable it to continue.</strong>
 </noscript>
-<main id="app"></main>
+<header class="site-header">
+    <section class="site-header__top-row hide-mob">
+        <div class="site-header__row-w">
+            <a href="/">
+                <img class="site-header__logo" src="/img/logo.svg" alt="">
+            </a>
+            <div class="contact-list">
+                <div class="contact-list__item">
+                    <img class="contact-list__item-img" src="/icons/phoneDark.svg" alt="">
+                    <span class="contact-list__item-title">0800309988</span>
+                </div>
+                <div class="contact-list__item">
+                    <!--                        <img class="contact-list__item-img" src="/icons/mapPin.svg" alt="">-->
+                    <!--                        <span class="contact-list__item-title">Одесса</span>-->
+                </div>
+            </div>
+            <nav class="site-header__top-nav">
+                <a href="/about-company">
+                    О нас
+                </a>
+                <a href="/about-company/shipping-payment">
+                    Доставка и оплата
+                </a>
+                <a href="/partnership">
+                    Сотрудничество
+                </a>
+                <a href="/services">
+                    Монтаж
+                </a>
+                <a href="/about-company/contact">
+                    Контакты
+                </a>
+            </nav>
+        </div>
+    </section>
+    <section id="appHeader">
+        <section class="site-header__main-row">
+        </section>
+    </section>
+    <section class="page-nav-wrapper">
+    </section>
+</header>
+<main id="appOffice"></main>
 <!--    ...код-->
 <!--    ...код-->
 <!--    ...код-->

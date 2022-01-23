@@ -1,0 +1,517 @@
+.card-product-new-wrp {
+  @include pageGredCard;
+}
+
+.card-product-new-name {
+  margin-bottom: 18px;
+  padding-top: 19px;
+  // display: flex;
+  font-family: $fontRobotoReg;
+  @include startAdaptiveSmol {
+    & {
+      @include padMob;
+    }
+  }
+  &__text {
+    margin-bottom: 15px;
+    font-size: 35px;
+    font-weight: 400;
+    @include bigMobileWidth {
+      & {
+        font-size: 24px;
+      }
+    }
+  }
+  &__text-bol {
+    font-weight: 600;
+    @include bigMobileWidth {
+      & {
+        display: block;
+      }
+    }
+  }
+}
+
+.card-prod-wrp-cont {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  color: $colorCardProd;
+  @include startAdaptiveSmol {
+    & {
+      @include padMob;
+    }
+  }
+  @include bigMobileWidth {
+    & {
+      flex-direction: column;
+      align-items: center;
+      @include padMob;
+    }
+  }
+  @extend %textMain;
+  @at-root {
+    .card-prod-info {
+      max-width: 894px;
+      width: 100%;
+      &__price-btn {
+        @include btnCardBuy;
+        &:hover {
+          background-color: $colorHov;
+        }
+        @include mobileWidth {
+          & {
+            max-width: none;
+          }
+        }
+      }
+      @include bigMobileWidth {
+        & {
+          max-width: 100%;
+        }
+      }
+      &__price-dez {
+        @include floatingCard {
+          & {
+            display: none;
+          }
+        }
+      }
+      &__btn-wrp {
+      }
+      &__btn {
+        @include btnCardTransparent;
+        @include mobileHeight {
+          & {
+            max-width: 510px;
+            width: 100%;
+          }
+    }
+      }
+      &__price {
+        margin-bottom: 16px;
+        @include boxCardProd;
+        display: flex;
+        @include smScreenWidth {
+          & {
+            flex-direction: column;
+          }
+        }
+      }
+      &__price-buy {
+        max-width: 273px;
+        width: 100%;
+        @include smallestScreenWidth {
+          & {
+            margin-bottom: 10px;
+          }
+        }
+        @include floatingCard {
+          & {
+            max-width: none;
+            margin-bottom: 0;
+          }
+        }
+      }
+      &__price-buy-wrp {
+        max-width: 272px;
+        width: 100%;
+        margin-right: 15px;
+        @include floatingCard {
+          & {
+            max-width: 100%;
+            margin-right: 0;
+          }
+        }
+        @include smScreenWidth {
+          & {
+            margin-bottom: 16px;
+          }
+        }
+      }
+      &__price-btn {
+        @include btnCardBuy;
+        &:hover {
+          background-color: $colorHov;
+        }
+        @include floatingCard {
+          & {
+            max-width: none;
+          }
+        }
+      }
+      &__olp-price {
+        font-size: 18px;
+        color: #363636;
+        text-decoration: line-through;
+        @include mobileWidth {
+          & {
+            font-size: 16px;
+          }
+        }
+      }
+      &__price-sale {
+        display: none;
+        @include mobileWidth {
+          & {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+            align-items: center;
+          }
+        }
+      }
+      &__price-sale-wrp {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        @include mobileWidth {
+          & {
+            margin-bottom: 14px;
+            // display: flex; раскоментировать что бы работало
+            justify-content: space-between;
+          }
+        }
+      }
+      &__volue-wrp {
+        @include floatingCard {
+          & {
+            margin-bottom: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+        }
+      }
+      &__volue-sale {
+        margin-bottom: 10px;
+        color: #ff0000;
+        font-size: 48px;
+        font-weight: 600;
+        @include floatingCard {
+          & {
+            margin-bottom: 0;
+            margin-right: 7px;
+            font-size: 24px;
+          }
+        }
+      }
+      &__volue {
+        margin-bottom: 10px;
+        font-size: 48px;
+        font-weight: 600;
+        @include floatingCard {
+          & {
+            font-size: 24px;
+            margin-bottom: 0;
+          }
+        }
+      }
+      &__sale {
+        margin-bottom: 16px;
+        display: flex;
+        @include boxCardProd;
+        justify-content: space-between;
+        align-items: center;
+        @include mobileHeight {
+          & {
+            flex-direction: column;
+          }
+        }
+      }
+      &__sale-text {
+        height: 85px;
+        padding: 30px 13px;
+        margin-right: 16px;
+        background-color: #e25750;
+        border-radius: 50%;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        @include mobileWidth {
+          & {
+            display: none;
+          }
+        }
+      }
+      &__title-text {
+        max-width: 488px;
+        font-size: 20px;
+        @include smScreenWidth {
+          & {
+            font-size: 16px;
+          }
+        }
+        @include bigMobileWidth {
+          & {
+            font-size: 14px;
+          }
+        }
+      }
+      &__title {
+        margin-bottom: 10px;
+        font-weight: 700;
+        color: #ff0000;
+        @include mobileHeight {
+          & {
+            margin-bottom: 0;
+          }
+        }
+      }
+      &__text {
+        font-weight: 400;
+        @include mobileHeight {
+          & {
+            margin-bottom: 10px;
+          }
+        }
+      }
+      &__sale-wrp {
+        margin-right: 16px;
+        display: flex;
+      }
+      &__availability {
+        margin-right: 16px;
+        margin-bottom: 10px;
+        @include btnCardTransparent;
+        @include mobileWidth {
+          & {
+            display: none;
+          }
+        }
+      }
+      &__availability-mob {
+        display: none;
+        @include btnCardTransparent;
+        @include floatingCard {
+          & {
+            display: block;
+            min-height: 29px;
+          }
+        }
+      }
+      &__wrp-img {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        @include mobileWidth {
+          & {
+            justify-content: center;
+          }
+        }
+      }
+      &__img-pos-wrp {
+        display: flex;
+        flex-wrap: wrap;
+        @include mobileWidth {
+          & {
+            justify-content: center;
+          }
+        }
+      }
+      &__img-pos {
+        max-width: 118px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: $colorCard;
+        font-size: 10px;
+        line-height: 12px;
+        img {
+          margin-right: 5px;
+        }
+        @include mobileWidth {
+          & {
+            max-width: 100px;
+            font-size: 8px;
+          }
+        }
+      }
+      &__tools-wrp {
+        display: flex;
+        flex-wrap: wrap;
+        @include mobileWidth {
+          & {
+            display: none;
+          }
+        }
+      }
+      &__tools-wrp-mob {
+        display: none;
+        @include mobileWidth {
+          & {
+            max-width: 90px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+      }
+      &__tools {
+        margin-right: 39px;
+        margin-bottom: 21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          margin-right: 10px;
+          @include mobileWidth {
+            & {
+              margin-right: 0;
+            }
+          }
+        }
+        @include mobileWidth {
+          & {
+            margin-right: 0;
+            margin-bottom: 0;
+          }
+        }
+      }
+      &__guarante-wrp {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        font-size: 16px;
+        @include mobileWidth {
+          & {
+            align-items: flex-end;
+          }
+        }
+      }
+      &__guarante-img {
+        margin-right: 10px;
+      }
+      &__guarante-text {
+        max-width: 189px;
+        margin-right: 16px;
+        @include mobileWidth {
+          & {
+            font-size: 14px;
+          }
+        }
+      }
+      &__kod {
+        @include mobileWidth {
+          & {
+            display: none;
+          }
+        }
+      }
+      &__guarante-text-img {
+        display: flex;
+        align-items: center;
+      }
+    }
+    @at-root {
+      .card-prod-info-deliv {
+        margin-bottom: 16px;
+        @include boxCardProd;
+        position: relative;
+        &__title {
+          margin-bottom: 13px;
+          position: relative;
+          font-size: 18px;
+        }
+        &__line {
+          position: absolute;
+          top: 1px;
+          width: 100%;
+          height: 1px;
+          background-color: #c4c4c4;
+          z-index: 1;
+        }
+        &__title-wrp {
+          position: relative;
+        }
+        &__btn-wrp {
+          font-size: 16px;
+        }
+        &__btn-od {
+          @include deliveryBtn;
+          &:hover,
+          &:active {
+            @include deliveryBtnHov;
+          }
+        }
+        &__btn-ua {
+          @include deliveryBtn;
+          &:hover,
+          &:active {
+            @include deliveryBtnHov;
+          }
+        }
+        &__btn-wrp {
+          margin-bottom: 16px;
+          position: relative;
+        }
+        &__text-green {
+          color: $colorCard;
+        }
+        &__text-gray {
+          color: #8a8a8a;
+        }
+        &__wrp-condi {
+          position: relative;
+          font-size: 16px;
+        }
+        &__wrp-condi-od {
+          margin-bottom: 10px;
+        }
+        &__wrp-text-od {
+          margin-bottom: 10px;
+        }
+        &__wrp-ua-pos {
+          position: absolute;
+          top: 0;
+          opacity: 0;
+        }
+        &__wrp-od-pos {
+          opacity: 0;
+        }
+      }
+      .card-prod-info-payment {
+        margin-bottom: 16px;
+        @include boxCardProd;
+        &__wrp-icon {
+          max-width: 451px;
+          display: flex;
+          flex-wrap: wrap;
+          // justify-content: space-between;
+        }
+        &__border {
+          height: 40px;
+          padding: 0 15px;
+          margin-right: 16px;
+          margin-top: 16px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 8px;
+          border: 1px solid $colorCard;
+        }
+      }
+      .card-prod-description-mini {
+        @include boxCardProd;
+        &__btn {
+          @include underlinedGreenText;
+          font-size: 16px;
+        }
+        &__title-text {
+          margin-bottom: 10px;
+          font-size: 18px;
+        }
+        &__text {
+          margin-bottom: 10px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+.cardProdInfoDelivActive {
+  opacity: 1;
+  transition: 0.9s;
+}

@@ -167,7 +167,7 @@
 			window.addEventListener("resize", this.resizeHandler);
 		},
 		unmounted() {
-			console.log('Pagination unmounted');
+			// console.log('Pagination unmounted');
 			window.removeEventListener("resize", this.resizeHandler);
 		},
 	};

@@ -2,16 +2,22 @@ $color-main: #009b44;
 $color-main-light: #80ffb9;
 $color-main-hov: #106e19;
 $color-hov: #287231;
+$btnTransparentCol: #009b3e1a;
 $color-status-expected: #009b44;
 
 //$color-main: #F36C21;
 //$color-main-light: #ffc280;
-//$color-main-hov: #6e4410;
+//$color-main-hov: #AC450B;
 //$color-hov: #724628;
+//$btnTransparentCol: #f36c211a;
 //$color-status-expected: #f5821f;
 
-$mainSiteColor: $color-main;
 
+$mainSiteColor: $color-main;
+$activeSiteColor: $color-main-hov;
+$transpColor: $btnTransparentCol;
+
+$color-light-grey: #e7e7e7;
 $color-back-grey: #c4c4c4;
 $color-text-orders: #363636;
 $color-text-grey: #8a8a8a;
@@ -33,9 +39,9 @@ $block-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
 $border-radius: 8px;
 
 $backColorTrans: #009b4433;
-$color-new-grey: #393D38;
+$color-new-grey: #393D38; 
 
-$headerHeight: 90px;
+$headerHeight: 124px;
 $productGalleryMargin: 1%;
 
 //вложенности

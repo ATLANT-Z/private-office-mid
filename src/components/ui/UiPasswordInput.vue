@@ -5,16 +5,18 @@
              :placeholder="placeholder"
              :readonly="readonly"
       >
-      <img class="ui-input__eye-btn show" src="@/assets/icons/eyeShow.svg" alt=""
-           @click.self="showPass">
-      <img class="ui-input__eye-btn hide" src="@/assets/icons/eyeHide.svg" alt=""
-           @click.self="hidePass">
+     <SvgIcon class="ui-input__eye-btn show" icon="eyeShow"
+              @click.self="showPass"></SvgIcon>
+     <SvgIcon class="ui-input__eye-btn hide" icon="eyeHide"
+              @click.self="hidePass"></SvgIcon>
    </div>
 </template>
 
 <script>
-	export default {
-		props: {
+	import SvgIcon from "@/tools/svg/SvgIcon";
+  export default {
+    components: {SvgIcon},
+    props: {
 			startValue: String,
 			readonly: {
 				type: Boolean,

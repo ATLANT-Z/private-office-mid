@@ -1,13 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
 // import Home from '../views/Home.vue'
-import PersonalData from "../components/PersonalData.vue";
-import WishList from "../components/WishList.vue";
-import ViewedProducts from "../components/ViewedProducts.vue";
-import SubscrbManage from "../components/SubscrbManage.vue";
-import Review from "../components/Review.vue";
-import Orders from "../components/Orders.vue";
-import Promocodes from "../components/Promocodes/Promocodes.vue";
-import TabGallery from "../components/TabGallery.vue";
+import PersonalData from "@component/PersonalData.vue";
+import WishList from "@component/WishList.vue";
+import ViewedProducts from "@component/ViewedProducts.vue";
+import SubscrbManage from "@component/SubscrbManage.vue";
+import Review from "@component/Review.vue";
+import Orders from "@component/Orders.vue";
+import Promocodes from "@component/Promocodes/Promocodes.vue";
+import TabGallery from "@component/TabGallery";
+import Slider from "@component/Slider";
 
 // eslint-disable-next-line no-unused-vars
 const routesWithPrefix = (prefix, routes) => {
@@ -58,6 +59,11 @@ const routes = [
 		path: "/tabs",
 		name: "tabs",
 		component: TabGallery,
+	},
+	{
+		path: "/slider",
+		name: "slider",
+		component: Slider,
 	},
 	// {
 	//   path: '/about',

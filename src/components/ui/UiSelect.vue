@@ -1,7 +1,7 @@
 <template>
    <div class="ui-select" :class="{active:show}" tabindex="0" @focusout="lostFocus" @focusin="getFocus">
       <input class="ui-input" type="text" :value="innerValue" :placeholder="placeholder" readonly>
-      <img class="ui-select__btn" src="@/assets/icons/downArrow.svg" alt="">
+     <SvgIcon class="ui-select__btn" icon="downArrow"></SvgIcon>
       <ul class="ui-select__list" @click.prevent>
          <li v-for="val in values" :key="val" class="ui-select__item" @click="optionClick(val)">
             {{val}}
@@ -11,8 +11,10 @@
 </template>
 
 <script>
-	export default {
-		props: {
+	import SvgIcon from "@/tools/svg/SvgIcon";
+  export default {
+    components: {SvgIcon},
+    props: {
 			modelValue: String,
 			placeholder: String,
 			values: {

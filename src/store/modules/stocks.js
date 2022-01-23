@@ -1,3 +1,5 @@
+import apiRoutes from "@/apiRoutes";
+
 export default {
 	state: {
 		innerStocks: [],
@@ -14,7 +16,7 @@ export default {
 	},
 	actions: {
 		fetchStocks(ctx) {
-			fetch("/stocks.json")
+			fetch(apiRoutes.stocks)
 				.then((res) => res.json())
 				.then((json) => {
 					const innerStocks = json.data;

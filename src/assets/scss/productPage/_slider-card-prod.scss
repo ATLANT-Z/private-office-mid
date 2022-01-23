@@ -1,0 +1,224 @@
+@import "styleAdaptive";
+@import "../abstract";
+@import "main_variable_gv";
+
+.card-prod-img {
+	max-width: 590px;
+	width: 100%;
+	margin-right: 16px;
+
+	@include bigMobileWidth {
+		& {
+			max-width: 100%;
+			margin-right: 0;
+		}
+	}
+
+	&__benefits {
+		@include boxCardProd;
+
+		@include startAdaptiveSmol {
+			& {
+				@include padMob;
+			}
+		}
+
+		font-size: 18px;
+
+		@include bigMobileWidth {
+			& {
+				margin-bottom: 16px;
+			}
+		}
+	}
+
+	&__dest {
+		@include bigMobileWidth {
+			& {
+				display: none;
+			}
+		}
+	}
+
+	&__mob {
+		display: none;
+
+		@include bigMobileWidth {
+			& {
+				display: block;
+			}
+		}
+	}
+
+	&__text {
+		margin-bottom: 21px;
+	}
+
+	&__icon {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	&__icon-mar {
+		max-width: 78px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__wrapper {
+		--img-side: 491px;
+
+		width: var(--img-side);
+		height: var(--img-side);
+		overflow: hidden;
+		margin: 0 auto;
+
+		@include smallestScreenWidth {
+			& {
+				--img-side: 371px;
+			}
+		}
+
+		@include mobileWidth {
+			& {
+				--img-side: 264px;
+			}
+		}
+	}
+
+	&__v-carousel {
+		display: flex;
+		transition: all 0.3s;
+		cursor: pointer;
+	}
+
+	&__img {
+		width: 100%;
+		height: 100%;
+	}
+
+	&__little-img-w {
+		padding-bottom: 8px;
+		transition: .3s;
+	}
+
+	&__little-img {
+		max-width: 65px;
+		border-radius: 8px;
+		border: 1px solid transparent;
+
+		cursor: pointer;
+
+		@include mobileWidth {
+			& {
+				max-width: 41px;
+			}
+		}
+
+		&.active {
+			border-color: $color-main;
+		}
+	}
+
+	&__wrp-pos {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+
+	&__wrp-min-img {
+		padding-top: 17px;
+		padding: 27px 16px 27px 0;
+		position: relative;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		@include mobileWidth {
+			& {
+				padding: 27px 0;
+			}
+		}
+	}
+
+	&__border {
+		width: 65px;
+		height: 65px;
+		position: absolute;
+		border: 1px solid $colorCard;
+		border-radius: 8px;
+		top: 39px;
+		left: 15px;
+	}
+
+	&__wrp-cont {
+		max-width: 590px;
+		width: 100%;
+		padding: 0;
+		box-sizing: border-box;
+
+		@include smallestScreenWidth {
+			& {
+				max-width: 470px;
+			}
+		}
+
+		@include bigMobileWidth {
+			& {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		@include mobileWidth {
+			& {
+				max-width: 343px;
+			}
+		}
+	}
+
+	&__btn-up {
+		margin-bottom: 7px;
+		color: $color-main;
+	}
+
+	&__wrp {
+		margin-bottom: 16px;
+		@include boxCardProd;
+		padding-left: 14px;
+		padding-right: 4px;
+	}
+
+	&__btn-wrp {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.my-w {
+	height: 450px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	padding-right: 8px;
+	overflow-y: auto;
+	overscroll-behavior: contain;
+
+
+	@include scrollbarStyle();
+
+	@include smallestScreenWidth {
+		& {
+			height: 376px;
+		}
+	}
+
+	@include mobileWidth {
+		& {
+			height: 238px;
+		}
+	}
+
+}

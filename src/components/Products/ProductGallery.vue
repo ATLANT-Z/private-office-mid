@@ -1,7 +1,7 @@
 <template>
-    <SvgSprite></SvgSprite>
     <div class="gallery-w">
-        <article class="product-gallery" :id="id">
+      <SvgSprite></SvgSprite>
+      <article class="product-gallery" :id="id">
             <ProductCard v-for="product in visibleList"
                          :key="product.id"
                          :product="product">
@@ -82,7 +82,7 @@
 			}
 		},
 		mounted() {
-			console.log('ProductGallery mounted');
+			// console.log('ProductGallery mounted');
 			// this.getProdProducts();
 		}
 	};

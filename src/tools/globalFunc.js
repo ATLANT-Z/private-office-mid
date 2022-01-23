@@ -3,15 +3,19 @@ export default {
 	install(app, options) {
 		app.config.globalProperties.$getCoords = function (elem) {
 			let box = elem.getBoundingClientRect();
-
 			return {
 				top: box.top + pageYOffset,
 				left: box.left + pageXOffset,
 			};
 		};
 
+		app.config.globalProperties.$getBgIco = function (name) {
+			return "url(" + app.config.globalProperties.$getIco(name) + ")";
+		};
 		app.config.globalProperties.$getIco = function (name) {
-			return "url(" + require(`@/assets/icons/${name}`) + ")";
+			let src = require(`@/assets/icons/${name}`);
+			if (src?.default) src = src.default;
+			return src;
 		};
 
 		app.config.globalProperties.$hideShowable = function (e) {

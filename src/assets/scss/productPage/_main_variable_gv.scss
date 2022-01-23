@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+$color-green: #159822;
+//$color-main: #F36C21;
+//$colorCard: #F36C21;
+//$colorHov: #AC450B;
+//$btnTransparentCol: #f36c211a;
+//$colorBackSlider: #f36c211a;
+//$color-main-hov: #AC450B;
+
+
+$color-main: #159822;
+$colorCard: #009b3e;
+$colorHov: #287231;
+$btnTransparentCol: #009b3e1a;
+$colorBackSlider: #009b3e1a;
+$color-main-hov: #106e19;
+
+
+$fontRobotoReg: "Roboto", sans-serif;
+$border-grey: 1px solid #d1d1d1;
+$line-grey-col: 1px solid #c4c4c4;
+$block-shadow: 0px 10px 35px rgba(0, 0, 0, 0.1);
+$colorCardProd: #393d38;
+$colorCardGrey: #8a8a8a;
+$borderForm: 1px solid $colorCardGrey;
+
+//вложенности
+%icon-position-cent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+%textMain {
+  font-family: $fontRobotoReg;
+}
+%pos-cent-marg {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%pos-cent-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%marg-bott {
+  margin-bottom: 40px;
+}
+
+%input-hov-act {
+  border: 1px solid #159822;
+}
+
+//mixin
+
+@mixin btnCancel {
+  padding: 8px 16px;
+  background-color: $colorCardGrey;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+@mixin borderFormCard {
+  border: $borderForm;
+  max-width: 467px;
+  width: 100%;
+  min-height: 40px;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+@mixin gridDowloads {
+  display: grid;
+  grid-template-columns: 2.1fr 0.8fr 0.8fr 0.8fr 1.3fr;
+  grid-template-rows: 0.2fr;
+  text-align: center;
+}
+
+@mixin btnCardBuy {
+  min-height: 40px;
+  max-width: 273px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: $colorCard;
+  font-size: 18px;
+}
+
+@mixin underlinedGreenText {
+  color: $colorCard;
+  text-decoration: underline;
+}
+
+@mixin btnCardTransparent {
+  min-height: 40px;
+  padding-left: 19px;
+  padding-right: 19px;
+  border-radius: 6px;
+  background-color: $btnTransparentCol;
+  color: $colorCard;
+  white-space: nowrap;
+}
+
+@mixin btn-inp-form {
+  @extend %text-main;
+  @extend %pos-cent-marg;
+  max-width: 173px;
+  display: block;
+  padding: 8px 13px;
+  color: #ffffff;
+  background-color: $color-main;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid $color-main;
+  cursor: pointer;
+}
+
+@mixin main-text {
+  font-family: $fontRobotoReg;
+  font-size: 18px;
+  text-align: center;
+}
+
+@mixin box-advantages {
+  @extend %pos-cent-flex;
+  @extend %text-main;
+  width: 262px;
+  min-height: 216px;
+  padding: 0 22px;
+  text-align: center;
+  border: $border-grey;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+@mixin pageGred {
+  max-width: 1550px;
+  width: 100%;
+  @include cenMarg;
+  position: relative;
+}
+
+@mixin pageGredCard {
+  max-width: 1500px;
+  width: 100%;
+  @include cenMarg;
+  position: relative;
+  color: $colorCardProd;
+  font-family: $fontRobotoReg;
+}
+
+@mixin cenMarg {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin padMob {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@mixin boxCardProd {
+  padding: 16px 16px;
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+@mixin deliveryBtn {
+  margin-right: 10px;
+  position: relative;
+  padding-top: 10px;
+  border-top: 3px solid #009b3e00;
+  transition: 0.6s;
+  z-index: 2;
+}
+
+@mixin deliveryBtnHov {
+  color: $colorCard;
+  border-top: 3px solid $colorCard;
+  transition: 0.6s;
+}
+
+@mixin widthCardCont {
+  width: 100%;
+  max-width: 1197px;
+  margin-right: auto;
+}
+
+@mixin btnCardWhiteBackground {
+  padding: 8px 16px;
+  color: $colorCard;
+  border: 1px solid $colorCard;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+@mixin circleGray {
+  max-width: 62px;
+  width: 100%;
+  height: 62px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+}
+
+@mixin textTitleSlid {
+  font-size: 24px;
+  font-weight: 600;
+}

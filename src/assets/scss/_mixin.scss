@@ -325,7 +325,9 @@ $mobileHeight: 600px;
 }
 
 @mixin scrollbarStyle($width: 5px) {
-	scrollbar-color: $color-main transparent;
+	$scrollBarColor: $color-back-grey;
+
+	scrollbar-color: $scrollBarColor transparent;
 	scrollbar-width: thin;
 
 	&::-webkit-scrollbar {
@@ -333,9 +335,9 @@ $mobileHeight: 600px;
 		height: $width;
 	}
 	&::-webkit-scrollbar-button {
-		height: 6px;
-		width: 6px;
-		background-color: #ffffff;
+		height: 0px;
+		width: 0px;
+		background-color: transparent;
 		border-radius: 8px;
 		//display: none;
 	}
@@ -343,21 +345,21 @@ $mobileHeight: 600px;
 		background-color: #999;
 	}
 	&::-webkit-scrollbar-track-piece {
-		background-color: #ffffff;
+		background-color: $color-light-grey;
 	}
 	&::-webkit-scrollbar-thumb {
 		height: 24px;
-		background-color: $color-main;
+		background-color: $scrollBarColor;
 		border-radius: 3px;
 	}
 	&::-webkit-scrollbar-corner {
 		width: 8px;
 		height: 8px;
 		border-radius: 50%;
-		background-color: #fff;
+		background-color: $scrollBarColor;
 	}
 	&::-webkit-resizer {
-		background-color: $color-main;
+		background-color: $scrollBarColor;
 	}
 }
 
