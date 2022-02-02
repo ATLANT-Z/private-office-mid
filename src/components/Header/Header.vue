@@ -21,6 +21,7 @@
            v-for="(item, index) in headerData.lang"
            :key="index"
            :href="item.url"
+           :class="{active: item.active}"
         >
           {{ item.title }}
         </a>
@@ -51,9 +52,11 @@
 import HeaderCatalog from "./HeaderCatalog";
 import HeaderMenu from "./HeaderMenu";
 import SvgIcon from "@/tools/svg/SvgIcon";
-import {mapActions, mapGetters, mapMutations} from "vuex";
 import SvgSprite from "@/tools/svg/SvgSprite";
 import {HeaderData} from "@/models/headerData";
+
+import {mapActions, mapGetters, mapMutations} from "vuex";
+
 
 export default {
   name: "HeaderVue",

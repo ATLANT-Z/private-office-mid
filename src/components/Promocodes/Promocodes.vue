@@ -15,7 +15,7 @@
                 <h1>Акции</h1>
             </div>
             <div class="promocode-gallery">
-                <StockCard v-for="stock in visibleStockList"
+                <StockCard v-for="stock in visibleList"
                            :key="stock.id"
                            :stock="stock"
                 />
@@ -23,7 +23,8 @@
             <Pagination :arr-length="stocks.length"
                         :per-page="perPage"
                         v-model="currPage"
-                        v-model:chunkNum="chunksLoaded"
+                        v-model:chunkNum="addChunksLoaded"
+                        :go-to="id"
             />
         </div>
     </article>
@@ -40,18 +41,19 @@
 		data() {
 			return {
 				perPage: 3,
-				currPage: 1,
-				chunksLoaded: 1,
+        id: Math.random().toString(36).substr(2, 9),
+        currPage: 0,
+        addChunksLoaded: 0,
 			}
 		},
 		computed: {
 			...mapGetters(['promoCodes', 'stocks']),
-			visibleStockList() {
-				return this.stocks.slice(
-					(this.currPage - 1) * this.perPage,
-					this.currPage * this.perPage + this.perPage * (this.chunksLoaded - 1)
-				);
-			}
+      visibleList() {
+        return this.stocks.slice(
+            (this.currPage - 1) * this.perPage,
+            this.currPage * this.perPage + this.perPage * this.addChunksLoaded
+        );
+      },
 		},
 		methods: {
 			...mapActions(['fetchPromoCodes', 'fetchStocks']),

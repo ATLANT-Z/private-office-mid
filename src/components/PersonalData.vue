@@ -316,6 +316,17 @@
       <div class="ui-simple-btn">
         Удалить аккаунт
       </div>
+      <div class="ui-simple-btn" @click='$showId("pre-order-pop")'>
+        Предзаказать
+      </div>
+      <!--      <div class="ui-pre-order-btn light">-->
+      <!--        <img src="/icons/preOrderLight.svg" alt="">-->
+      <!--        <span>Предзаказ</span>-->
+      <!--      </div>-->
+<!--      <div class="ui-pre-order-btn">-->
+<!--        <img src="/icons/preOrderDark.svg" alt="">-->
+<!--        <span>Предзаказ</span>-->
+<!--      </div>-->
     </div>
   </article>
 
@@ -323,31 +334,27 @@
     <UiPopup id="confirm-number-pop">
       <template v-slot="{parent}">
         <div class="popup confirm-number-pop">
-          <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
+          <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.close()'>
           <div class="popup__title">
             Подтверждение номера телефона
           </div>
           <div class="popup__body">
-            <div class="popup__body-row">
-              <label class="ui-input-w private-info__data-pair">
-                <span class="ui-caption">Подтверждённые номер</span>
-                <div class="ui-row">
-                  <UiTelInput startValue="+380 68 000 00 00"/>
-                  <span class="ui-caption">
-                    На указанный номер будет отправлено SMS с кодом подтверждения.
-                  </span>
-                </div>
-              </label>
-            </div>
-            <div class="popup__body-row">
-              <label class="ui-input-w private-info__data-pair">
-                <span class="ui-caption">Код из SMS</span>
-                <div class="ui-row">
-                  <input class="ui-input" value="0000000000" maxlength="10" type="tel" name="">
-                  <span class="ui-caption-btn" onclick="return false">Отправить код ещё раз.</span>
-                </div>
-              </label>
-            </div>
+            <label class="ui-input-w private-info__data-pair">
+              <span class="ui-caption">Подтверждённые номер</span>
+              <div class="ui-row">
+                <UiTelInput startValue="+380 68 000 00 00"/>
+                <span class="ui-caption">
+                  На указанный номер будет отправлено SMS с кодом подтверждения.
+                </span>
+              </div>
+            </label>
+            <label class="ui-input-w private-info__data-pair">
+              <span class="ui-caption">Код из SMS</span>
+              <div class="ui-row">
+                <input class="ui-input" value="0000000000" maxlength="10" type="tel" name="">
+                <span class="ui-caption-btn" onclick="return false">Отправить код ещё раз.</span>
+              </div>
+            </label>
           </div>
           <div class="popup__footer">
             <div class="confirm-number-pop__status-label">
@@ -366,20 +373,18 @@
     <UiPopup id="change-mail-pop">
       <template v-slot="{parent}">
         <div class="popup change-mail-pop">
-          <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click="parent.closePop()">
+          <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click="parent.close()">
           <div class="popup__title">
             Изменение E-mail
           </div>
           <div class="popup__body">
-            <div class="popup__body-row">
-              <label class="ui-input-w private-info__data-pair">
-                <span class="ui-caption">Введите новый адрес электронной почты.</span>
-                <UiEmailInput start-value="Test@test.com"/>
-              </label>
-            </div>
-            <div class="popup__body-row">
-              <div class="ui-main-btn" @click="parent.closePop()">Сохранить</div>
-            </div>
+            <label class="ui-input-w private-info__data-pair">
+              <span class="ui-caption">Введите новый адрес электронной почты.</span>
+              <UiEmailInput start-value="Test@test.com"/>
+            </label>
+          </div>
+          <div class="popup__footer">
+            <div class="ui-main-btn" @click="parent.close()">Сохранить</div>
           </div>
         </div>
       </template>
@@ -388,43 +393,34 @@
     <UiPopup id="change-password-pop">
       <template v-slot="{parent}">
         <div class="popup change-password-pop">
-          <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click="parent.closePop()">
+          <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click="parent.close()">
           <div class="popup__title">
             Изменение пароля
           </div>
           <div class="popup__body">
-            <div class="popup__body-row">
-              <p>
-                После изменения пароля произойдет выход из аккаунта на всех устройствах,
-                где вы вошли с текущим паролем.
-              </p>
-            </div>
-            <div class="popup__body-row">
-              <label class="ui-input-w private-info__data-pair">
-                <span class="ui-caption">Текущий пароль</span>
-                <UiPasswordInput startValue="Test@test.com"/>
-              </label>
-            </div>
-            <div class="popup__body-row">
-              <label class="ui-input-w private-info__data-pair">
-                <span class="ui-caption">Новый пароль</span>
-                {{ testVal }}
-                <UiPasswordInput startValue="Test@test.com" v-model="testVal" ref="newPass"/>
-                <span class="ui-caption-btn" @click="$refs.newPass.genPassword">
-                  Сгенерировать пароль
-                </span>
-              </label>
-            </div>
-            <div class="popup__body-row">
-              <label class="ui-input-w private-info__data-pair">
-                <span class="ui-caption">Новый пароль ещё раз</span>
-                <UiPasswordInput/>
-              </label>
-            </div>
-            <div class="popup__body-row">
-              <div class="ui-main-btn" @click="parent.closePop()">Изменить пароль</div>
-              <div class="ui-third-btn" @click="parent.closePop()">Отмена</div>
-            </div>
+            <p>
+              После изменения пароля произойдет выход из аккаунта на всех устройствах,
+              где вы вошли с текущим паролем.
+            </p>
+            <label class="ui-input-w private-info__data-pair">
+              <span class="ui-caption">Текущий пароль</span>
+              <UiPasswordInput startValue="Test@test.com"/>
+            </label>
+            <label class="ui-input-w private-info__data-pair">
+              <span class="ui-caption">Новый пароль</span>
+              <UiPasswordInput startValue="Test@test.com" v-model="testVal" ref="newPass"/>
+              <span class="ui-caption-btn" @click="$refs.newPass.genPassword">
+                Сгенерировать пароль
+              </span>
+            </label>
+            <label class="ui-input-w private-info__data-pair">
+              <span class="ui-caption">Новый пароль ещё раз</span>
+              <UiPasswordInput/>
+            </label>
+          </div>
+          <div class="popup__footer">
+            <div class="ui-main-btn" @click="parent.close()">Изменить пароль</div>
+            <div class="ui-third-btn" @click="parent.close()">Отмена</div>
           </div>
         </div>
       </template>

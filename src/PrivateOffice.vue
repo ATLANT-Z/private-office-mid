@@ -4,6 +4,7 @@
     <router-view></router-view>
   </div>
   <LoginPop/>
+  <PreOrderPop/>
   <ToTopBtn/>
 </template>
 
@@ -11,13 +12,18 @@
 import LoginPop from "./components/LoginPop";
 import MenuOffice from "./components/MenuOffice";
 import ToTopBtn from "./components/ui/ToTopBtn";
+import PreOrderPop from "@component/Products/PreOrderPop";
 
 export default {
   name: "PrivateOffice",
   components: {
+    PreOrderPop,
     ToTopBtn,
     MenuOffice,
     LoginPop,
+  },
+  mounted() {
+    // console.log(this.$store);
   }
 };
 </script>

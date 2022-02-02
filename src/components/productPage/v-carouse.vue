@@ -35,7 +35,7 @@
   <UiPopup id="img-zoom-gallery">
     <template v-slot="{parent}">
       <div class="popup img-gallery-pop">
-        <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
+        <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.close()'>
         <div class="img-gallery-pop__main-img-w">
           <img
               v-for="(item, index) in carousel_data"

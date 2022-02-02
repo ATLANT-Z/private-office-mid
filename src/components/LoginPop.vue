@@ -5,22 +5,19 @@
         <div class="pop-section-list" :style="{ minHeight: popHeight, maxHeight: popHeight }">
           <div class="pop-section-list__item reg" ref="reg"
                :class="{show: isShow.reg}">
-            <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
+            <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.close()'>
             <div class="popup__title big">
               Регистрация
             </div>
             <div class="popup__body">
-              <div class="ui-list small">
-                <UiTelInput placeholder="Фамилия"/>
-                <UiTelInput placeholder="Имя"/>
+                <UiTextInput placeholder="Фамилия"/>
+                <UiTextInput placeholder="Имя"/>
                 <UiTelInput placeholder="Телефон"/>
                 <UiEmailInput placeholder="E-mail"/>
                 <UiPasswordInput placeholder="Пароль"/>
-              </div>
-              <div class="captcha">
+              <div class="ui-captcha">
 
               </div>
-              <div class="ui-list small">
                 <button class="ui-main-btn" disabled>Регистрация</button>
                 <button class="ui-third-btn colored" @click="showLogin">Войти</button>
                 <p class="pop-text">
@@ -29,57 +26,48 @@
                     пользовательским соглашением.
                   </a>
                 </p>
-              </div>
             </div>
           </div>
           <div class="pop-section-list__item" ref="login"
                :class="{show: isShow.login}">
-            <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
+            <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.close()'>
             <div class="popup__title big">
               Вход
             </div>
             <div class="popup__body">
-              <div class="ui-list small">
                 <UiEmailInput placeholder="E-mail"/>
                 <UiPasswordInput placeholder="Пароль"/>
-              </div>
-              <div class="captcha">
+              <div class="ui-captcha">
 
               </div>
-              <div class="ui-list small">
                 <button class="ui-main-btn" disabled>Войти</button>
                 <button class="ui-third-btn colored" @click="showReg">Регистрация</button>
                 <span class="ui-link" @click="showReset">
                   Забыли пароль?
                 </span>
-              </div>
             </div>
           </div>
           <div class="pop-section-list__item" ref="passReset"
                :class="{show: isShow.passReset}">
-            <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
+            <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.close()'>
             <div class="popup__title big">
               Смена пароля
             </div>
             <div class="popup__body">
-              <div class="ui-list small">
                 <UiEmailInput placeholder="E-mail"/>
-              </div>
-              <div class="captcha">
+              <div class="ui-captcha">
 
               </div>
-              <div class="ui-list small">
                 <button class="ui-main-btn" @click="showSent">Восстановить</button>
                 <button class="ui-third-btn colored" @click="showReg">Регистрация</button>
                 <a class="ui-link" href="javascript:void(0);" @click="showLogin">
                   Назад
                 </a>
-              </div>
             </div>
           </div>
           <div class="pop-section-list__item" ref="passSent"
                :class="{show: isShow.passSent}">
-            <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.closePop()'>
+            <img class="popup__close-btn" src="@/assets/icons/cross.svg" alt="" @click='parent.close()'>
             <div class="popup__title big">
               Смена пароля
             </div>
@@ -105,16 +93,17 @@ import UiPopup from "./ui/UiPopup";
 import UiEmailInput from "./ui/UiEmailInput";
 import UiPasswordInput from "./ui/UiPasswordInput";
 import SvgIcon from "@/tools/svg/SvgIcon";
+import UiTextInput from "@component/ui/UiTextInput";
 
 export default {
   components: {
+    UiTextInput,
     SvgIcon,
     UiPasswordInput,
     UiEmailInput,
     UiPopup,
     UiTelInput
   },
-  props: {},
   data() {
     return {
       sectionNames: {
@@ -230,6 +219,7 @@ export default {
   &__item {
     display: flex;
     flex-direction: column;
+    gap: 16px;
 
     position: absolute;
     width: 100%;
@@ -256,9 +246,5 @@ export default {
 .pop-text {
   text-align: center;
   @include fontMid()
-}
-
-.captcha {
-  padding: 4px 0;
 }
 </style>

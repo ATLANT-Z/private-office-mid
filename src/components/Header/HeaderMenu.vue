@@ -9,6 +9,7 @@
                v-for="(item, index) in headerData.lang"
                :key="index"
                :href="item.url"
+               :class="{active: item.active}"
             >
               {{item.title}}
             </a>
@@ -152,16 +153,16 @@
             <div class="menu-footer__social-block">
               <span class="menu-footer__social-title">Мы в соцсетях:</span>
               <div class="menu-footer__social-list">
-                <a class="menu-footer__social-list-item" href="#">
+                <a class="menu-footer__social-list-item" href="https://www.instagram.com/greenvision.ua/">
                   <img src="@/assets/icons/socials/instagram.svg" alt="">
                 </a>
-                <a class="menu-footer__social-list-item" href="#">
+                <a class="menu-footer__social-list-item" href="https://www.youtube.com/c/GreenVision_TM">
                   <img src="@/assets/icons/socials/youtube.svg" alt="">
                 </a>
-                <a class="menu-footer__social-list-item" href="#">
+                <a class="menu-footer__social-list-item" href="https://www.facebook.com/greenvision.ua">
                   <img src="@/assets/icons/socials/facebook.svg" alt="">
                 </a>
-                <a class="menu-footer__social-list-item" href="#">
+                <a class="menu-footer__social-list-item" href="https://t.me/greenvision_official">
                   <img src="@/assets/icons/socials/telegram.svg" alt="">
                 </a>
               </div>
@@ -424,6 +425,7 @@ export default {
     left: 0;
     right: 0;
     bottom: calc(#{$headerHeight} - 100vh);
+    z-index: 2;
 
     padding: 24px 12px;
 

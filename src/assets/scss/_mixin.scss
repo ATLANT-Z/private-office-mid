@@ -393,3 +393,87 @@ $mobileHeight: 600px;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 }
+
+// ui Mixin
+
+@mixin addClickArea($val, $position: relative) {
+	position: $position;
+	&::before {
+		content: "";
+		position: absolute;
+		top: -$val;
+		left: -$val;
+		right: -$val;
+		bottom: -$val;
+
+		min-height: 100%;
+		min-width: 100%;
+	}
+}
+
+@mixin checkboxMarginLeft($margin) {
+	margin-left: Calc(var(--margin) + #{$margin}) !important;
+}
+
+@mixin checkboxMarginRight($margin) {
+	margin-right: Calc(var(--margin) + #{$margin}) !important;
+}
+
+@mixin checkboxMarginTop($margin) {
+	margin-top: Calc(var(--margin) + #{$margin}) !important;
+}
+
+@mixin checkboxMarginBottom($margin) {
+	margin-bottom: Calc(var(--margin) + #{$margin}) !important;
+}
+
+@mixin uiCheckbox {
+	--margin: 8px;
+	--size: 8px;
+	position: relative;
+	display: block;
+	@include fixedWH(0px, 0px);
+	margin: var(--margin);
+	background-color: transparent;
+	cursor: pointer;
+
+	@include animAll($anim-small-time);
+
+	&::before,
+	&::after {
+		content: "";
+		transform: translate(-50%, -50%);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+
+		@include fixedWH(Calc(var(--size) * 2), Calc(var(--size) * 2));
+		display: flex;
+
+		background-image: none;
+	}
+
+	&:before {
+		background-color: #ffffff;
+		border: 1px solid $color-text-orders;
+		border-radius: 4px;
+	}
+
+	&:after {
+		transform: translate(-50%, -50%) scale(0);
+		clip-path: polygon(92% 27%, 46% 87%, 16% 68%, 24% 57%, 45% 70%, 80% 21%);
+		background-color: $mainSiteColor;
+		opacity: 0;
+	}
+
+	&:checked:before,
+	&.checked:before {
+		border-color: $color-main;
+	}
+
+	&:checked:after,
+	&.checked:after {
+		transform: translate(-50%, -50%) scale(0.9);
+		opacity: 1;
+	}
+}

@@ -1,7 +1,8 @@
 <template>
    <div class="ui-input">
       <input type="text"
-             v-model="innerValue"
+             :name="name"
+             v-model.lazy="innerValue"
              :placeholder="placeholder"
              :readonly="readonly"
              maxlength="16"
@@ -13,6 +14,10 @@
 <script>
 	export default {
 		props: {
+      name: {
+        type: String,
+        default: ''
+      },
 			startValue: String,
 			readonly: {
 				type: Boolean,

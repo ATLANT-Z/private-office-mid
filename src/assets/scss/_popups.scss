@@ -69,8 +69,10 @@
 	width: 400px;
 	display: flex;
 	flex-direction: column;
+	gap: 16px;
 
 	margin: auto;
+	padding-bottom: 16px;
 
 	background-color: #fff;
 	box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
@@ -83,19 +85,18 @@
 	&__title {
 		@include localPad;
 
-		padding-top: 18px;
-		margin-bottom: 24px;
+		align-self: auto;
+		margin: 0;
+		padding-top: 16px;
 
 		@include fontMid(500);
 
 		&.small {
 			@include fontBig();
-			margin-bottom: 8px;
 		}
 
 		&.big {
 			padding: 24px 14px;
-			margin-bottom: 0;
 
 			@include fontMidTitle();
 			border-bottom: 1px solid $color-main;
@@ -112,8 +113,11 @@
 	}
 
 	&__body {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+
 		@include localPad;
-		padding-bottom: 18px;
 	}
 
 	&__body-row {
@@ -123,7 +127,7 @@
 		gap: 12px 24px;
 
 		& + & {
-			margin-top: 24px;
+			margin-top: 16px;
 		}
 
 		@include mobile() {
@@ -135,8 +139,29 @@
 		@include localPad;
 
 		display: flex;
-		margin: 18px 0 8px;
+		flex-direction: column;
+		align-items: center;
+		gap: 8px;
+
+		margin-top: 8px;
+
+		> * {
+			width: 100%;
+		}
+	}
+
+	&__agree-row {
+		width: 100%;
+
+		display: flex;
+		align-items: flex-start;
 
 		gap: 8px;
+
+		@include fontMid();
+
+		.ui-checkbox {
+			--margin: 10px !important;
+		}
 	}
 }

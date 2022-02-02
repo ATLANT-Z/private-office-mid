@@ -2,7 +2,7 @@
     <div class="popup-block"
          :class="{show: show}"
          :id="id"
-         @click.self='closePop'
+         @click.self='close'
     >
         <slot :parent="this">Здесь должен был быть контент</slot>
     </div>
@@ -16,8 +16,9 @@
 				required: true
 			}
 		},
-		methods: {
-			closePop(isClose = true) {
+    emits: ['mounted'],
+    methods: {
+			close(isClose = true) {
 				if (isClose)
 					this.show = false;
 			},
@@ -31,6 +32,9 @@
 					this.$store.commit('SET_SHOW_POPS', {key: this.id, value: value});
 				}
 			}
-		}
-	};
+		},
+    mounted() {
+      this.$emit('mounted', this)
+    }
+  };
 </script>

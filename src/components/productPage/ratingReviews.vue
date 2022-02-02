@@ -5,7 +5,7 @@
     <div class="popup pop-up-reviews-card__wrp-cont-pop">
       <div class="pop-up-reviews-card__wrp-title">
         <h4 class="pop-up-reviews-card__title">Написать отзыв</h4>
-        <button @click="parent.closePop">
+        <button @click="parent.close">
           <img src="/icon/card-prod-pop-up-icon-cros.svg" alt="Закрыть" />
         </button>
       </div>

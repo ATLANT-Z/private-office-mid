@@ -4,6 +4,7 @@ $color-main-hov: #106e19;
 $color-hov: #287231;
 $btnTransparentCol: #009b3e1a;
 $color-status-expected: #009b44;
+$color-pre-order: #FBBD09;
 
 //$color-main: #F36C21;
 //$color-main-light: #ffc280;
@@ -11,17 +12,19 @@ $color-status-expected: #009b44;
 //$color-hov: #724628;
 //$btnTransparentCol: #f36c211a;
 //$color-status-expected: #f5821f;
+//$color-pre-order: #4490BB;
 
 
 $mainSiteColor: $color-main;
 $activeSiteColor: $color-main-hov;
 $transpColor: $btnTransparentCol;
 
+$color-red: #f81717;
 $color-light-grey: #e7e7e7;
 $color-back-grey: #c4c4c4;
 $color-text-orders: #363636;
 $color-text-grey: #8a8a8a;
-$color-red-btm: #ff0000;
+$color-red-btm: $color-red;
 $color-border-grey: #d1d1d1;
 $font-roboto-reg: "Roboto", sans-serif;
 
@@ -39,82 +42,82 @@ $block-shadow: 0px 3px 11px rgba(0, 0, 0, 0.1);
 $border-radius: 8px;
 
 $backColorTrans: #009b4433;
-$color-new-grey: #393D38; 
+$color-new-grey: #393D38;
 
 $headerHeight: 124px;
 $productGalleryMargin: 1%;
 
 //вложенности
 %text-centr {
-  text-align: center;
+	text-align: center;
 }
 
 %disp-flex {
-  display: flex;
+	display: flex;
 }
 
 %btm-ord-without-back {
-  padding: 8px 16px;
-  box-sizing: border-box;
-  border-radius: 6px;
-  font-size: 18px;
+	padding: 8px 16px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	font-size: 18px;
 }
 
 %position-orders-inf {
-  display: flex;
-  align-items: flex-start;
-  max-width: 459px;
-  width: 100%;
+	display: flex;
+	align-items: flex-start;
+	max-width: 459px;
+	width: 100%;
 }
 
 %icon-position-cent {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 %font-weight-400 {
-  font-weight: 400;
+	font-weight: 400;
 }
 
 %text-main {
-  font-family: $font-roboto-reg;
+	font-family: $font-roboto-reg;
 }
 
 %pos-cent-marg {
-  margin-left: auto;
-  margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 %margin-right-icon {
-  margin-right: 22px;
+	margin-right: 22px;
 }
 
 %text-size-my-orders {
-  line-height: 20px;
-  font-size: 16px;
+	line-height: 20px;
+	font-size: 16px;
 }
 
 %padding-left-my-orders {
-  padding-left: 14px;
+	padding-left: 14px;
 }
 
 %pos-left-flex {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 %pos-cent-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 %marg-bott {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 %input-hov-act {
-  border: 1px solid #159822;
+	border: 1px solid #159822;
 }

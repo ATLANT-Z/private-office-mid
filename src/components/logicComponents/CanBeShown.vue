@@ -27,7 +27,7 @@
 			toggleShow() {
 				this.isShow = !this.isShow;
 			},
-			closePop(isClose = true) {
+			close(isClose = true) {
 				//закрыть если колбэк какой-то требует закрытия. А может ошибка и тогда не закрывать. Я не придумал пока
 				if (isClose)
 					this.isShow = false;

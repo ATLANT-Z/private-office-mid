@@ -1,10 +1,8 @@
 <template>
     <div class="ui-input number">
         <input type="text"
-               v-model="innerValue"
-               :placeholder="placeholder"
-               :readonly="readonly"
-               maxlength="16"
+               v-bind="$attrs"
+               v-model.lazy.number="innerValue"
         >
         <img v-show="innerValue?.length" class="ui-input__clear-btn" @click.self="clearValue" src="@/assets/icons/cross.svg" alt="">
     </div>
@@ -14,11 +12,6 @@
 	export default {
 		props: {
 			startValue: String,
-			readonly: {
-				type: Boolean,
-				default: false
-			},
-			placeholder: String,
 		},
 		
 		data() {
