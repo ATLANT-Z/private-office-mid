@@ -6,6 +6,7 @@ import stocks from "@/store/modules/stocks";
 import promocodes from "@/store/modules/promocodes";
 import header from "@/store/modules/header";
 import rating from "@/store/modules/rating";
+import homeSlider from "@/store/modules/homeSlider";
 
 export default createStore({
 	state: {},
@@ -21,5 +22,6 @@ export default createStore({
 		promocodes,
 		header,
 		rating,
+		homeSlider,
 	},
 });

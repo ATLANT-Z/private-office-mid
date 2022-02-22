@@ -15,7 +15,7 @@
           ПроданО
         </div>
       </div>
-      <div class="product-card__top-tools-w" @click.prevent>
+      <div class="product-card__top-tools-w">
         <slot name="tool-btns" :product="product"></slot>
       </div>
     </div>

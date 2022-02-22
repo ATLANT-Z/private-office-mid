@@ -82,6 +82,12 @@
             <span class="header-menu__list-title-text">{{headerData.compare?.title}}</span>
             <span class="header-menu__list-title-counter" v-if="headerData.compare?.count">{{headerData.compare?.count}}</span>
           </a>
+          <a class="header-menu__list-title-row" href="tel:+38(067) 74-48-98">
+            <div class="header-menu__list-title-ico" style="color: #484848">
+              <SvgIcon icon="phoneDark"></SvgIcon>
+            </div>
+            <span class="header-menu__list-title-text">+38 (067) 474-48-98</span>
+          </a>
           <!--                    <router-link class="header-menu__list-title-row" :to="{ name: 'wish'}" @click="toggleShow">-->
           <!--                        <div class="header-menu__list-title-ico">-->
           <!--                            <img src="@/assets/icons/heartDark.svg" alt="">-->

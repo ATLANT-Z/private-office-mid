@@ -43,8 +43,7 @@ $border-radius: 8px;
 
 $backColorTrans: #009b4433;
 $color-new-grey: #393D38;
-
-$headerHeight: 124px;
+$headerHeight: var(--header-height);
 $productGalleryMargin: 1%;
 
 //вложенности

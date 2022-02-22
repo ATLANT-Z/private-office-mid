@@ -93,7 +93,7 @@ export default {
   //   const data = new HeaderData(JSON.parse(this.data));
   //   this.updateHeaderData(data);
   // },
-  async mounted() {
+  mounted() {
     this.fetchHeaderData();
 
     addEventListener("compare.count", (event) => {

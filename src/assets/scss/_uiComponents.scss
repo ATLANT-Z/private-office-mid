@@ -352,10 +352,6 @@ input {
 	border-radius: 6px;
 	z-index: 2;
 
-	@include bigMobile {
-		padding: 4px 8px;
-	}
-
 	.ui-ico {
 		position: absolute;
 		top: 50%;

@@ -41,7 +41,8 @@
 		components: {UiCheckbox, ProductGallery},
 		data() {
 			return {
-				isAllSelected: false
+				isAllSelected: false,
+        check: false
 			}
 		},
 		computed: {

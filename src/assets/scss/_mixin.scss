@@ -268,7 +268,19 @@ $mobileHeight: 600px;
 	height: $height;
 }
 
-///30px
+///48px
+@mixin fontSliderTitle($weight: 500) {
+	font-size: 48px;
+	line-height: 46px;
+	font-weight: $weight;
+	text-transform: uppercase;
+
+	@include mobile{
+		font-size: 28px;
+		line-height: 33px;
+	}
+}
+
 @mixin fontHeaderPage($weight: 500) {
 	font-size: 30px;
 	line-height: 36px;
@@ -436,6 +448,7 @@ $mobileHeight: 600px;
 	margin: var(--margin);
 	background-color: transparent;
 	cursor: pointer;
+	pointer-events: auto;
 
 	@include animAll($anim-small-time);
 

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 0,
+    "img": "/img/homeSlider/img.png",
+    "bg": "/img/homeSlider/bg.png",
+    "bgMob": "/img/homeSlider/bgMob.png",
+    "title": "скидка! на комплекты видеонаблюдения",
+    "text": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    "link": "#"
+  },
+  {
+    "id": 1,
+    "img": "/img/homeSlider/img.png",
+    "bg": "/img/homeSlider/bg1.png",
+    "bgMob": "/img/homeSlider/bgMob1.png",
+    "title": "22 скидка! на комплекты видеонаблюдения",
+    "text": "Новый год! t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "img": "/img/homeSlider/img.png",
+    "bg": "/img/homeSlider/bg.png",
+    "bgMob": "/img/homeSlider/bgMob2.png",
+    "title": "33333333",
+    "text": "3333 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud",
+    "link": "#"
+  }
+]

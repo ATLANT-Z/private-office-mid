@@ -1,4 +1,5 @@
 <template>
+  <HomeSlider></HomeSlider>
   <div class="main-wrapper">
     <MenuOffice></MenuOffice>
     <router-view></router-view>
@@ -13,10 +14,12 @@ import LoginPop from "./components/LoginPop";
 import MenuOffice from "./components/MenuOffice";
 import ToTopBtn from "./components/ui/ToTopBtn";
 import PreOrderPop from "@component/Products/PreOrderPop";
+import HomeSlider from "@component/HomeSlider";
 
 export default {
   name: "PrivateOffice",
   components: {
+    HomeSlider,
     PreOrderPop,
     ToTopBtn,
     MenuOffice,
@@ -57,7 +60,7 @@ export default {
   margin: auto;
   padding: 16px 16px 64px;
 
-  @include bigMobile{
+  @include bigMobile {
     grid-template-columns: 100%;
   }
 

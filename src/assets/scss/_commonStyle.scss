@@ -124,6 +124,12 @@ body {
 	justify-content: space-between;
 	color: #202020;
 	max-width: 100vw;
+
+	> * {
+		width: 100%;
+		margin: 0 auto;
+	}
+
 }
 
 main {
@@ -133,16 +139,6 @@ main {
 	@include mobile {
 		padding-bottom: 80px;
 	}
-}
-
-body > * {
-	width: 100%;
-	//max-width: 1366px;
-	margin: 0 auto;
-}
-
-.h-list {
-	display: flex;
 }
 
 .btn {
